@@ -43,19 +43,21 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height:50vh;
 	gap: 5em;
 	flex-wrap: wrap;
+
 }
 
 .box {
 	background: #ddd;
 	width: 25rem;
-	height: 15rem;
+	height: 25rem;
 	color: #9c9c9c;
 	border-radius: 1rem;
-	
-	display: flex;
+	padding: 50px;
+
+
 	justify-content: center;
 	align-items: center;
 }

@@ -5,7 +5,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Feature from '../Feature/Feature';
 import Home from '../Home/Home';
-
+import './MainPage.css'
 
 
 const MainPage = () => {
