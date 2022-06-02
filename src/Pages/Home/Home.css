@@ -25,7 +25,7 @@
 
 .Home-container {
     height: 65vh;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #d2c9c9;
 }
 
 /*---------------------------------------------*/
@@ -203,7 +203,7 @@
 
 }
 
-/* ////////////// */
+/* My Photo */
 .wrap3 {
     display: flex;
     justify-content: center;

@@ -33,8 +33,8 @@ const Header = () => {
                                 <Nav className="justify-content-end flex-grow-1 ">
                                     <Nav.Link href="/" className='navLink' active>HOME</Nav.Link>
                                     <Nav.Link href="#Feature" className='navLink'>FEATURES</Nav.Link>
-                                    <Nav.Link href="#" className='navLink'>PORTFOLIO</Nav.Link>
-                                    <Nav.Link href="#" className='navLink'>RESUME</Nav.Link>
+                                    <Nav.Link href="#portfolio" className='navLink'>PORTFOLIO</Nav.Link>
+                                    <Nav.Link href="#resume" className='navLink'>RESUME</Nav.Link>
                                     <Nav.Link href="#" className='navLink'>CLIENTS</Nav.Link>
                                     <Nav.Link href="#" className='navLink'>PRICING</Nav.Link>
                                     <Nav.Link href="#" className='navLink'>BLOG</Nav.Link>
