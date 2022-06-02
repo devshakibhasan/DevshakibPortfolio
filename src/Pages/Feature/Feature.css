@@ -48,6 +48,10 @@
 	flex-wrap: wrap;
 
 }
+.wrap h2{
+	color: #000;
+
+}
 
 .box {
 	background: #ddd;
@@ -55,11 +59,10 @@
 	height: 25rem;
 	color: #9c9c9c;
 	border-radius: 1rem;
-	padding: 50px;
-
-
+	padding: 80px 50px 30px 50px;
 	justify-content: center;
 	align-items: center;
+	text-align: justify;
 }
 
 .box.one {
