@@ -1,0 +1,31 @@
+/* body {
+    background-color: #333232;
+} */
+.Logo {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.Navbar {
+    background-color: #ddd;
+    padding-top: 30px;
+    border-bottom: 1px solid #ddd;
+
+
+}
+
+.navLink {
+    margin-right: 30px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.navbar-light .navbar-nav .navbar-light .navbar-nav .show>.nav-link {
+    color: #ECF0F3;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #FF014F;
+}
