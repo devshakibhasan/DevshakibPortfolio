@@ -382,14 +382,15 @@ margin-top: 150px;
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 390px) {
     .Home-container {
         height: 190vh;
         border-bottom: 1px solid #d2c9c9;
     }
 
     .social {
-        margin-top: 50px;
+        padding-top: 100px;
+        margin-top: 280px;
         margin-bottom: 10px;
         margin-left: 20px;
     }
@@ -397,17 +398,13 @@ margin-top: 150px;
     .btn {
         width: 7rem;
         height: 4rem;
-
         margin-left: 20px;
-
-        margin-top: 140px;
-
     }
 
-    .btn-first {
-        margin-top: 250px;
+    .social .btn-first {
         margin-left: 40%;
         font-size: 5px;
+        margin-top: 280px;
     }
 
     .btn-first p {
