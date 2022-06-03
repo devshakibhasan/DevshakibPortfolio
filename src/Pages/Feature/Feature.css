@@ -167,3 +167,15 @@ h3 {
 	
 	}
 }
+@media screen and (max-width: 400px) {
+	.wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 55vh;
+		gap: 5em;
+		flex-wrap: wrap;
+	
+	}
+  
+}

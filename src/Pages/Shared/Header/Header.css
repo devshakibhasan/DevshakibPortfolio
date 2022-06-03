@@ -35,3 +35,9 @@
         padding-right: 30px;
     }
 }
+@media screen and (max-width: 400px) {
+
+	.Navbar {
+        padding-right: 30px;
+    }
+}

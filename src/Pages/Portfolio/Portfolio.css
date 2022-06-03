@@ -164,3 +164,13 @@ h3 {
         width: 100%;
     }
 }
+@media screen and (max-width: 400px) {
+
+    .wrap4 {
+		height: 65vh;
+	}
+    .portfolio-img {
+        height: 150px;
+        width: 100%;
+    }
+}
