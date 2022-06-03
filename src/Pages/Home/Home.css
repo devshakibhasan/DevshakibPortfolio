@@ -363,6 +363,17 @@
         gap: 3em;
         flex-wrap: wrap;
     }
+    .box2 {
+        background: #ddd;
+        width: 7rem;
+        height: 5rem;
+        color: #000;
+        border-radius: 1rem;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
