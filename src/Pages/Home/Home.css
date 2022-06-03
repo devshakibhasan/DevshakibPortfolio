@@ -384,7 +384,7 @@ margin-top: 150px;
 
 @media screen and (max-width: 370px) {
     .Home-container {
-        height: 170vh;
+        height: 190vh;
         border-bottom: 1px solid #d2c9c9;
     }
 
@@ -452,7 +452,7 @@ margin-top: 150px;
 @media screen and (max-width: 400px) {
 
     .Home-container {
-        height: 240vh;
+        height: 210vh;
         border-bottom: 1px solid #d2c9c9;
     }
 
