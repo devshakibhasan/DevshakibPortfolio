@@ -95,6 +95,7 @@ h3 {
     color: #fff;
     background-color: #FF014F;
     transition-delay: 1s ease-in;
+    transition: 3s ease-in-out;
     margin-bottom: 50px;
     -webkit-touch-callout: none;
     /* iOS Safari */

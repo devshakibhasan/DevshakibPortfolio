@@ -299,3 +299,54 @@
     margin-right: 20px;
     font-size: 1.6rem;
 }
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .Home-container {
+        height: 150vh;
+        border-bottom: 1px solid #d2c9c9;
+    }
+    .btn {
+        width: 10rem;
+        height: 4rem;
+        border-radius: 1rem;
+        box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+        justify-self: center;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        cursor: pointer;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        margin-left: 20px;
+
+       
+    }
+  .btn-first {
+ 
+      margin-left: 40%;
+      font-size: 16px;
+  }
+  /* .btn-first p, .mail{
+      font-size: 18px;
+  } */
+ 
+  .btn-second p, .mail{
+      font-size: 18px;
+  }
+  .btn-second  p{
+      font-size: 18px;
+      margin-left: -18px;
+      margin-top: 15px;
+  }
+  .btn-second p, .mail{
+      font-size: 18px;
+  }
+
+  }
+  

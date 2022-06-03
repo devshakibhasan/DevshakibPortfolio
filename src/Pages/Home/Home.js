@@ -85,14 +85,14 @@ const Home = () => {
                         <Row className='social'>
                             <Col className='bottom ' lg='4' sm='12'>
                                 <div class="wrap2">
-                                    <div class="btn btn__secondary"> <FontAwesomeIcon icon={faEnvelope} className="mail" /><p>Hire Me</p></div>
+                                    <div class="btn btn__secondary btn-first"> <FontAwesomeIcon icon={faEnvelope} className="mail" /><p>Hire Me</p></div>
                                 </div>
                             </Col>
 
                             <Col className='bottom' lg='4' sm='12'>
                                 <div className='socia-link'>
                                     <div class="wrap2">
-                                        <div class="btn btn__secondary"><FontAwesomeIcon icon={faDownload} className="mail" /><p>Download CV</p></div>
+                                        <div class="btn btn__secondary btn-second"><FontAwesomeIcon icon={faDownload} className="mail" /><p>Download CV</p></div>
                                     </div>
                                 </div>
                             </Col>
