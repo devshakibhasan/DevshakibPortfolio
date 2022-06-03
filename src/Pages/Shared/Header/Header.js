@@ -31,14 +31,46 @@ const Header = () => {
                             </Offcanvas.Header>
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 ">
-                                    <Nav.Link href="/" className='navLink' active>HOME</Nav.Link>
-                                    <Nav.Link href="#Feature" className='navLink'>FEATURES</Nav.Link>
-                                    <Nav.Link href="#portfolio" className='navLink'>PORTFOLIO</Nav.Link>
-                                    <Nav.Link href="#resume" className='navLink'>RESUME</Nav.Link>
-                                    <Nav.Link href="#" className='navLink'>CLIENTS</Nav.Link>
-                                    <Nav.Link href="#" className='navLink'>PRICING</Nav.Link>
-                                    <Nav.Link href="#" className='navLink'>BLOG</Nav.Link>
-                                    <Nav.Link href="#" className='navLink'>CONTACT</Nav.Link>
+                                    <div className='wrap7'>
+                                        <div className='box7 four7'>
+                                            <Nav.Link href="/" className='navLink'  active>HOME</Nav.Link>
+                                        </div>
+                                    </div>
+                                    <div className='wrap7'>
+                                        <div className='box7 four7'>
+                                            <Nav.Link href="#Feature" className='navLink'  >FEATURES</Nav.Link>
+                                        </div>
+                                    </div>
+                                    <div className='wrap7'>
+                                        <div className='box7 four7'>
+                                            <Nav.Link href="#portfolio" className='navLink'  >PORTFOLIO</Nav.Link>
+                                        </div>
+                                    </div>
+                                    <div className='wrap7'>
+                                        <div className='box7 four7'>
+                                            <Nav.Link href="#resume" className='navLink'  >RESUME</Nav.Link>
+                                        </div>
+                                    </div>
+                                    <div className='wrap7'>
+                                        <div className='box7 four7'>
+                                            <Nav.Link href="/" className='navLink'  >CLIENTS</Nav.Link>
+                                        </div>
+                                    </div>
+                                    <div className='wrap7'>
+                                        <div className='box7 four7'>
+                                            <Nav.Link href="/" className='navLink'  >PRICING</Nav.Link>
+                                        </div>
+                                    </div>
+                                    <div className='wrap7'>
+                                        <div className='box7 four7'>
+                                            <Nav.Link href="/" className='navLink'  >BLOG</Nav.Link>
+                                        </div>
+                                    </div>
+                                    <div className='wrap7'>
+                                        <div className='box7 four7'>
+                                            <Nav.Link href="/" className='navLink'  >CONTACT</Nav.Link>
+                                        </div>
+                                    </div>
                                 </Nav>
 
                             </Offcanvas.Body>
