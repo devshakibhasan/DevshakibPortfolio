@@ -1,0 +1,153 @@
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background: #ddd;
+    width: 15rem;
+    height: 5rem;
+    color: #000;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 60px #bbb,
+        -20px -20px 60px #fff;
+    transition: box-shadow 1s ease;
+    transition-delay: 0.5s;
+
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+
+
+
+
+    width: 15rem;
+    height: 5rem;
+    color: #000;
+    box-shadow:
+        inset 20px 20px 60px -20px #bbb,
+        inset -20px -20px 60px #ddd;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    /* margin-top: 30px;
+    background: #ddd;
+ 
+    color: #000;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover {
+
+    background: #ddd;
+
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 60px #bbb,
+        -20px -20px 60px #fff;
+    transition: box-shadow 1s ease;
+    transition-delay: 0.5s;
+}
+
+
+.wrap8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap: 5em;
+    flex-wrap: wrap;
+   
+  
+}
+
+.wrapC {
+    margin-top: -12rem;
+ 
+   
+}
+
+.box8 {
+    background: #ddd;
+    width: 35rem;
+    height: 20rem;
+    color: #9c9c9c;
+    border-radius: 1rem;
+    padding: 30px 30px 30px 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+
+
+
+}
+
+.box8:hover {
+    color: #fff;
+    background-color: #FF014F;
+    transition-delay: 1s ease-in;
+    transition: 3s ease-in-out;
+    color: #fff;
+    margin-bottom: 50px;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.box8.four8 {
+    box-shadow: 20px 20px 60px #bbb,
+        -20px -20px 60px #fff;
+    transition: box-shadow 1s ease;
+    transition-delay: 0.5s;
+   
+
+}
+
+.box8.four8:hover  {
+    box-shadow: 20px 20px 60px #DDDDDD,
+        -20px -20px 60px #fff;
+    transition: box-shadow 1s ease;
+    transition-delay: 0.1s;
+    color: #fff;
+}
+.box8.four8:hover  h3{
+
+    color: #fff;
+}

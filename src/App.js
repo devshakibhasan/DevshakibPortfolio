@@ -9,6 +9,9 @@ import NotFound from './Pages/Shared/NotFound/NotFound';
 import Home from './Pages/Home/Home';
 import Feature from './Pages/Feature/Feature';
 import MainPage from './Pages/MainPage/MainPage';
+import Education from './Pages/Resume/Education/Education';
+import Skills from './Pages/Resume/Skills/Skills';
+import Resume from './Pages/Resume/Resume';
 
 
 
@@ -18,7 +21,11 @@ function App() {
       <Header></Header>
 
       <Routes>
-        <Route path="/" element={<MainPage />}></Route>
+        <Route path="/" element={<MainPage />} >
+    
+        </Route>
+   
+        
        
 {/* 
 

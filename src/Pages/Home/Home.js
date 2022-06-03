@@ -9,7 +9,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Home.css'
 const Home = () => {
 
-
     return (
         <div className='Home' id='Home'>
             <Container className='Home-container'>

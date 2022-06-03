@@ -1,4 +1,4 @@
-.wrap5 {
+/* .wrap5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,11 +28,7 @@
     transition-delay: 0.5s;
 }
 
-.box5.four5:hover {
-    /* box-shadow: 
-    inset 20px 20px 60px -20px #bbb, 
-    inset -20px -20px 60px #ddd; */
-}
+
 
 
 
@@ -73,12 +69,8 @@ margin-top: 60px;
     transition-delay: 0.1s;
 }
 
-.box6.four6:hover {
-    /* box-shadow: 
-    inset 20px 20px 60px -20px #bbb, 
-    inset -20px -20px 60px #ddd; */
-}
+
 
 .offcanvas-body {
     background-color: #ddd;
-}
+} */

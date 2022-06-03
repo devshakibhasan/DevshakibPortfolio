@@ -1,16 +1,16 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import './Education.css'
+import './Skills.css'
 
-const Education = () => {
+const Skills = () => {
     return (
-        <div id='education'>
+        <div id='Skills'>
             <Container>
 
-hi
+My Skills
             </Container>
         </div>
     );
 };
 
-export default Education;
+export default Skills;
