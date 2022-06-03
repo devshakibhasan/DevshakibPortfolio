@@ -71,7 +71,7 @@ const ResumeNavbar = () => {
 
                                                             <h3>Primary School Certificate</h3>
                                                             <p>Darikandi Govt Primary School(2010)</p>
-                                                            <hr/>
+                                                            <hr />
                                                             <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
                                                         </div>
                                                     </div>
@@ -83,20 +83,185 @@ const ResumeNavbar = () => {
                                     </Tab>
                                     <Tab eventKey="Profesional Skill" title="Profesional Skill">
                                         <div className="tab-item-wrapper">
-                                            <h5>Profesional Skill Dashbord</h5>
-                                            <p>At vero eos et accusamus et iusto odio dignissimos</p>
+                                            <Row>
+                                                <Col>
+                                                    <div class="wrap8">
+                                                        <div class="box8 four8">
+
+                                                            <h3> Computer Science and Engineering</h3>
+                                                            <p>National University Bangladesh (2019 - 2023)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+                                                <Col>
+                                                    <div class="wrap8">
+                                                        <div class="box8 four8">
+
+
+                                                            <h3>Higher Secondary Certificate</h3>
+                                                            <p>Haziganj Model Govt. College (2016 - 2018)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+
+
+
+
+
+                                                <Col>
+                                                    <div class="wrap8 wrapC">
+                                                        <div class="box8 four8">
+
+                                                            <h3>Secondary School Certificate</h3>
+                                                            <p>Ramgonj High School (2016)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+                                                <Col>
+                                                    <div class="wrap8 wrapC">
+                                                        <div class="box8 four8">
+
+                                                            <h3>Primary School Certificate</h3>
+                                                            <p>Darikandi Govt Primary School(2010)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                            </Row>
+
+
                                         </div>
                                     </Tab>
                                     <Tab eventKey="Experience" title="Experience">
                                         <div className="tab-item-wrapper">
-                                            <h5>Experience Info</h5>
-                                            <p>At vero eos et accusamus et iusto odio dignissimos</p>
+                                            <Row>
+                                                <Col>
+                                                    <div class="wrap8">
+                                                        <div class="box8 four8">
+
+                                                            <h3> Computer Science and Engineering</h3>
+                                                            <p>National University Bangladesh (2019 - 2023)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+                                                <Col>
+                                                    <div class="wrap8">
+                                                        <div class="box8 four8">
+
+
+                                                            <h3>Higher Secondary Certificate</h3>
+                                                            <p>Haziganj Model Govt. College (2016 - 2018)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+
+
+
+
+
+                                                <Col>
+                                                    <div class="wrap8 wrapC">
+                                                        <div class="box8 four8">
+
+                                                            <h3>Secondary School Certificate</h3>
+                                                            <p>Ramgonj High School (2016)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+                                                <Col>
+                                                    <div class="wrap8 wrapC">
+                                                        <div class="box8 four8">
+
+                                                            <h3>Primary School Certificate</h3>
+                                                            <p>Darikandi Govt Primary School(2010)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                            </Row>
+
+
                                         </div>
                                     </Tab>
                                     <Tab eventKey="Interview" title="Interview">
                                         <div className="tab-item-wrapper">
-                                            <h5>Interview Info</h5>
-                                            <p>At vero eos et accusamus et iusto odio dignissimos</p>
+                                            <Row>
+                                                <Col>
+                                                    <div class="wrap8">
+                                                        <div class="box8 four8">
+
+                                                            <h3> Computer Science and Engineering</h3>
+                                                            <p>National University Bangladesh (2019 - 2023)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+                                                <Col>
+                                                    <div class="wrap8">
+                                                        <div class="box8 four8">
+
+
+                                                            <h3>Higher Secondary Certificate</h3>
+                                                            <p>Haziganj Model Govt. College (2016 - 2018)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+
+
+
+
+
+                                                <Col>
+                                                    <div class="wrap8 wrapC">
+                                                        <div class="box8 four8">
+
+                                                            <h3>Secondary School Certificate</h3>
+                                                            <p>Ramgonj High School (2016)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+                                                <Col>
+                                                    <div class="wrap8 wrapC">
+                                                        <div class="box8 four8">
+
+                                                            <h3>Primary School Certificate</h3>
+                                                            <p>Darikandi Govt Primary School(2010)</p>
+                                                            <hr />
+                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                            </Row>
+
+
                                         </div>
                                     </Tab>
                                 </Tabs>
