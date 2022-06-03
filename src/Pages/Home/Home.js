@@ -59,7 +59,7 @@ const Home = () => {
 
                             </Col>
                             <Col className='bottom' >
-                                <p>BEST SKILL ON</p>
+                                <p className='best'>BEST SKILL ON</p>
                                 <div className='socia-link'>
                                     <div class="wrap2">
                                         <div class="box2 four">
