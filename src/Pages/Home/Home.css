@@ -355,6 +355,14 @@
     .mail {
         font-size: 18px;
     }
+    .wrap2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        gap: 3em;
+        flex-wrap: wrap;
+    }
 
 }
 

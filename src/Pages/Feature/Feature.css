@@ -156,7 +156,6 @@ h3 {
 
 
 @media screen and (max-width: 370px) {
-
 	.wrap {
 		display: flex;
 		justify-content: center;
@@ -164,7 +163,6 @@ h3 {
 		height:65vh;
 		gap: 5em;
 		flex-wrap: wrap;
-	
 	}
 }
 @media screen and (max-width: 400px) {
@@ -175,7 +173,5 @@ h3 {
 		height: 65vh;
 		gap: 5em;
 		flex-wrap: wrap;
-	
 	}
-  
 }
