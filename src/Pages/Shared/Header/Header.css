@@ -29,3 +29,9 @@
 .navbar-light .navbar-nav .nav-link.active {
     color: #FF014F;
 }
+@media screen and (max-width: 370px) {
+
+	.Navbar {
+        padding-right: 30px;
+    }
+}

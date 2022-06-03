@@ -101,7 +101,7 @@ const Home = () => {
                     <Col lg='4'>
                         <div class="wrap3">
                             <div class="box3 four">
-                                <img src='https://i.ibb.co/K5fvWQ6/shakib2-removebg-preview.png' />
+                                <img src='https://i.ibb.co/K5fvWQ6/shakib2-removebg-preview.png' className='my-img'/>
                             </div>
                         </div>
                     </Col>

@@ -154,8 +154,9 @@
     margin-bottom: 50px;
     color: var(--greyDark);
 }
+
 .bottom1 {
-   margin-left: 10px;
+    margin-left: 10px;
 }
 
 
@@ -212,7 +213,7 @@
     gap: 5em;
     flex-wrap: wrap;
 }
-
+/* my image */
 .box3 {
     background: #ddd;
     width: 27rem;
@@ -303,11 +304,12 @@
 
 
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .Home-container {
         height: 150vh;
         border-bottom: 1px solid #d2c9c9;
     }
+
     .btn {
         width: 10rem;
         height: 4rem;
@@ -325,28 +327,100 @@
         transition: .3s ease;
         margin-left: 20px;
 
-       
+
     }
-  .btn-first {
- 
-      margin-left: 40%;
-      font-size: 16px;
-  }
-  /* .btn-first p, .mail{
+
+    .btn-first {
+        margin-top: 100px;
+        margin-left: 40%;
+        font-size: 16px;
+    }
+
+    /* .btn-first p, .mail{
       font-size: 18px;
   } */
- 
-  .btn-second p, .mail{
-      font-size: 18px;
-  }
-  .btn-second  p{
-      font-size: 18px;
-      margin-left: -18px;
-      margin-top: 15px;
-  }
-  .btn-second p, .mail{
-      font-size: 18px;
-  }
 
-  }
-  
+    .btn-second p,
+    .mail {
+        font-size: 18px;
+    }
+
+    .btn-second p {
+        font-size: 18px;
+        margin-left: -18px;
+        margin-top: 15px;
+    }
+
+    .btn-second p,
+    .mail {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+    .Home-container {
+        height: 190vh;
+        border-bottom: 1px solid #d2c9c9;
+    }
+
+    .social {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .btn {
+        width: 7rem;
+        height: 4rem;
+
+        margin-left: 20px;
+
+        margin-top: 140px;
+
+    }
+
+    .btn-first {
+        margin-top: 260px;
+        margin-left: 40%;
+        font-size: 5px;
+    }
+
+    .btn-first p {
+        font-size: 13px;
+    }
+
+    .btn-second p,
+    .mail {
+        font-size: 12px;
+    }
+
+    .btn-second p {
+        font-size: 12px;
+        margin-left: -18px;
+        margin-top: 15px;
+    }
+
+    .btn-second p,
+    .mail {
+        font-size: 12px;
+    }
+
+
+    .box3 {
+        background: #ddd;
+        width: 20rem;
+        height: 20rem;
+        color: #9c9c9c;
+        border-radius: 1rem;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.my-img {
+     width: 20rem;
+}
+
+}
