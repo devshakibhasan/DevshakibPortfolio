@@ -56,22 +56,38 @@
 
 }
 
+
+.wrap p{
+	color: #616874;
+}
+.wrap:hover p{
+	color: #fff;
+	transition: .7s ease-out;
+
+
+}
+
 /* .wrap:hover  {
 	color: #fff;
 	background-color: #FF014F;
 
 } */
+.wrap h3 {
+	color: #000;
+
+
+}
 .wrap:hover h3 {
 	color: #fff;
 	transition: .7s ease-out;
-	margin-top: 30px;
+
 
 }
 
 .wrap:hover h2 {
 	color: #fff;
 	transition: .7s ease-out;
-	margin-top: 30px;
+
 
 }
 
@@ -79,7 +95,13 @@
 	color: #fff;
 	transition: 1s ease-out;
 
+	margin-bottom: 30px;
+}
 
+.Feature-icon{
+	font-size: 30px;
+	color: #FF018B;
+	
 }
 
 .wrap h2,
@@ -99,20 +121,22 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	text-align: justify;
+	transition: 1s;
 }
 
 .box1:hover {
 	color: #fff;
-	background-color: #FF014F;
+	background-color: #00C6A3;
 	transition-delay: 1s ease-in;
 	margin-bottom: 50px;
-	-webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+	transform: 1s;
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none; 
+
 }
 
 .box1.one {

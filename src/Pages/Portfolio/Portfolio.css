@@ -64,6 +64,7 @@
 
 .wrap4 .Feature-icons {
     font-size: 20px;
+    color: #FF014F;
 }
 .wrap4:hover .Feature-icons {
     color: #fff;
@@ -94,7 +95,7 @@ h3 {
 
 .box:hover {
     color: #fff;
-    background-color: #FF014F;
+    background-color: #00C6A3;
     transition-delay: 1s ease-in;
     transition: 3s ease-in-out;
     margin-bottom: 50px;
@@ -153,6 +154,8 @@ h3 {
 .portfolio-img {
     height: 200px;
     width: 100%;
+    background-color: #000;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 370px) {

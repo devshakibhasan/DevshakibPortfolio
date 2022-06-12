@@ -18,11 +18,10 @@ const Portfolio = () => {
                     <Col>
                         <div class="wrap4">
                             <div class="box four">
-                                <img src='https://i.ibb.co/gdv5tp5/portfolio-05.webp' className='portfolio-img' />
+                                <img src='https://i.ibb.co/51MqbfF/img1.png' className='portfolio-img' />
                                 <h2>Bussinesss Stratagy</h2>
                                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
                                <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
-                              
                             </div>
                         </div>
                     </Col>

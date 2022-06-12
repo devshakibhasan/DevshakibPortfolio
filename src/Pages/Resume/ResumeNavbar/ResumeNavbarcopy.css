@@ -113,7 +113,7 @@
 
 .box8:hover {
     color: #fff;
-    background-color: #FF014F;
+    background-color: #00C6A3;
     transition-delay: 1s ease-in;
     transition: 3s ease-in-out;
     color: #fff;
@@ -306,11 +306,11 @@
     box-shadow: 0 20px 30px rgba(0,0,0,0.2);
     backdrop-filter: blur(10px);
 }  */
-.container * {
+/* .container * {
     font-family: "Poppins", sans-serif;
     color: black;
     font-weight: 500;
-}
+} */
 
 /* h2{
     margin-bottom: 50px;
@@ -319,6 +319,20 @@
     font-size: 33px;
     font-weight: bold;
 } */
+
+.my-skill {
+    margin-top: 100px;
+    padding-bottom: 100px;
+
+}
+.technical-skill-section {
+    padding-bottom: 40px;
+}
+.technical-skill{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
 .skills:not(:last-child) {
     margin-bottom: 30px;
 }
@@ -388,6 +402,7 @@
         width: 58%;
     }
 }
+
 #React-bar {
     animation: React-fill 2s forwards;
 }
@@ -429,18 +444,24 @@
     }
 }
 
-/* skill end */
+/* Technical Skills end */
 
+/* Profesional Skills Start */
+.Profesional-Skills {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 20px;
 
+}
 .container__progressbars {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    min-width: 270px;
+    padding-left: 20%;
     width: 100%;
-    min-height: 100%;
+
 }
 
 .progressbar {
@@ -464,7 +485,7 @@
     stroke-width: 10;
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
-    stroke: white;
+    stroke: #00C6A3;
     stroke-linecap: round;
     transform: translate(5px, 5px);
 }
@@ -481,13 +502,13 @@
     filter: drop-shadow(0 0 5px #ff33ff);
 }
 
-.shadow-js {
+/* .shadow-com {
     filter: drop-shadow(0 0 5px #ffff33);
-}
+} */
 
-.shadow-ts {
-    filter: drop-shadow(0 0 5px #3377ff);
-}
+/* .shadow-ts {
+    filter: drop-shadow(0 0 5px #F3A5B4);
+} */
 
 .shadow-node {
     filter: drop-shadow(0 0 5px #55ff33);
@@ -520,24 +541,24 @@
     animation: anim_circle-scss 1s ease-in-out forwards;
 }
 
-.circle-js {
-    -webkit-animation: anim_circle-js 1s ease-in-out forwards;
-    animation: anim_circle-js 1s ease-in-out forwards;
+.circle-com {
+    -webkit-animation: anim_circle-com 1s ease-in-out forwards;
+    animation: anim_circle-com 1s ease-in-out forwards;
 }
 
-.circle-ts {
-    -webkit-animation: anim_circle-ts 1s ease-in-out forwards;
-    animation: anim_circle-ts 1s ease-in-out forwards;
+.circle-project {
+    -webkit-animation: anim_circle-project 1s ease-in-out forwards;
+    animation: anim_circle-project 1s ease-in-out forwards;
 }
 
-.circle-node {
-    -webkit-animation: anim_circle-node 1s ease-in-out forwards;
-    animation: anim_circle-node 1s ease-in-out forwards;
+.circle-team {
+    -webkit-animation: anim_circle-team 1s ease-in-out forwards;
+    animation: anim_circle-team 1s ease-in-out forwards;
 }
 
-.circle-react {
-    -webkit-animation: anim_circle-react 1s ease-in-out forwards;
-    animation: anim_circle-react 1s ease-in-out forwards;
+.circle-creativity {
+    -webkit-animation: anim_circle-creativity 1s ease-in-out forwards;
+    animation: anim_circle-creativity 1s ease-in-out forwards;
 }
 
 .circle-angular {
@@ -597,51 +618,51 @@
     }
 }
 
-@-webkit-keyframes anim_circle-js {
+@-webkit-keyframes anim_circle-com {
     to {
-        stroke-dashoffset: 88;
+        stroke-dashoffset: 50;
     }
 }
 
-@keyframes anim_circle-js {
+@keyframes anim_circle-com {
     to {
-        stroke-dashoffset: 88;
+        stroke-dashoffset: 50;
     }
 }
 
-@-webkit-keyframes anim_circle-ts {
+@-webkit-keyframes anim_circle-project {
     to {
-        stroke-dashoffset: 198;
+        stroke-dashoffset: 65;
     }
 }
 
-@keyframes anim_circle-ts {
+@keyframes anim_circle-project {
     to {
-        stroke-dashoffset: 198;
+        stroke-dashoffset: 65;
     }
 }
 
-@-webkit-keyframes anim_circle-node {
+@-webkit-keyframes anim_circle-team {
     to {
-        stroke-dashoffset: 308;
+        stroke-dashoffset: 148;
     }
 }
 
-@keyframes anim_circle-node {
+@keyframes anim_circle-team {
     to {
-        stroke-dashoffset: 308;
+        stroke-dashoffset: 148;
     }
 }
 
-@-webkit-keyframes anim_circle-react {
+@-webkit-keyframes anim_circle-creativity {
     to {
-        stroke-dashoffset: 387.2;
+        stroke-dashoffset: 100;
     }
 }
 
-@keyframes anim_circle-react {
+@keyframes anim_circle-creativity {
     to {
-        stroke-dashoffset: 387.2;
+        stroke-dashoffset: 100;
     }
 }
 
@@ -668,3 +689,5 @@
         stroke-dashoffset: 431.2;
     }
 }
+
+/* Profesional Skills Start */

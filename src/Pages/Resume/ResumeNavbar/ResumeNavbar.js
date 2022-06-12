@@ -18,9 +18,7 @@ const ResumeNavbar = () => {
                             <div className="col-lg-12 col-sm-12 ">
                                 <Tabs defaultActiveKey="Profile" className='tabs'>
 
-
                                     <Tab eventKey="Profile" title="Profile">
-
                                         <div className="tab-item-wrapper">
                                             <Row>
                                                 <Col>
@@ -48,8 +46,6 @@ const ResumeNavbar = () => {
                                                         </div>
                                                     </div>
                                                 </Col>
-
-
                                             </Row>
                                         </div>
                                     </Tab>
@@ -107,18 +103,18 @@ const ResumeNavbar = () => {
                                                     </div>
                                                 </Col>
                                             </Row>
-
-
                                         </div>
                                     </Tab>
-                                    <Tab eventKey="Profesional Skill" title="Profesional Skill">
+
+
+                                    <Tab eventKey="Profesional Skill" title="Profesional Skill" className='my-skill'>
                                         <Row>
-                                            <Col>
+                                            <Col className='technical-skill-section'>
                                                 <div class="wrapper">
                                                     <div class="shape-1"></div>
                                                     <div class="shape-2"></div>
                                                     <div class="container">
-                                                        <h2>Technical Skills </h2>
+                                                        <h2 className='technical-skill'>Technical Skills </h2>
                                                         <div class="skills">
                                                             <div class="details">
                                                                 <span>HTML</span>
@@ -195,80 +191,50 @@ const ResumeNavbar = () => {
                                                 </div>
                                             </Col>
                                             <Col>
-                                                <h2>Profesional Skills </h2>
+                                                <h2 className='Profesional-Skills'>Profesional Skills </h2>
                                                 <div class="container__progressbars">
 
-                                                    <div class="progressbar">
-                                                        <svg class="progressbar__svg">
-                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
-                                                        </svg>
-                                                        <span class="progressbar__text shadow-html">HTML</span>
+                                                    <div>
+                                                        <div class="progressbar">
+                                                            <svg class="progressbar__svg">
+                                                                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-com shadow-com"> </circle>
+                                                            </svg>
+                                                            <span class="progressbar__text shadow-com">88%</span>
+                                                        </div>
+                                                       <h4 className='Profesional-Skills'>Communication</h4> 
                                                     </div>
 
-                                                    <div class="progressbar">
-                                                        <svg class="progressbar__svg">
-                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-css shadow-css"> </circle>
-                                                        </svg>
-                                                        <span class="progressbar__text shadow-css">CSS</span>
+                                                    <div>
+                                                        <div class="progressbar">
+                                                            <svg class="progressbar__svg">
+                                                                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-team shadow-ts"> </circle>
+                                                            </svg>
+                                                            <span class="progressbar__text shadow-ts">65%</span>
+                                                        </div>
+                                                        <h4 className='Profesional-Skills'>Team Work</h4> 
                                                     </div>
-
-                                                    <div class="progressbar">
-                                                        <svg class="progressbar__svg">
-                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-scss shadow-scss"> </circle>
-                                                        </svg>
-                                                        <span class="progressbar__text shadow-scss">SCSS</span>
+                                                    <div>
+                                                        <div class="progressbar">
+                                                            <svg class="progressbar__svg">
+                                                                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-project shadow-ts"> </circle>
+                                                            </svg>
+                                                            <span class="progressbar__text shadow-ts">80%</span>
+                                                        </div>
+                                                        <h4 className='Profesional-Skills'>Project Management</h4> 
                                                     </div>
-
-                                                    <div class="progressbar">
-                                                        <svg class="progressbar__svg">
-                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-js shadow-js"> </circle>
-                                                        </svg>
-                                                        <span class="progressbar__text shadow-js">JavaScript</span>
-                                                    </div>
-
-                                                    <div class="progressbar">
-                                                        <svg class="progressbar__svg">
-                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-ts shadow-ts"> </circle>
-                                                        </svg>
-                                                        <span class="progressbar__text shadow-ts">TypeScript</span>
-                                                    </div>
-
-                                                    <div class="progressbar">
-                                                        <svg class="progressbar__svg">
-                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-node shadow-node"> </circle>
-                                                        </svg>
-                                                        <span class="progressbar__text shadow-node">Node.js</span>
-                                                    </div>
-
-                                                    <div class="progressbar">
-                                                        <svg class="progressbar__svg">
-                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-react shadow-react"> </circle>
-                                                        </svg>
-                                                        <span class="progressbar__text shadow-react">React.js</span>
-                                                    </div>
-                                                    <div class="progressbar">
-                                                        <svg class="progressbar__svg">
-                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-angular shadow-angular"> </circle>
-                                                        </svg>
-                                                        <span class="progressbar__text shadow-angular">Angular.js</span>
-                                                    </div>
-                                                    <div class="progressbar">
-                                                        <svg class="progressbar__svg">
-                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-vue shadow-vue"> </circle>
-                                                        </svg>
-                                                        <span class="progressbar__text shadow-vue">Vue.js</span>
+                                                    <div>
+                                                        <div class="progressbar">
+                                                            <svg class="progressbar__svg">
+                                                                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-creativity shadow-ts"> </circle>
+                                                            </svg>
+                                                            <span class="progressbar__text shadow-ts">75%</span>
+                                                        </div>
+                                                        <h4 className='Profesional-Skills'>Creativity</h4> 
                                                     </div>
                                                 </div>
                                             </Col>
                                         </Row>
-
-
-
-
-
-
                                     </Tab>
-
                                 </Tabs>
                             </div>
                         </div>
