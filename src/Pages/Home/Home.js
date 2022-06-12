@@ -62,11 +62,11 @@ const Home = () => {
                                 <div className='socia-link'>
                                     <div class="wrap2">
                                         <div class="box2 four">
-                                            <img className='dbImg' src='https://i.ibb.co/RQS7xnb/mongodb-removebg-preview.png' />
+                                            <img className='dbImg' src='https://i.ibb.co/s1fRSj3/mongodb.png' />
                                         </div>
 
                                         <div class="box2 four">
-                                            <img className='dbImg' src='https://i.ibb.co/q0p2Wh3/express-facebook-share-removebg-preview.png' />
+                                            <img className='dbImg' src='https://i.ibb.co/mvyLd4v/express.png' />
                                         </div>
 
                                         <div class="box2 four">
