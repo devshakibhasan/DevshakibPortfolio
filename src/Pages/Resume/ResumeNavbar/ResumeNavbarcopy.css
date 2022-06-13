@@ -160,7 +160,9 @@
 
 
 /* ////////////////////////////////////// */
-
+.profile {
+    padding-bottom: 300px;
+}
 
 .wrap9 {
     display: flex;
@@ -169,7 +171,7 @@
     height: 80vh;
     gap: 5em;
     flex-wrap: wrap;
-    margin: 100px;
+ 
 
 }
 

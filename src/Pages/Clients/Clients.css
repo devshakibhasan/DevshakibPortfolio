@@ -1,7 +1,7 @@
 .Clients {
-  padding-bottom: 200px;
-  padding-top: 200px;
 
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 .tabss {
@@ -51,6 +51,7 @@
 .nav-pills .show>.nav-link .navss {
 color: gray;
   font-size: 20px;
+  padding-top: 20px;
 
 }
 .nav-pills .nav-link.active,
@@ -69,7 +70,10 @@ color: gray;
   font-size: 25px;
   font-weight: bold;
 }
+.rowss{
+  --bs-gutter-x: -5.5rem;
 
+}
 
 .wrap10 {
   display: flex;
@@ -143,7 +147,4 @@ color: gray;
    justify-content: center;
   align-items: center;
   text-align: justify;
-}
-.rowss{
-  --bs-gutter-x: -5.5rem;
 }

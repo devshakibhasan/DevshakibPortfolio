@@ -18,7 +18,7 @@ const ResumeNavbar = () => {
                             <div className="col-lg-12 col-sm-12 ">
                                 <Tabs defaultActiveKey="Profile" className='tabs '>
 
-                                    <Tab eventKey="Profile" title="Profile">
+                                    <Tab eventKey="Profile" title="Profile" className='profile'>
                                         <div className="tab-item-wrapper">
                                             <Row className='rowss'>
                                                 <Col>
