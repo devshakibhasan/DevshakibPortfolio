@@ -18,37 +18,7 @@ const ResumeNavbar = () => {
                             <div className="col-lg-12 col-sm-12 ">
                                 <Tabs defaultActiveKey="Profile" className='tabs '>
 
-                                    <Tab eventKey="Profile" title="Profile" className='profile'>
-                                        <div className="tab-item-wrapper">
-                                            <Row className='rowss'>
-                                                <Col>
-                                                    <div class="wrap9">
-                                                        <div class="box9 four9">
 
-                                                            <Row className='rowss'>
-                                                                <Col>
-                                                                    <img src='https://i.ibb.co/K5fvWQ6/shakib2-removebg-preview.png' className='my-img' alt="" />
-                                                                </Col>
-                                                                <Col>
-                                                                    <h3>MERN Stack Developer</h3>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis laoreet elementum. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aliquam porta faucibus arcu, et consequat velit vestibulum in. Donec quis tellus ut urna volutpat posuere quis consectetur quam.</p>
-                                                                    <div class="row mb-3 textT ">
-                                                                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Shakib Hasan</span></h6></div>
-                                                                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">1 July 2000</span></h6></div>
-                                                                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Honours</span></h6></div>
-                                                                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+880 1858694456</span></h6></div>
-                                                                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">shakibhasan@gmail.com</span></h6></div>
-                                                                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Siddirganj, Narayan ganj, Bangladesh</span></h6></div>
-                                                                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
-                                                                    </div>
-                                                                </Col>
-                                                            </Row>
-                                                        </div>
-                                                    </div>
-                                                </Col>
-                                            </Row>
-                                        </div>
-                                    </Tab>
 
 
                                     <Tab eventKey="Education" title="Education">
@@ -106,7 +76,38 @@ const ResumeNavbar = () => {
                                         </div>
                                     </Tab>
 
+                                    <Tab eventKey="Profile" title="Profile" className='profile'>
+                                        <div className="tab-item-wrapper">
+                                            <Row className='rowss'>
+                                                <Col>
+                                                    <div class="wrap9">
+                                                        <div class="box9 four9">
 
+                                                            <Row className='rowss'>
+                                                                <Col>
+                                                                    <img src='https://i.ibb.co/K5fvWQ6/shakib2-removebg-preview.png' className='my-img' alt="" />
+                                                                </Col>
+                                                                <Col>
+                                                                    <h3>MERN Stack Developer</h3>
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis laoreet elementum. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aliquam porta faucibus arcu, et consequat velit vestibulum in. Donec quis tellus ut urna volutpat posuere quis consectetur quam.</p>
+                                                                    <div class="row mb-3 textT ">
+                                                                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Shakib Hasan</span></h6></div>
+                                                                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">1 July 2000</span></h6></div>
+                                                                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Honours</span></h6></div>
+                                                                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+880 1858694456</span></h6></div>
+                                                                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">shakibhasan@gmail.com</span></h6></div>
+                                                                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Siddirganj, Narayan ganj, Bangladesh</span></h6></div>
+                                                                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                                                                    </div>
+                                                                </Col>
+                                                            </Row>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </Tab>
+                                    
                                     <Tab eventKey="Profesional Skill" title="Profesional Skill" className='my-skill'>
                                         <Row className='rowss'>
                                             <Col className='technical-skill-section'>
@@ -201,7 +202,7 @@ const ResumeNavbar = () => {
                                                             </svg>
                                                             <span class="progressbar__text shadow-com">88%</span>
                                                         </div>
-                                                       <h4 className='Profesional-Skills'>Communication</h4> 
+                                                        <h4 className='Profesional-Skills'>Communication</h4>
                                                     </div>
 
                                                     <div>
@@ -211,7 +212,7 @@ const ResumeNavbar = () => {
                                                             </svg>
                                                             <span class="progressbar__text shadow-ts">65%</span>
                                                         </div>
-                                                        <h4 className='Profesional-Skills'>Team Work</h4> 
+                                                        <h4 className='Profesional-Skills'>Team Work</h4>
                                                     </div>
                                                     <div>
                                                         <div class="progressbar">
@@ -220,7 +221,7 @@ const ResumeNavbar = () => {
                                                             </svg>
                                                             <span class="progressbar__text shadow-ts">80%</span>
                                                         </div>
-                                                        <h4 className='Profesional-Skills'>Project Management</h4> 
+                                                        <h4 className='Profesional-Skills'>Project Management</h4>
                                                     </div>
                                                     <div>
                                                         <div class="progressbar">
@@ -229,7 +230,7 @@ const ResumeNavbar = () => {
                                                             </svg>
                                                             <span class="progressbar__text shadow-ts">75%</span>
                                                         </div>
-                                                        <h4 className='Profesional-Skills'>Creativity</h4> 
+                                                        <h4 className='Profesional-Skills'>Creativity</h4>
                                                     </div>
                                                 </div>
                                             </Col>
