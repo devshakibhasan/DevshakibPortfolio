@@ -16,16 +16,16 @@ const ResumeNavbar = () => {
                     <div className='container' >
                         <div className="row">
                             <div className="col-lg-12 col-sm-12 ">
-                                <Tabs defaultActiveKey="Profile" className='tabs'>
+                                <Tabs defaultActiveKey="Profile" className='tabs '>
 
                                     <Tab eventKey="Profile" title="Profile">
                                         <div className="tab-item-wrapper">
-                                            <Row>
+                                            <Row className='rowss'>
                                                 <Col>
                                                     <div class="wrap9">
                                                         <div class="box9 four9">
 
-                                                            <Row>
+                                                            <Row className='rowss'>
                                                                 <Col>
                                                                     <img src='https://i.ibb.co/K5fvWQ6/shakib2-removebg-preview.png' className='my-img' alt="" />
                                                                 </Col>
@@ -53,7 +53,7 @@ const ResumeNavbar = () => {
 
                                     <Tab eventKey="Education" title="Education">
                                         <div className="tab-item-wrapper">
-                                            <Row>
+                                            <Row className='rowss'>
                                                 <Col>
                                                     <div class="wrap8">
                                                         <div class="box8 four8">
@@ -108,7 +108,7 @@ const ResumeNavbar = () => {
 
 
                                     <Tab eventKey="Profesional Skill" title="Profesional Skill" className='my-skill'>
-                                        <Row>
+                                        <Row className='rowss'>
                                             <Col className='technical-skill-section'>
                                                 <div class="wrapper">
                                                     <div class="shape-1"></div>

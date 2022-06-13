@@ -1,0 +1,149 @@
+.Clients {
+  padding-bottom: 200px;
+  padding-top: 200px;
+
+}
+
+.tabss {
+
+  background: #ddd;
+  width: 15rem;
+  height: 20rem;
+  color: #FF014F;
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 20px 20px 60px #bbb,
+    -20px -20px 60px #fff;
+  transition: box-shadow 1s ease;
+  transition-delay: 0.5s;
+}
+
+.fist {
+
+}
+
+/* .nav-pills .nav-link {
+
+    height: 5rem;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow:
+        inset 20px 20px 60px 20px #bbb,
+        inset 20px 20px 60px #ddd;
+    -webkit-touch-callout: none;
+
+    -webkit-user-select: none;
+
+    -khtml-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+} */
+
+.nav-pills .nav-link,
+.nav-pills .show>.nav-link .navss {
+color: gray;
+  font-size: 20px;
+
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link .navss {
+  background: #ddd;
+  width: 15rem;
+  height: 5rem;
+  color: #FF014F;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 20px 20px 60px #bbb,
+    -20px -20px 60px #fff;
+  transition: box-shadow 1s ease;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.wrap10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+
+
+
+.box10 {
+  background: #ddd;
+  width: 15rem;
+  height: 10rem;
+  color: #9c9c9c;
+  border-radius: 1rem;
+  padding: 30px 30px 30px 30px;
+ 
+}
+
+.box10:hover {
+  color: #fff;
+  background-color: #00C6A3;
+  transition-delay: 1s ease-in;
+  transition: 3s ease-in-out;
+  color: #fff;
+  margin-bottom: 50px;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+.box10.four10 {
+  box-shadow: 20px 20px 60px #bbb,
+      -20px -20px 60px #fff;
+  transition: box-shadow 1s ease;
+  transition-delay: 0.5s;
+
+
+}
+
+.box10.four10:hover {
+  box-shadow: 20px 20px 60px #DDDDDD,
+      -20px -20px 60px #fff;
+  transition: box-shadow 1s ease;
+  transition-delay: 0.1s;
+  color: #fff;
+}
+
+.box10.four10:hover h3 {
+
+  color: #fff;
+}
+
+.client-img {
+  height: 50px;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.rowss{
+  --bs-gutter-x: -5.5rem;
+}
