@@ -217,8 +217,8 @@
 /* my image */
 .box3 {
     background: #ddd;
-    width: 27rem;
-    height: 20rem;
+    width: 25rem;
+    height: 24rem;
     color: #9c9c9c;
     border-radius: 1rem;
 
@@ -302,7 +302,10 @@
     font-size: 1.6rem;
 }
 
-
+.my-img {
+    width: 40rem;
+    margin-top: -193px;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -440,10 +443,8 @@ margin-top: 150px;
         align-items: center;
     }
 
-    .my-img {
-        width: 20rem;
-    }
 
+    
 }
 
 @media screen and (max-width: 400px) {
@@ -499,7 +500,7 @@ margin-top: 150px;
     .box3 {
         background: #ddd;
         width: 20rem;
-        height: 20rem;
+        height: 30rem;
         color: #9c9c9c;
         border-radius: 1rem;
 
@@ -509,7 +510,8 @@ margin-top: 150px;
     }
 
     .my-img {
-        width: 20rem;
+        width: 40rem;
+        margin-top: -100px;
     }
 }
 

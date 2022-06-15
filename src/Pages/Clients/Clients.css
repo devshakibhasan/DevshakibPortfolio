@@ -2,6 +2,16 @@
   padding-bottom: 200px;
 }
 
+.clients-text {
+  color: #FF014F;
+}
+
+.clients-heading h1{
+  margin: 20px 0px 50px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
 .tabss {
 
   background: #ddd;
@@ -19,9 +29,7 @@
   transition-delay: 0.5s;
 }
 
-.fist {
-
-}
+.fist {}
 
 /* .nav-pills .nav-link {
 
@@ -47,11 +55,12 @@
 
 .nav-pills .nav-link,
 .nav-pills .show>.nav-link .navss {
-color: gray;
+  color: gray;
   font-size: 20px;
   padding-top: 20px;
 
 }
+
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link .navss {
   background: #ddd;
@@ -68,7 +77,8 @@ color: gray;
   font-size: 25px;
   font-weight: bold;
 }
-.rowss{
+
+.rowss {
   --bs-gutter-x: -5.5rem;
 
 }
@@ -92,7 +102,7 @@ color: gray;
   color: #9c9c9c;
   border-radius: 1rem;
   padding: 30px 30px 30px 30px;
- 
+
 }
 
 .box10:hover {
@@ -119,7 +129,7 @@ color: gray;
 
 .box10.four10 {
   box-shadow: 20px 20px 60px #bbb,
-      -20px -20px 60px #fff;
+    -20px -20px 60px #fff;
   transition: box-shadow 1s ease;
   transition-delay: 0.5s;
 
@@ -128,7 +138,7 @@ color: gray;
 
 .box10.four10:hover {
   box-shadow: 20px 20px 60px #DDDDDD,
-      -20px -20px 60px #fff;
+    -20px -20px 60px #fff;
   transition: box-shadow 1s ease;
   transition-delay: 0.1s;
   color: #fff;
@@ -142,7 +152,7 @@ color: gray;
 .client-img {
   height: 50px;
   display: flex;
-   justify-content: center;
+  justify-content: center;
   align-items: center;
   text-align: justify;
 }
@@ -155,9 +165,11 @@ color: gray;
     height: 25vh;
     gap: 2rem;
   }
+
   .varticle-navs {
     margin-top: 80px;
   }
+
   .client-imgs {
     width: 6rem;
   }

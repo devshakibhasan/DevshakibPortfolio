@@ -11,13 +11,14 @@ const Clients = () => {
     return (
         <div id='Clients' className='Clients'>
 
-            <div className='heading'>
-                <p>3+ YEARS OF EXPERIENCE</p>
-            </div>
-            <div className='heading'>
-                <h1>My Clients</h1>
-            </div>
+           
             <Container>
+            <div className='clients-text'>
+                <p>POPULAR CLIENTS</p>
+            </div>
+            <div className='clients-heading'>
+                <h1>Awesome Clients</h1>
+            </div>
                 <Tab.Container id="left-tabs-example " defaultActiveKey="first" className='tabss'>
                     <Row className='rowss'>
                         <Col sm={2} lg={3} className='varticle-navs'>
