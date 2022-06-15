@@ -1,20 +1,20 @@
 .Feature {
 	color: #000;
 
-	margin-top: 70px;
+	margin-top: 150px;
 	background-color: #DDDDDD;
 	margin-bottom: 50px;
 }
-
-.Feature h1 {
-	color: #FF014F;
-}
-
 .Features {
 	margin-top: 50px;
 
 
 }
+.Feature h1 {
+	color: #FF014F;
+}
+
+
 
 .wrap-login3 {
 	width: 350px;

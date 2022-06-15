@@ -50,22 +50,26 @@
 .wrap4:hover h2 {
     color: #fff;
 }
+
 .wrap4:hover h5 {
     color: #e65a84;
 }
+
 .iconF {
     display: flex;
     text-decoration: none;
 }
-.iconF  h5{
-   color: #DDDDDD;
-   padding-left: 10px;
+
+.iconF h5 {
+    color: #DDDDDD;
+    padding-left: 10px;
 }
 
 .wrap4 .Feature-icons {
     font-size: 20px;
     color: #FF014F;
 }
+
 .wrap4:hover .Feature-icons {
     color: #fff;
     transition: 1s ease-out;
@@ -160,24 +164,44 @@ h3 {
 
 @media screen and (max-width: 370px) {
 
-	.wrap4 {
-		height: 65vh;
-	}
+    .wrap4 {
+        height: 65vh;
+    }
+
     .portfolio-img {
         height: 150px;
         width: 100%;
     }
 }
+
 @media screen and (max-width: 400px) {
 
     .wrap4 {
-		height: 65vh;
-	}
+        height: 65vh;
+    }
+
     .portfolio-img {
         height: 150px;
         width: 100%;
     }
+
     .wrap4 {
-		height: 75vh;
-	}
+        height: 75vh;
+    }
 }
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {}
+
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (min-width:769px) and (max-width:1024px) {}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {}
+
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (min-width:1201px) {}

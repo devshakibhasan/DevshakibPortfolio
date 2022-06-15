@@ -308,172 +308,34 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width:320px) and (max-width:480px) {
+
     .Home-container {
-        height: 150vh;
+        height: 240vh;
         border-bottom: 1px solid #d2c9c9;
     }
-
-    .btn {
-        width: 10rem;
-        height: 4rem;
-        border-radius: 1rem;
-        box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
-        justify-self: center;
-        display: -webkit-box;
-        display: flex;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        justify-content: center;
-        cursor: pointer;
-        -webkit-transition: .3s ease;
-        transition: .3s ease;
-        margin-left: 20px;
-margin-top: 150px;
-
-    }
-
-    .btn-first {
-        margin-top: 130px;
-        margin-left: 40%;
-        font-size: 16px;
-    }
-
-    /* .btn-first p, .mail{
-      font-size: 18px;
-  } */
-
-    .btn-second p,
-    .mail {
-        font-size: 18px;
-    }
-
-    .btn-second p {
-        font-size: 18px;
-        margin-left: -18px;
-        margin-top: 15px;
-    }
-
-    .btn-second p,
-    .mail {
-        font-size: 18px;
-    }
-
-    .wrap2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 5vh;
-        gap: 3em;
-        flex-wrap: wrap;
-    }
-
     .box2 {
-        background: #ddd;
-        width: 7rem;
-        height: 5rem;
-        color: #000;
-        border-radius: 1rem;
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-bottom: 20px;
     }
-  .bottom p{
-        font-size: 22px;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .Home-container {
-        height: 190vh;
-        border-bottom: 1px solid #d2c9c9;
-    }
-
     .social {
-        padding-top: 100px;
-        margin-top: 280px;
-        margin-bottom: 10px;
-        margin-left: 20px;
+        margin-top: 350px;
+        margin-left: 45px;
     }
 
-    .btn {
+    /* .btn {
         width: 7rem;
         height: 4rem;
-        margin-left: 20px;
-    }
+        margin-left: 10px;
+        margin-top: 180px;
 
-    .social .btn-first {
-        margin-left: 40%;
-        font-size: 5px;
-        margin-top: 280px;
-    }
-
-    .btn-first p {
-        font-size: 13px;
-    }
-
-    .btn-second p,
-    .mail {
-        font-size: 12px;
-    }
-
-    .btn-second p {
-        font-size: 12px;
-        margin-left: -18px;
-        margin-top: 15px;
-    }
-
-    .btn-second p,
-    .mail {
-        font-size: 12px;
-    }
-
-
-    .box3 {
-        background: #ddd;
-        width: 20rem;
-        height: 20rem;
-        color: #9c9c9c;
-        border-radius: 1rem;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    
-}
-
-@media screen and (max-width: 400px) {
-
-    .Home-container {
-        height: 210vh;
-        border-bottom: 1px solid #d2c9c9;
-    }
-
-    .social {
-        margin-top: 80px;
-        margin-bottom: 10px;
-        margin-left: 20px;
-    }
-
-    .btn {
-        width: 7rem;
-        height: 4rem;
-
-        margin-left: 20px;
-
-        margin-top: 160px;
-
-    }
+    } */
 
     .btn-first {
-        margin-top: 260px;
-        margin-left: 40%;
+
+        width: 8rem;
         font-size: 5px;
+        margin-left: -50px;
+
     }
 
     .btn-first p {
@@ -483,6 +345,11 @@ margin-top: 150px;
     .btn-second p,
     .mail {
         font-size: 12px;
+    }
+
+    .btn-second {
+
+        width: 8rem;
     }
 
     .btn-second p {
@@ -496,6 +363,7 @@ margin-top: 150px;
         font-size: 12px;
     }
 
+ 
 
     .box3 {
         background: #ddd;
@@ -507,6 +375,7 @@ margin-top: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: -100px;
     }
 
     .my-img {
@@ -515,6 +384,12 @@ margin-top: 150px;
     }
 }
 
+@media screen and (min-width:481px) and (max-width:768px) {}
 
+@media screen and (min-width:769px) and (max-width:1024px) {}
 
+@media screen and (min-width:1025px) and (max-width:1200px) {}
 
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (min-width:1201px) {}
