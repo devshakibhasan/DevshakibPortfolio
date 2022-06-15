@@ -1,3 +1,6 @@
+.Resume {
+    border-bottom: 1px solid #d2c9c9;
+}
 .tabs {
     display: flex;
     justify-content: center;
