@@ -44,7 +44,7 @@ const Clients = () => {
                                 <Tab.Pane eventKey="first">
                                     <Row className='rowss'>
                                         <Col>
-                                            <div class="wrap10">
+                                            <div class="wrap10 boxs1">
                                                 <div class="box10 four10">
 
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
@@ -162,7 +162,7 @@ const Clients = () => {
                                 <Tab.Pane eventKey="second">
                                     <Row className='rowss'>
                                         <Col>
-                                            <div class="wrap10">
+                                            <div class="wrap10 boxs1">
                                                 <div class="box10 four10">
 
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
@@ -280,7 +280,7 @@ const Clients = () => {
                                 <Tab.Pane eventKey="third">
                                     <Row className='rowss'>
                                         <Col>
-                                            <div class="wrap10">
+                                            <div class="wrap10 boxs1">
                                                 <div class="box10 four10">
 
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
@@ -400,7 +400,7 @@ const Clients = () => {
                                 <Tab.Pane eventKey="fourth">
                                     <Row className='rowss'>
                                         <Col>
-                                            <div class="wrap10">
+                                            <div class="wrap10 boxs1">
                                                 <div class="box10 four10">
 
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
@@ -518,7 +518,7 @@ const Clients = () => {
                                 <Tab.Pane eventKey="fifth">
                                     <Row className='rowss'>
                                         <Col>
-                                            <div class="wrap10">
+                                            <div class="wrap10 boxs1">
                                                 <div class="box10 four10">
 
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />

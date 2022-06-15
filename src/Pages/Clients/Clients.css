@@ -148,3 +148,22 @@ color: gray;
   align-items: center;
   text-align: justify;
 }
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+  .wrap10 {
+    height: 25vh;
+    gap: 2rem;
+  }
+  .box10 {
+    background: #ddd;
+    width: 15rem;
+    height: 10rem;
+    color: #9c9c9c;
+    border-radius: 1rem;
+    padding: 30px 30px 30px 30px;
+   
+  }
+}
