@@ -13,14 +13,14 @@ const Home = () => {
         <div className='Home' id='Home'>
             <Container className='Home-container'>
                 <Row>
-                    <Col className='left-content' lg='8' >
+                    <Col className='left-content' lg='8'  >
                         <h5>WELCOME TO MY WORLD</h5>
                         <h1>Hi, I’m <span>Shakib Hasan</span> </h1>
 
                         <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
 
 
-                        <Row >
+                        <Row className='iconss'>
                             <Col className='bottom bottom1'>
                                 <p>FIND WITH ME</p>
                                 <div class="wrap2">
@@ -57,10 +57,10 @@ const Home = () => {
                                 </div>
 
                             </Col>
-                            <Col className='bottom' >
+                            <Col className='bottom bottom2' >
                                 <p className='best'>BEST SKILL ON</p>
                                 <div className='socia-link'>
-                                    <div class="wrap2">
+                                    <div class="wrap2 wrapI">
                                         <div class="box2 four">
                                             <img className='dbImg' src='https://i.ibb.co/s1fRSj3/mongodb.png' />
                                         </div>
@@ -88,7 +88,7 @@ const Home = () => {
                                 </div>
                             </Col>
 
-                            <Col className='bottom'>
+                            <Col className='bottom bottom3'>
                                 <div className='socia-link'>
                                     <div class="wrap2">
                                         <div class="btn btn__secondary btn-second"><FontAwesomeIcon icon={faDownload} className="mail" /><p>Download CV</p></div>
@@ -97,7 +97,7 @@ const Home = () => {
                             </Col>
                         </Row>
                     </Col>
-                    <Col lg='4'>
+                    <Col lg='4' >
                         <div class="wrap3">
                             <div class="box3 four">
                                 <img src='https://i.ibb.co/HzChfBH/image9-1-removebg-preview.png' className='my-img'/>
