@@ -13,79 +13,71 @@ const ResumeNavbar = () => {
 
             <Container>
                 <div className="tab-wrapper">
-                    <div className='container' >
-                        <div className="row">
-                            <div className="col-lg-12 col-sm-12 ">
-                                <Tabs defaultActiveKey="Profile" className='tabs '>
+                    <div className="row">
+                        <div className="col-lg-12 col-sm-12 ">
+                            <Tabs defaultActiveKey="Profile" className='tabs '>
 
+                                <Tab eventKey="Education" title="Education">
+                                    <div className="tab-item-wrapper">
+                                        <Row className='rowss'>
+                                            <Col  >
+                                                <div class="wrap8 boxs1">
+                                                    <div class="box8 four8">
 
-
-
-                                    <Tab eventKey="Education" title="Education">
-                                        <div className="tab-item-wrapper">
-                                            <Row className='rowss'>
-                                                <Col>
-                                                    <div class="wrap8">
-                                                        <div class="box8 four8">
-
-                                                            <h3> Computer Science and Engineering</h3>
-                                                            <p>National University Bangladesh (2019 - 2023)</p>
-                                                            <hr />
-                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                                        </div>
+                                                        <h3> Computer Science and Engineering</h3>
+                                                        <p>National University Bangladesh (2019 - 2023)</p>
+                                                        <hr />
+                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
                                                     </div>
-                                                </Col>
+                                                </div>
+                                            </Col>
 
-                                                <Col>
-                                                    <div class="wrap8">
-                                                        <div class="box8 four8">
-
-
-                                                            <h3>Higher Secondary Certificate</h3>
-                                                            <p>Haziganj Model Govt. College (2016 - 2018)</p>
-                                                            <hr />
-                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                                        </div>
+                                            <Col>
+                                                <div class="wrap8 ">
+                                                    <div class="box8 four8">
+                                                        <h3>Higher Secondary Certificate</h3>
+                                                        <p>Haziganj Model Govt. College (2016 - 2018)</p>
+                                                        <hr />
+                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
                                                     </div>
-                                                </Col>
+                                                </div>
+                                            </Col>
 
-                                                <Col>
-                                                    <div class="wrap8 wrapC">
-                                                        <div class="box8 four8">
-
-                                                            <h3>Secondary School Certificate</h3>
-                                                            <p>Ramgonj High School (2016)</p>
-                                                            <hr />
-                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                                        </div>
+                                            <Col>
+                                                <div class="wrap8 wrapC">
+                                                    <div class="box8 four8">
+                                                        <h3>Secondary School Certificate</h3>
+                                                        <p>Ramgonj High School (2016)</p>
+                                                        <hr />
+                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
                                                     </div>
-                                                </Col>
+                                                </div>
+                                            </Col>
 
-                                                <Col>
-                                                    <div class="wrap8 wrapC">
-                                                        <div class="box8 four8">
-
-                                                            <h3>Primary School Certificate</h3>
-                                                            <p>Darikandi Govt Primary School(2010)</p>
-                                                            <hr />
-                                                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                                        </div>
+                                            <Col>
+                                                <div class="wrap8 wrapC">
+                                                    <div class="box8 four8">
+                                                        <h3>Primary School Certificate</h3>
+                                                        <p>Darikandi Govt Primary School(2010)</p>
+                                                        <hr />
+                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
                                                     </div>
-                                                </Col>
-                                            </Row>
-                                        </div>
-                                    </Tab>
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </div>
+                                </Tab>
 
-                                    <Tab eventKey="Profile" title="Profile" className='profile'>
-                                        <div className="tab-item-wrapper">
-                                            <Row className='rowss'>
-                                                <Col>
-                                                    <div class="wrap9">
-                                                        <div class="box9 four9">
+                                <Tab eventKey="Profile" title="Profile" className='profile'>
+                                    <div className="tab-item-wrapper">
+                                        <Row className='rowss'>
+                                            <Col>
+                                                <div class="wrap9">
+                                                    <div class="box9 four9">
 
-                                                            <Row className='rowss'>
+                                                        {/* <Row className='rowss'>
                                                                 <Col>
-                                                                    <img src='https://i.ibb.co/K5fvWQ6/shakib2-removebg-preview.png' className='my-img' alt="" />
+                                                                    <img src='https://i.ibb.co/K5fvWQ6/shakib2-removebg-preview.png' className='my-img profile-img' alt="" />
                                                                 </Col>
                                                                 <Col>
                                                                     <h3>MERN Stack Developer</h3>
@@ -100,151 +92,148 @@ const ResumeNavbar = () => {
                                                                         <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
                                                                     </div>
                                                                 </Col>
-                                                            </Row>
-                                                        </div>
-                                                    </div>
-                                                </Col>
-                                            </Row>
-                                        </div>
-                                    </Tab>
-                                    
-                                    <Tab eventKey="Profesional Skill" title="Profesional Skill" className='my-skill'>
-                                        <Row className='rowss'>
-                                            <Col className='technical-skill-section'>
-                                                <div class="wrapper">
-                                                    <div class="shape-1"></div>
-                                                    <div class="shape-2"></div>
-                                                    <div class="container">
-                                                        <h2 className='technical-skill'>Technical Skills </h2>
-                                                        <div class="skills">
-                                                            <div class="details">
-                                                                <span>HTML</span>
-                                                                <span>95%</span>
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div id="html-bar"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills">
-                                                            <div class="details">
-                                                                <span>CSS</span>
-                                                                <span>75%</span>
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div id="css-bar"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills">
-                                                            <div class="details">
-                                                                <span>Javascript</span>
-                                                                <span>72%</span>
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div id="js-bar"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills">
-                                                            <div class="details">
-                                                                <span>jQuery</span>
-                                                                <span>68%</span>
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div id="jQuery-bar"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills">
-                                                            <div class="details">
-                                                                <span>React js</span>
-                                                                <span>78%</span>
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div id="React-bar"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills">
-                                                            <div class="details">
-                                                                <span>MongoDB</span>
-                                                                <span>68%</span>
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div id="MongoDB-bar"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills">
-                                                            <div class="details">
-                                                                <span>Express Js</span>
-                                                                <span>65%</span>
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div id="Express-bar"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="skills">
-                                                            <div class="details">
-                                                                <span>Node Js</span>
-                                                                <span>70%</span>
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div id="Node-bar"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </Col>
-                                            <Col>
-                                                <h2 className='Profesional-Skills'>Profesional Skills </h2>
-                                                <div class="container__progressbars">
-
-                                                    <div>
-                                                        <div class="progressbar">
-                                                            <svg class="progressbar__svg">
-                                                                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-com shadow-com"> </circle>
-                                                            </svg>
-                                                            <span class="progressbar__text shadow-com">88%</span>
-                                                        </div>
-                                                        <h4 className='Profesional-Skills'>Communication</h4>
-                                                    </div>
-
-                                                    <div>
-                                                        <div class="progressbar">
-                                                            <svg class="progressbar__svg">
-                                                                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-team shadow-ts"> </circle>
-                                                            </svg>
-                                                            <span class="progressbar__text shadow-ts">65%</span>
-                                                        </div>
-                                                        <h4 className='Profesional-Skills'>Team Work</h4>
-                                                    </div>
-                                                    <div>
-                                                        <div class="progressbar">
-                                                            <svg class="progressbar__svg">
-                                                                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-project shadow-ts"> </circle>
-                                                            </svg>
-                                                            <span class="progressbar__text shadow-ts">80%</span>
-                                                        </div>
-                                                        <h4 className='Profesional-Skills'>Project Management</h4>
-                                                    </div>
-                                                    <div>
-                                                        <div class="progressbar">
-                                                            <svg class="progressbar__svg">
-                                                                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-creativity shadow-ts"> </circle>
-                                                            </svg>
-                                                            <span class="progressbar__text shadow-ts">75%</span>
-                                                        </div>
-                                                        <h4 className='Profesional-Skills'>Creativity</h4>
+                                                            </Row> */}
                                                     </div>
                                                 </div>
                                             </Col>
                                         </Row>
-                                    </Tab>
-                                </Tabs>
-                            </div>
+                                    </div>
+                                </Tab>
+
+                                <Tab eventKey="Profesional Skill" title="Profesional Skill" className='my-skill'>
+                                    <Row className='rowss'>
+                                        <Col className='technical-skill-section'>
+                                            <div class="wrapper">
+                                                <div class="shape-1"></div>
+                                                <div class="shape-2"></div>
+                                                <div class="container">
+                                                    <h2 className='technical-skill'>Technical Skills </h2>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>HTML</span>
+                                                            <span>95%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="html-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>CSS</span>
+                                                            <span>75%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="css-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>Javascript</span>
+                                                            <span>72%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="js-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>jQuery</span>
+                                                            <span>68%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="jQuery-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>React js</span>
+                                                            <span>78%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="React-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>MongoDB</span>
+                                                            <span>68%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="MongoDB-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>Express Js</span>
+                                                            <span>65%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="Express-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>Node Js</span>
+                                                            <span>70%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="Node-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <h2 className='Profesional-Skills'>Profesional Skills </h2>
+                                            <div class="container__progressbars">
+
+                                                <div>
+                                                    <div class="progressbar">
+                                                        <svg class="progressbar__svg">
+                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-com shadow-com"> </circle>
+                                                        </svg>
+                                                        <span class="progressbar__text shadow-com">88%</span>
+                                                    </div>
+                                                    <h4 className='Profesional-Skills'>Communication</h4>
+                                                </div>
+
+                                                <div className='barss'>
+                                                    <div class="progressbar">
+                                                        <svg class="progressbar__svg">
+                                                            <circle cx="80" cy="60" r="70" class="progressbar__svg-circle circle-team shadow-ts"> </circle>
+                                                        </svg>
+                                                        <span class="progressbar__text shadow-ts">65%</span>
+                                                    </div>
+                                                    <h4 className='Profesional-Skills'>Team Work</h4>
+                                                </div>
+                                                <div>
+                                                    <div class="progressbar">
+                                                        <svg class="progressbar__svg">
+                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-project shadow-ts"> </circle>
+                                                        </svg>
+                                                        <span class="progressbar__text shadow-ts">80%</span>
+                                                    </div>
+                                                    <h4 className='Profesional-Skills1'>Project Management</h4>
+                                                    <h4 className='Profesional-Skills2'>Project</h4>
+                                                    <h4 className='Profesional-Skills2'>Management</h4>
+                                                </div>
+                                                <div className='barss2'>
+                                                    <div class="progressbar">
+                                                        <svg class="progressbar__svg">
+                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-creativity shadow-ts"> </circle>
+                                                        </svg>
+                                                        <span class="progressbar__text shadow-ts">75%</span>
+                                                    </div>
+                                                    <h4 className='Profesional-Skills'>Creativity</h4>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </Tab>
+                            </Tabs>
                         </div>
                     </div>
                 </div>
-
-
-
-
 
             </Container>
 

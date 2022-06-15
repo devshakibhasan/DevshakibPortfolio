@@ -171,7 +171,7 @@
     height: 80vh;
     gap: 5em;
     flex-wrap: wrap;
- 
+
 
 }
 
@@ -327,14 +327,17 @@
     padding-bottom: 100px;
 
 }
+
 .technical-skill-section {
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
-.technical-skill{
+
+.technical-skill {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
 }
+
 .skills:not(:last-child) {
     margin-bottom: 30px;
 }
@@ -449,12 +452,14 @@
 /* Technical Skills end */
 
 /* Profesional Skills Start */
+
 .Profesional-Skills {
-   display: flex;
-   justify-content: center;
-   padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 
 }
+
 .container__progressbars {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -692,4 +697,73 @@
     }
 }
 
+
 /* Profesional Skills Start */
+.Profesional-Skills2 {
+    display: none;
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .container__progressbars {
+        padding-left: 12%;
+        width: 95%;
+    }
+
+    .barss {
+        margin-left: -20px;
+    }
+
+    .barss2 {
+        margin-left: -30px;
+    }
+
+    .Profesional-Skills1 {
+        display: none;
+    }
+
+    .Profesional-Skills2 {
+        padding-left: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrap8 {
+        height: 60vh;
+        gap: 5em;
+    }
+
+    .box8 {
+        background: #ddd;
+        width: 45rem;
+        height: 26rem;
+        color: #9c9c9c;
+        border-radius: 1rem;
+        padding: 30px 30px 30px 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin: -18%;
+    }
+
+    .boxs1 {
+        margin-top: 40px;
+    }
+
+    .wrapC {
+        margin-top: 1px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (min-width:769px) and (max-width:1024px) {}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {}
+
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (min-width:1201px) {}

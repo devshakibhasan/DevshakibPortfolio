@@ -2,8 +2,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import NotFound from '../Shared/NotFound/NotFound';
-import Education from './Education/Education';
-import Skills from './Skills/Skills';
+
 import './Clients.css'
 import ClientsNavbar from './ClientsNavbar/ClientsNavbar';
 import { Nav, Navbar, Button, Container, NavDropdown, Offcanvas, Tabs, Tab, Row, Col } from 'react-bootstrap';
