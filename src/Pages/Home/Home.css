@@ -308,7 +308,7 @@
 }
 
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width:320px) and (max-width:410px) {
 
     .Home-container {
         height: 240vh;
@@ -350,6 +350,81 @@
     .btn-second {
 
         width: 8rem;
+    }
+
+    .btn-second p {
+        font-size: 12px;
+        margin-left: -18px;
+        margin-top: 15px;
+    }
+
+    .btn-second p,
+    .mail {
+        font-size: 12px;
+    }
+
+ 
+
+    .box3 {
+        background: #ddd;
+        width: 20rem;
+        height: 30rem;
+        color: #9c9c9c;
+        border-radius: 1rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -100px;
+    }
+
+    .my-img {
+        width: 40rem;
+        margin-top: -100px;
+    }
+}
+@media screen and (min-width:411px) and (max-width:480px) {
+
+    .Home-container {
+        height: 240vh;
+        border-bottom: 1px solid #d2c9c9;
+    }
+    .box2 {
+        margin-bottom: 20px;
+    }
+    .social {
+        margin-top: 130px;
+        margin-left: 35px;
+    }
+
+    /* .btn {
+        width: 7rem;
+        height: 4rem;
+        margin-left: 10px;
+        margin-top: 180px;
+
+    } */
+
+    .btn-first {
+
+        width: 10rem;
+        font-size: 5px;
+        margin-left: -50px;
+
+    }
+
+    .btn-first p {
+        font-size: 13px;
+    }
+
+    .btn-second p,
+    .mail {
+        font-size: 12px;
+    }
+
+    .btn-second {
+
+        width: 10rem;
     }
 
     .btn-second p {
