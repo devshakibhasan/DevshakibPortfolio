@@ -465,16 +465,7 @@
     }
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {}
-
-@media screen and (min-width:769px) and (max-width:1024px) {
-    .Home-container {
-        height: 135vh;
-        margin-bottom: 200px;
-        padding-top: 20px;
-        padding-bottom: 300px;
-        border-bottom: 1px solid #d2c9c9;
-    }
+@media screen and (min-width:481px) and (max-width:768px) {
     .iconss {
         margin-left: -20px;
     }
@@ -564,7 +555,214 @@
     }
 }
 
+@media screen and (min-width:769px) and (max-width:990px) {
+    .Home-container {
+        height: 135vh;
+        margin-bottom: 200px;
+        padding-top: 20px;
+        padding-bottom: 300px;
+        border-bottom: 1px solid #d2c9c9;
+    }
+
+    .iconss {
+        margin-left: -20px;
+    }
+
+    .wrap2 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .bottom1 {
+        --bs-gutter-x: 10.5rem;
+        --bs-gutter-y: 7;
+        margin-left: -10%;
+    }
+
+    .wrapI {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-right: 30px;
+    }
+
+    .wrapI .box2 {
+        margin-right: 50px;
+    }
+
+
+    /* .box2 {
+        margin-bottom: 20px;
+    } */
+    .box2 {}
+
+    .social {
+        margin-top: -30px;
+    }
+
+    .bottom3 {
+        margin-left: -210px;
+    }
+
+    /* .btn {
+        width: 7rem;
+        height: 4rem;
+        margin-left: 10px;
+        margin-top: 180px;
+
+    } */
+
+    .btn-first {
+        width: 10rem;
+        font-size: 5px;
+        margin-left: 0px;
+    }
+
+    .btn-first p {
+        font-size: 25px;
+    }
+
+    .btn-second {
+        width: 13rem;
+        margin-left: -20px;
+    }
+
+    .btn-second p {
+        font-size: 25px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .bottom2 {}
+
+    .box3 {
+        background: #ddd;
+        width: 30rem;
+        height: 30rem;
+        color: #9c9c9c;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -100px;
+    }
+
+    .my-img {
+        width: 40rem;
+        margin-top: -160px;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1024px) {
+    .Home-container {
+        height: 85vh;
+        margin-bottom: 200px;
+        padding-top: 60px;
+        padding-bottom: 300px;
+        border-bottom: 1px solid #d2c9c9;
+    }
+
+    .iconss {
+        margin-left: -20px;
+    }
+
+    .wrap2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .bottom1 {
+        --bs-gutter-x: 10.5rem;
+        --bs-gutter-y: 7;
+        margin-left: -10%;
+    }
+
+    .wrapI {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-right: 30px;
+    }
+
+    .wrapI .box2 {
+        margin-right: 50px;
+    }
+
+
+    /* .box2 {
+        margin-bottom: 20px;
+    } */
+    .box2 {}
+
+    .social {
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+
+    .bottom3 {
+        margin-left: -210px;
+    }
+
+    /* .btn {
+        width: 7rem;
+        height: 4rem;
+        margin-left: 10px;
+        margin-top: 180px;
+
+    } */
+
+    .btn-first {
+        width: 10rem;
+        font-size: 5px;
+        margin-left: 0px;
+    }
+
+    .btn-first p {
+        font-size: 25px;
+    }
+
+    .btn-second {
+        width: 13rem;
+        margin-left: 10px;
+    }
+
+    .btn-second p {
+        font-size: 25px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .bottom2 {}
+
+   
+
+    .box3 {
+        background: #ddd;
+        width: 20rem;
+        height: 30rem;
+        color: #9c9c9c;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -100px;
+    }
+
+    .my-img {
+        width: 40rem;
+        margin-top: -100px;
+
+    }
+}
+
 @media screen and (min-width:1025px) and (max-width:1200px) {
+    .Home-container {
+        height: 105vh;
+        margin-bottom: 200px;
+        padding-top: 60px;
+        padding-bottom: 300px;
+        border-bottom: 1px solid #d2c9c9;
+    }
     .iconss {
         --bs-gutter-x: -10.5rem;
         --bs-gutter-y: 0;
