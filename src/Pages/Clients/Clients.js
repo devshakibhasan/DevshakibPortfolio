@@ -184,51 +184,10 @@ const Clients = () => {
                                             </div>
                                         </Col>
 
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/tQJGSqG/brand-02.webp" alt="" className='client-img' />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/n7S0Czk/brand-04.webp" alt="" className='client-img' />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/4WhRBf1/brand-01.webp" alt="" className='client-img' />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
+                                      
+                                      
+                                      
+                                      
                                         <Col>
                                             <div class="wrap10 ">
                                                 <div class="box10 four10">
@@ -293,42 +252,7 @@ const Clients = () => {
                                             </div>
                                         </Col>
 
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/tQJGSqG/brand-02.webp" alt="" className='client-img' />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/n7S0Czk/brand-04.webp" alt="" className='client-img' />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/4WhRBf1/brand-01.webp" alt="" className='client-img' />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
+                                       
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
@@ -413,72 +337,7 @@ const Clients = () => {
                                             </div>
                                         </Col>
 
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/tQJGSqG/brand-02.webp" alt="" className='client-img' />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/n7S0Czk/brand-04.webp" alt="" className='client-img' />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/4WhRBf1/brand-01.webp" alt="" className='client-img' />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-
-                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
-
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
-
-                                        <Col>
-                                            <div class="wrap10">
-                                                <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
-                                                    <hr />
-                                                    <p>John Due</p>
-                                                </div>
-                                            </div>
-                                        </Col>
+                                      
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
