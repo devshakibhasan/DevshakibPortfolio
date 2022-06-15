@@ -20,7 +20,7 @@ const Clients = () => {
             <Container>
                 <Tab.Container id="left-tabs-example " defaultActiveKey="first" className='tabss'>
                     <Row className='rowss'>
-                        <Col sm={2} lg={3}>
+                        <Col sm={2} lg={3} className='varticle-navs'>
                             <Nav variant="pills" className="flex-column tabss">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first" className='navss fist'>Javascript</Nav.Link>
@@ -58,7 +58,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -94,7 +94,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -115,7 +115,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -151,7 +151,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -176,7 +176,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -212,7 +212,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -233,7 +233,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -269,7 +269,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -294,7 +294,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -330,7 +330,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -353,7 +353,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -389,7 +389,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -414,7 +414,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -450,7 +450,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -471,7 +471,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -507,7 +507,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -532,7 +532,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -568,7 +568,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -590,7 +590,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
@@ -626,7 +626,7 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/9VLh9JH/brand-03.webp" alt="" className='client-img   client-imgs'   />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>

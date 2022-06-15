@@ -157,13 +157,10 @@ color: gray;
     height: 25vh;
     gap: 2rem;
   }
-  .box10 {
-    background: #ddd;
-    width: 15rem;
-    height: 10rem;
-    color: #9c9c9c;
-    border-radius: 1rem;
-    padding: 30px 30px 30px 30px;
-   
+  .varticle-navs {
+    margin-top: 80px;
+  }
+  .client-imgs {
+    width: 6rem;
   }
 }
