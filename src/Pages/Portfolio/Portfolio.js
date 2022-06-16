@@ -1,4 +1,5 @@
-import { faArrowRight, faArrowUp, faArrowUpRightDots, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faArrowUp, faArrowUpRightDots, faArrowUpRightFromSquare,  faHeartbeat } from '@fortawesome/free-solid-svg-icons';
+import {  faHeart } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -16,67 +17,126 @@ const Portfolio = () => {
                 </div>
                 <Row>
                     <Col>
-                        <div class="wrap4">
-                            <div class="box four">
-                                <img src='https://i.ibb.co/51MqbfF/img1.png' className='portfolio-img' />
-                                <h2>Bussinesss Stratagy</h2>
-                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                               <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
+                        <a href="">
+                            <div class="wrap4">
+                                <div class="box four">
+                                    <img src='https://i.ibb.co/51MqbfF/img1.png' className='portfolio-img' />
+                                    <div className='portfolio-title'>
+                                        <h5>Development</h5>
+                                        <div className='portfolio-liked'>
+                                              <FontAwesomeIcon icon={faHeart} />
+                                            <h6>35</h6>
+                                        </div>
+                                    </div>
+                                    <div className='portfolio-title'>
+                                        <h2>Design for tecnology and services</h2>
+                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </Col>
                     <Col>
-                        <div class="wrap4">
-                            <div class="box four">
-                                <img src='https://i.ibb.co/2PWN6Yh/portfolio-01.webp' className='portfolio-img' />
-                                <h3>MERN Stack Development</h3>
-                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
+                        <a href="">
+                            <div class="wrap4">
+                                <div class="box four">
+                                    <img src='https://i.ibb.co/2PWN6Yh/portfolio-01.webp' className='portfolio-img' />
+                                    <div className='portfolio-title'>
+                                        <h5>Development</h5>
+                                        <div className='portfolio-liked'>
+                                            <FontAwesomeIcon icon={faHeart} />
+                                            <h6>35</h6>
+                                        </div>
+                                    </div>
+                                    <div className='portfolio-title'>
+                                        <h2>Design for tecnology and services</h2>
+                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </Col>
                     <Col>
-                        <div class="wrap4">
-                            <div class="box four">
-                                <img src='https://i.ibb.co/1qGwmT2/portfolio-06.webp' className='portfolio-img' />
-                                <h3>Front-End Development</h3>
-                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
+                        <a href="">
+                            <div class="wrap4">
+                                <div class="box four">
+                                    <img src='https://i.ibb.co/1qGwmT2/portfolio-06.webp' className='portfolio-img' />
+                                    <div className='portfolio-title'>
+                                        <h5>Development</h5>
+                                        <div className='portfolio-liked'>
+                                            <FontAwesomeIcon icon={faHeart} />
+                                            <h6>35</h6>
+                                        </div>
+                                    </div>
+                                    <div className='portfolio-title'>
+                                        <h2>Design for tecnology and services</h2>
+                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </Col>
-                
+
 
                     <Col>
-                        <div class="wrap4">
-                            <div class="box four">
-                                <img src='https://i.ibb.co/v3vd7Ct/portfolio-04.webp' className='portfolio-img' />
-                                <h2>App Development</h2>
-                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
+                        <a href="">
+                            <div class="wrap4">
+                                <div class="box four">
+                                    <img src='https://i.ibb.co/v3vd7Ct/portfolio-04.webp' className='portfolio-img' />
+                                    <div className='portfolio-title'>
+                                        <h5>Development</h5>
+                                        <div className='portfolio-liked'>
+                                            <FontAwesomeIcon icon={faHeart} />
+                                            <h6>35</h6>
+                                        </div>
+                                    </div>
+                                    <div className='portfolio-title'>
+                                        <h2>Design for tecnology and services</h2>
+                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </Col>
-                        <Col>
-                        <div class="wrap4">
-                            <div class="box four">
-                                <img src='https://i.ibb.co/gdv5tp5/portfolio-05.webp' className='portfolio-img' />
-                                <h2>Back-End Development</h2>
-                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
-                            </div>
-                        </div>
+                        </a>
                     </Col>
                     <Col>
-                        <div class="wrap4">
-                            <div class="box four">
-                                <img src='https://i.ibb.co/Mnmn2RN/portfolio-03.webp' className='portfolio-img' />
-                                <h2>Flutter Development</h2>
-                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
-                                <p className='p'></p>
+                        <a href="">
+                            <div class="wrap4">
+                                <div class="box four">
+                                    <img src='https://i.ibb.co/gdv5tp5/portfolio-05.webp' className='portfolio-img' />
+                                    <div className='portfolio-title'>
+                                        <h5>Development</h5>
+                                        <div className='portfolio-liked'>
+                                            <FontAwesomeIcon icon={faHeart} />
+                                            <h6>35</h6>
+                                        </div>
+                                    </div>
+                                    <div className='portfolio-title'>
+                                        <h2>Design for tecnology and services</h2>
+                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                    </Col>
+                    <Col>
+                        <a href="">
+                            <div class="wrap4">
+                                <div class="box four">
+                                    <img src='https://i.ibb.co/Mnmn2RN/portfolio-03.webp' className='portfolio-img' />
+                                    <div className='portfolio-title'>
+                                        <h5>Development</h5>
+                                        <div className='portfolio-liked'>
+                                            <FontAwesomeIcon icon={faHeart} />
+                                            <h6>35</h6>
+                                        </div>
+                                    </div>
+                                    <div className='portfolio-title'>
+                                        <h2>Design for tecnology and services</h2>
+                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </Col>
                 </Row>
 

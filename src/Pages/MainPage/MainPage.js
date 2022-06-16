@@ -3,6 +3,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Blogs from '../Blogs/Blogs';
 import Clients from '../Clients/Clients';
 import Feature from '../Feature/Feature';
 import Home from '../Home/Home';
@@ -21,6 +22,7 @@ const MainPage = () => {
            <Portfolio />
            <Resume />
            <Clients />
+           <Blogs />
         </div>
     );
 };
