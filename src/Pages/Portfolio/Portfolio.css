@@ -193,20 +193,13 @@
     padding-left: 10px;
 }
 
-@media screen and (max-width: 370px) {
 
-    .wrap4 {
-        height: 65vh;
-    }
 
-    .portfolio-img {
-        height: 100px;
-        width: 100%;
-    }
-}
 
-@media screen and (max-width: 400px) {
 
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
     .wrap4 {
         height: 65vh;
     }
@@ -226,12 +219,6 @@
       font-size: 30px;
     }
 }
-
-
-
-
-
-@media screen and (min-width:320px) and (max-width:480px) {}
 
 @media screen and (min-width:481px) and (max-width:768px) {}
 

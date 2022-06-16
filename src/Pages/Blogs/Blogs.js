@@ -6,7 +6,8 @@ import './Blogs.css'
 
 import { Nav, Navbar, Button, Container, NavDropdown, Offcanvas, Tabs, Tab, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faHeart } from '@fortawesome/free-solid-svg-icons';
+import {  faClock} from '@fortawesome/free-regular-svg-icons';
 
 const Blogs = () => {
     return (
@@ -19,38 +20,65 @@ const Blogs = () => {
                 <h1>My Blogs</h1>
             </div>
             <Container>
-                {/* <Row>
+                <Row>
                     <Col>
                         <div class="wrap13">
                             <div class="box13 four13">
-                                <img src='https://i.ibb.co/51MqbfF/img1.png' className='portfolio-img' />
-                                <h2>T-shirt design is the part of design</h2>
-                                <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
+                                <img src='https://i.ibb.co/VDxH8mJ/blog-big-01.webp' className='portfolio-img' />
+                                <div className='portfolio-title'>
+                                    <h5>APPLICATION</h5>
+                                    <div className='portfolio-liked'>
+                                        <FontAwesomeIcon icon={faClock} />
+                                        <h6>2 min read</h6>
+                                    </div>
+                                </div>
+                                <div className='portfolio-title'>
+                                    <h2>Mobile app landing design and app maintain</h2>
+                                    <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className=" " /> </a>
+                                </div>
                             </div>
                         </div>
                     </Col>
                     <Col>
                         <div class="wrap13">
                             <div class="box13 four13">
-                                <img src='https://i.ibb.co/2PWN6Yh/portfolio-01.webp' className='portfolio-img' />
-                                <h3>MERN Stack Development</h3>
-                                <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
+                                <img src='https://i.ibb.co/RzZ3CBd/blog-02.webp' className='portfolio-img' />
+                                <div className='portfolio-title'>
+                                    <h5>DEVELOPMENT</h5>
+                                    <div className='portfolio-liked'>
+                                        <FontAwesomeIcon icon={faClock} />
+                                        <h6>2 min read</h6>
+                                    </div>
+                                </div>
+                                <div className='portfolio-title'>
+                                    <h2>Design for tecnology and services</h2>
+                                    <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className=" " /> </a>
+                                </div>
                             </div>
                         </div>
                     </Col>
                     <Col>
                         <div class="wrap13">
                             <div class="box13 four13">
-                                <img src='https://i.ibb.co/1qGwmT2/portfolio-06.webp' className='portfolio-img' />
-                                <h3>Front-End Development</h3>
-                                <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> <h5>SEE MORE</h5> </a>
+                                <img src='https://i.ibb.co/Np95Nzw/blog-03.webp' className='portfolio-img' />
+                                <div className='portfolio-title'>
+                                    <h5>Development</h5>
+                                    <div className='portfolio-liked'>
+                                        <FontAwesomeIcon icon={faClock} />
+                                        <h6>2 min read</h6>
+                                    </div>
+                                </div>
+                                <div className='portfolio-title'>
+                                    <h2>Design for tecnology and services</h2>
+                                    <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className=" " /> </a>
+                                </div>
                             </div>
                         </div>
                     </Col>
 
 
 
-                </Row> */}
+                </Row>
             </Container>
         </div>
     );
