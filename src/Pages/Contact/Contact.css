@@ -68,8 +68,8 @@
 
 .box14 {
     background: #ddd;
-    width: 26rem;
-    height: 42rem;
+    width: 30rem;
+    height: 45rem;
     color: #9c9c9c;
     border-radius: 1rem;
     padding: 30px 30px 30px 30px;
@@ -141,7 +141,7 @@
 }
 
 .box14 img {
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-color: #000;
     border-radius: 15px;
@@ -157,7 +157,7 @@
 .box15 {
     background: #ddd;
     width: 45rem;
-    height: 42rem;
+    height: 45rem;
     color: #9c9c9c;
     border-radius: 1rem;
     padding: 30px 30px 30px 30px;
