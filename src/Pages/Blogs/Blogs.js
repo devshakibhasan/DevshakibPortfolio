@@ -19,7 +19,7 @@ const Blogs = () => {
                 <h1>My Blogs</h1>
             </div>
             <Container>
-                <Row>
+                {/* <Row>
                     <Col>
                         <div class="wrap13">
                             <div class="box13 four13">
@@ -50,7 +50,7 @@ const Blogs = () => {
 
 
 
-                </Row>
+                </Row> */}
             </Container>
         </div>
     );

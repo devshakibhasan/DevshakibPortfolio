@@ -200,7 +200,7 @@
     }
 
     .portfolio-img {
-        height: 150px;
+        height: 100px;
         width: 100%;
     }
 }
@@ -212,12 +212,18 @@
     }
 
     .portfolio-img {
-        height: 150px;
+        height: 100px;
         width: 100%;
     }
 
     .wrap4 {
         height: 75vh;
+    }
+    .box {
+        height: 25rem;
+    }
+    .box h2{
+      font-size: 30px;
     }
 }
 
