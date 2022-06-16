@@ -53,13 +53,13 @@ const Header = () => {
                                     </div>
                                     <div className='wrap7'>
                                         <div className='box7 four7'>
-                                            <Nav.Link href="/Clients" className='navLink'  >CLIENTS</Nav.Link>
+                                            <Nav.Link href="#Clients" className='navLink'  >CLIENTS</Nav.Link>
                                         </div>
                                     </div>
                                    
                                     <div className='wrap7'>
                                         <div className='box7 four7'>
-                                            <Nav.Link href="/Blogs" className='navLink'  >BLOG</Nav.Link>
+                                            <Nav.Link href="#Blogs" className='navLink'  >BLOG</Nav.Link>
                                         </div>
                                     </div>
                                     <div className='wrap7'>
