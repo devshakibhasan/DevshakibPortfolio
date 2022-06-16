@@ -64,7 +64,7 @@ const Header = () => {
                                     </div>
                                     <div className='wrap7'>
                                         <div className='box7 four7 contact'>
-                                            <Nav.Link href="/" className='navLink'  >CONTACT</Nav.Link>
+                                            <Nav.Link href="#Contact" className='navLink'  >CONTACT</Nav.Link>
                                         </div>
                                     </div>
                                 </Nav>

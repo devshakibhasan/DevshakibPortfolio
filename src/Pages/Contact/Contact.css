@@ -1,0 +1,258 @@
+
+.Contact {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.Contact h1{
+    margin-bottom: 100px;
+}
+
+.wrap14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 1em;
+    flex-wrap: wrap;
+
+}
+
+/* .wrap14:hover  {
+	color: #fff;
+	background-color: #FF014F;
+
+} */
+/* .wrap14:hover h3 {
+    color: #fff;
+
+}
+
+.wrap14:hover h2 {
+    color: #fff;
+}
+
+.wrap14:hover h5 {
+    color: #e65a84;
+} */
+
+.iconF {
+    display: flex;
+    text-decoration: none;
+}
+
+.iconF h5 {
+    color: #DDDDDD;
+    padding-left: 10px;
+}
+
+/* 
+.wrap14 .Feature-icons {
+    font-size: 20px;
+    color: #FF014F;
+}
+
+.wrap14:hover .Feature-icons {
+    color: #fff;
+    transition: 1s ease-out;
+    font-size: 20px;
+    padding-left: 20px;
+
+} */
+
+.wrap14 h2 {
+    color: rgb(70, 68, 68);
+    word-spacing: 1px;
+    font-size: 35px;
+}
+
+
+.box14 {
+    background: #ddd;
+    width: 26rem;
+    height: 42rem;
+    color: #9c9c9c;
+    border-radius: 1rem;
+    padding: 30px 30px 30px 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.box14 .Feature-icons {
+    font-size: 20px;
+    color: #FF014F;
+    margin-top: 55px;
+    margin-left: -8rem;
+}
+
+.box14:hover .Feature-icons {
+    font-weight: bold;
+    transition: 1s ease-out;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.box14:hover {
+
+
+    transition-delay: 1s ease-in;
+    transition: 3s ease-in-out;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.box14:hover h5 {
+    color: #ff018d;
+    font-weight: bold;
+}
+
+.box14:hover h2 {
+  
+}
+
+.box14:hover h3 {
+  
+}
+
+
+.box14.four {
+    box-shadow: 20px 20px 60px #bbb,
+        -20px -20px 60px #fff;
+    transition: box-shadow 1s ease;
+    transition-delay: 0.5s;
+}
+
+.box14.four:hover {
+    /* box-shadow: 
+    inset 20px 20px 60px -20px #bbb, 
+    inset -20px -20px 60px #ddd; */
+}
+
+.box14 img {
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 15px;
+    transition: 0.5s all ease-in-out;
+    overflow: hidden;
+}
+
+.box14:hover img {
+    transform: scale(1.1);
+}
+
+
+.box15 {
+    background: #ddd;
+    width: 45rem;
+    height: 42rem;
+    color: #9c9c9c;
+    border-radius: 1rem;
+    padding: 30px 30px 30px 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.box15 .Feature-icons {
+    font-size: 20px;
+    color: #FF014F;
+    margin-top: 55px;
+    margin-left: -8rem;
+}
+
+/* .box15:hover .Feature-icons {
+    font-weight: bold;
+    transition: 1s ease-out;
+    font-size: 20px;
+    overflow: hidden;
+} */
+
+.box15:hover {
+
+    transition-delay: 1s ease-in;
+    transition: 3s ease-in-out;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.box15:hover h5 {
+    color: #ff018d;
+    font-weight: bold;
+}
+
+.box15:hover h2 {
+  
+}
+
+.box15:hover h3 {
+
+}
+
+
+.box15.four {
+    box-shadow: 20px 20px 60px #bbb,
+        -20px -20px 60px #fff;
+    transition: box-shadow 1s ease;
+    transition-delay: 0.5s;
+}
+
+.box15.four:hover {
+    /* box-shadow: 
+    inset 20px 20px 60px -20px #bbb, 
+    inset -20px -20px 60px #ddd; */
+}
+
+.box15 img {
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 15px;
+    transition: 0.5s all ease-in-out;
+    overflow: hidden;
+}
+
+.box15:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-title {
+    display: flex;
+    justify-content: space-between;
+    color: #FF014F;
+    margin-top: 20px;
+}
+
+.portfolio-liked {
+    display: flex;
+    justify-content: space-around;
+    color: rgba(108, 104, 104, 0.886);
+}
+.portfolio-liked h6{
+    padding-left: 10px;
+}

@@ -5,6 +5,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blogs from '../Blogs/Blogs';
 import Clients from '../Clients/Clients';
+import Contact from '../Contact/Contact';
 import Feature from '../Feature/Feature';
 import Home from '../Home/Home';
 import Portfolio from '../Portfolio/Portfolio';
@@ -23,6 +24,7 @@ const MainPage = () => {
            <Resume />
            <Clients />
            <Blogs />
+           <Contact />
         </div>
     );
 };
