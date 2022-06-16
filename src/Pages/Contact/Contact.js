@@ -1,8 +1,8 @@
-import { faFacebookF, faLinkedin, faNode, faNodeJs, faReact, faTwitter ,faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faLinkedin, faNode, faNodeJs, faReact, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faArrowRight, faBars, faBookOpen, faComment, faEquals, } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 
 
 import './Contact.css'
@@ -63,7 +63,7 @@ const Contact = () => {
                                         </div>
 
                                     </Col>
-                                    
+
                                 </Row>
 
                             </div>
@@ -73,8 +73,41 @@ const Contact = () => {
                         <div class="wrap14">
                             <div class="box15 four">
 
-                                <h3>MERN Stack Development</h3>
-                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                <Form>
+                                    <Row>
+                                        <Col>
+                                            <Form.Group className="mb-3" controlId="formBasicEmail">
+                                                <Form.Label>YOUR NAME</Form.Label>
+                                                <Form.Control type="email" placeholder="Enter Your Name" />
+                                            </Form.Group>
+                                        </Col>
+                                        <Col>
+                                            <Form.Group className="mb-3" controlId="formBasicPassword">
+                                                <Form.Label>PHONE NUMBER</Form.Label>
+                                                <Form.Control type="number" placeholder="Enter Your Number" />
+                                            </Form.Group>
+
+
+                                        </Col>
+                                    </Row>
+                                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                                        <Form.Label>EMAIL</Form.Label>
+                                        <Form.Control type="email" placeholder="Enter Your email" />
+                                    </Form.Group>
+
+                                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                                        <Form.Label>SUBJECT</Form.Label>
+                                        <Form.Control type="email" placeholder="Enter Your email" />
+                                    </Form.Group>
+
+                                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                        <Form.Label>Example textarea</Form.Label>
+                                        <Form.Control as="textarea" rows={7} />
+                                    </Form.Group>
+                                    <Button type="submit">
+                                        Submit
+                                    </Button>
+                                </Form>
 
                             </div>
                         </div>
