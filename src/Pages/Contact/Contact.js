@@ -19,7 +19,9 @@ const Contact = () => {
                     <Col>
                         <div class="wrap14" >
                             <div class="box14 four" >
+                                <div className='img'>
                                 <img src='https://i.ibb.co/xXgxLbG/contact1.webp' className='' />
+                                </div>
                                 <h2 >Shakib Hasan</h2>
                                 <h4>Chief Operating Officer</h4>
                                 <p>I am available for freelance work. Connect with me via and call in to my account.</p>
