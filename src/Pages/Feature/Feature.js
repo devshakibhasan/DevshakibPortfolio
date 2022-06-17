@@ -70,7 +70,7 @@ const Feature = () => {
                     <Col>
                         <div class="wrap">
                             <div class="box1 four">
-                            <img src="https://i.ibb.co/njjgtgH/untitled-3.png" alt="" />
+                            <img src="https://i.ibb.co/njjgtgH/untitled-3.png" className="Feature-icon" alt="" />
                                 <h2>Flutter Development</h2>
                                 <p>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
                                 
