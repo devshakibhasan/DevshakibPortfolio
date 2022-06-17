@@ -29,7 +29,7 @@ const Feature = () => {
                     <Col>
                         <div class="wrap">
                             <div class="box1 four">
-                            <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=""><path className="Feature-iconss1" d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path className="Feature-iconss1" d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                            <img src="https://i.ibb.co/PcWTCsw/image-3.png" className="Feature-iconss" alt="" />
                                 <h3>MERN Stack Development</h3>
                                 <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.</p>
                                 <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" />
@@ -49,7 +49,7 @@ const Feature = () => {
                     <Col>
                         <div class="wrap">
                             <div class="box1 four">
-                            <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=""><path className="Feature-iconss" d="M5 12.55a11 11 0 0 1 14.08 0"></path><path className="Feature-iconss" d="M1.42 9a16 16 0 0 1 21.16 0"></path><path className="Feature-iconss" d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line className="Feature-iconss" x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+                            <img src="https://i.ibb.co/D7pks4V/image-2.png" className="Feature-iconss" alt="" />
                                 <h2>Back-End Development</h2>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                 <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" />
@@ -60,7 +60,7 @@ const Feature = () => {
                     <Col>
                         <div class="wrap">
                             <div class="box1 four">
-                            <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=""><path className="Feature-iconss2" d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path></svg>
+                            <img src="https://i.ibb.co/4jdNrCj/image-1.png" className="Feature-iconss" alt="" />
                                 <h2>App Development</h2>
                                 <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.</p>
                                 <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" />
@@ -70,7 +70,7 @@ const Feature = () => {
                     <Col>
                         <div class="wrap">
                             <div class="box1 four">
-                            <img src="https://i.ibb.co/njjgtgH/untitled-3.png" className="Feature-icon" alt="" />
+                            <img src="https://i.ibb.co/xHjQKt4/image.png" className="Feature-iconss" alt="" />
                                 <h2>Flutter Development</h2>
                                 <p>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
                                 

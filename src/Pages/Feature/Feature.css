@@ -73,6 +73,14 @@
 	font-size: 40px;
 	color: #FF018B;
 }
+.Feature-icons{
+	font-size: 20px;
+}
+.Feature-icon2{
+	font-size: 40px;
+	color: #FF018B;
+
+}
 .Feature-iconss{
 	height: auto;
 	width: 40px;
@@ -114,13 +122,13 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	text-align: justify;
-	transition: 1s;
+
 }
 
 .box1:hover {
 	color: #fff;
 	background-color: #00C6A3;
-	transition-delay: 1s ease-in;
+
 
 	-webkit-touch-callout: none; 
     -webkit-user-select: none; 
@@ -158,25 +166,16 @@ h3 {
     transition: 400ms ease-in-out;
 }
 .box1:hover .Feature-iconss {
-
-    transition: 400ms ease-in-out;
-}
-.box1:hover .Feature-iconss1 {
-
-    transition: 400ms ease-in-out;
-}
-.box1:hover .Feature-iconss2 {
-	
-    transition: 400ms ease-in-out;
-}
-.box1:hover .Feature-iconss3 {
-    transition: 400ms ease-in-out;
-}
-
-.box1:hover .Feature-icons {
-	color: #fff;
 	transform: translateY(-20px);
     transition: 400ms ease-in-out;
+}
+
+
+.box1:hover .Feature-icons {
+	color: #FF018B;
+	transform: translateY(-20px);
+    transition: 400ms ease-in-out;
+	font-size: 20px;
 }
 
 .box1.one {
