@@ -42,15 +42,16 @@
 }
 
 .Feature-icons {
-	color: #fff;
+	color: #DDDDDD;
 }
+
 
 
 .wrap {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 50vh;
+	height: 40vh;
 	gap: 5em;
 	flex-wrap: wrap;
 
@@ -69,14 +70,21 @@
 
 
 .Feature-icon{
-	font-size: 30px;
+	font-size: 40px;
 	color: #FF018B;
-	
+}
+.Feature-iconsss{
+	height: auto;
+	width: 40px;
+	color: #FF018B;
 }
 
 .wrap h2,
 h3 {
 	color: #000;
+	padding-top: 20px;
+	padding-bottom: 15px;
+
 
 }
 
@@ -84,7 +92,7 @@ h3 {
 .box1 {
 	background: #ddd;
 	width: 25rem;
-	height: 25rem;
+	height: 20rem;
 	color: #9c9c9c;
 	border-radius: 1rem;
 	padding: 80px 30px 30px 30px;
@@ -112,7 +120,7 @@ h3 {
 .box1:hover p{
 	color: #fff;
 	transform: translateY(-20px);
-    transition: 1s ease-in-out;
+    transition: all 400ms ease-in-out;
 
 }
 
@@ -120,23 +128,27 @@ h3 {
 .box1:hover h3 {
 	color: #fff;
 	transform: translateY(-20px);
-    transition: 1s ease-in-out;
+    transition: 400ms ease-in-out;
 }
 
 .box1:hover h2 {
 	color: #fff;
 	transform: translateY(-20px);
-    transition: 1s ease-in-out;
+    transition: 400ms ease-in-out;
 }
 
 .box1:hover .Feature-icon {
 	transform: translateY(-20px);
-    transition: 1s ease-in-out;
+    transition: 400ms ease-in-out;
+}
+.box1:hover .Feature-iconsss {
+	transform: translateY(-20px);
+    transition: 400ms ease-in-out;
 }
 .box1:hover .Feature-icons {
 	color: #fff;
 	transform: translateY(-20px);
-    transition: 1s ease-in-out;
+    transition: 400ms ease-in-out;
 }
 
 .box1.one {
