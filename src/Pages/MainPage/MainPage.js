@@ -7,6 +7,7 @@ import Blogs from '../Blogs/Blogs';
 import Clients from '../Clients/Clients';
 import Contact from '../Contact/Contact';
 import Feature from '../Feature/Feature';
+import Footer from '../Footer/Footer';
 import Home from '../Home/Home';
 import Portfolio from '../Portfolio/Portfolio';
 import Resume from '../Resume/Resume';
@@ -25,6 +26,7 @@ const MainPage = () => {
            <Clients />
            <Blogs />
            <Contact />
+           <Footer />
         </div>
     );
 };
