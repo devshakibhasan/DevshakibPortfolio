@@ -24,7 +24,9 @@ const Blogs = () => {
                     <Col>
                         <div class="wrap13">
                             <div class="box13 four13">
+                                <div className='img1'>
                                 <img src='https://i.ibb.co/VDxH8mJ/blog-big-01.webp' className='portfolio-img' />
+                                </div>
                                 <div className='portfolio-title'>
                                     <h5>APPLICATION</h5>
                                     <div className='portfolio-liked'>
@@ -42,7 +44,9 @@ const Blogs = () => {
                     <Col>
                         <div class="wrap13">
                             <div class="box13 four13">
+                                <div className='img1'>
                                 <img src='https://i.ibb.co/RzZ3CBd/blog-02.webp' className='portfolio-img' />
+                                </div>
                                 <div className='portfolio-title'>
                                     <h5>DEVELOPMENT</h5>
                                     <div className='portfolio-liked'>
@@ -60,7 +64,9 @@ const Blogs = () => {
                     <Col>
                         <div class="wrap13">
                             <div class="box13 four13">
+                            <div className='img1'>
                                 <img src='https://i.ibb.co/Np95Nzw/blog-03.webp' className='portfolio-img' />
+                                </div>
                                 <div className='portfolio-title'>
                                     <h5>Development</h5>
                                     <div className='portfolio-liked'>

@@ -106,7 +106,7 @@ const Contact = () => {
                                         <Form.Label>Example textarea</Form.Label>
                                         <Form.Control as="textarea" rows={7} />
                                     </Form.Group>
-                                    <Button type="submit">
+                                    <Button type="submit" className='button'>
                                         Submit
                                     </Button>
                                 </Form>

@@ -43,7 +43,10 @@ const Portfolio = () => {
                         <a href="">
                             <div class="wrap4">
                                 <div class="box four">
-                                    <img src='https://i.ibb.co/2PWN6Yh/portfolio-01.webp' className='portfolio-img' />
+                                    <div className='portfolio-img'>
+                                        <img src='https://i.ibb.co/2PWN6Yh/portfolio-01.webp' className='portfolio-img' />
+                                    </div>
+
                                     <div className='portfolio-title'>
                                         <h5>Development</h5>
                                         <div className='portfolio-liked'>
@@ -63,7 +66,9 @@ const Portfolio = () => {
                         <a href="">
                             <div class="wrap4">
                                 <div class="box four">
-                                    <img src='https://i.ibb.co/1qGwmT2/portfolio-06.webp' className='portfolio-img' />
+                                    <div className='portfolio-img'>
+                                        <img src='https://i.ibb.co/1qGwmT2/portfolio-06.webp' className='portfolio-img' />
+                                    </div>
                                     <div className='portfolio-title'>
                                         <h5>Development</h5>
                                         <div className='portfolio-liked'>
@@ -85,7 +90,9 @@ const Portfolio = () => {
                         <a href="">
                             <div class="wrap4">
                                 <div class="box four">
-                                    <img src='https://i.ibb.co/v3vd7Ct/portfolio-04.webp' className='portfolio-img' />
+                                    <div className='portfolio-img'>
+                                        <img src='https://i.ibb.co/v3vd7Ct/portfolio-04.webp' className='portfolio-img' />
+                                    </div>
                                     <div className='portfolio-title'>
                                         <h5>Development</h5>
                                         <div className='portfolio-liked'>
@@ -105,7 +112,9 @@ const Portfolio = () => {
                         <a href="">
                             <div class="wrap4">
                                 <div class="box four">
-                                    <img src='https://i.ibb.co/gdv5tp5/portfolio-05.webp' className='portfolio-img' />
+                                    <div className='portfolio-img'>
+                                        <img src='https://i.ibb.co/gdv5tp5/portfolio-05.webp' className='portfolio-img' />
+                                    </div>
                                     <div className='portfolio-title'>
                                         <h5>Development</h5>
                                         <div className='portfolio-liked'>
@@ -125,7 +134,9 @@ const Portfolio = () => {
                         <a href="">
                             <div class="wrap4">
                                 <div class="box four">
-                                    <img src='https://i.ibb.co/Mnmn2RN/portfolio-03.webp' className='portfolio-img' />
+                                    <div className='portfolio-img'>
+                                        <img src='https://i.ibb.co/Mnmn2RN/portfolio-03.webp' className='portfolio-img' />
+                                    </div>
                                     <div className='portfolio-title'>
                                         <h5>Development</h5>
                                         <div className='portfolio-liked'>

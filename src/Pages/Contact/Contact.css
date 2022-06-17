@@ -136,8 +136,12 @@
 
 .box14:hover img {
     transform: scale(1.2);
+    transition: .8s all ease-out;
 }
-
+.button:hover img {
+    transform: scale(1.2);
+   
+}
 
 .box15 {
     background: #ddd;
