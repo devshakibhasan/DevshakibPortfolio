@@ -12,7 +12,7 @@ import { faClock } from '@fortawesome/free-regular-svg-icons';
 const Footer = () => {
     return (
         <div id='Footer' className='Footer'>
-            <Container>
+            <Container className='Footer-container'>
                 <div className='footer-image'>
 
                     <img src="https://i.ibb.co/qYLfXXx/Screenshot-55.png" alt="" />

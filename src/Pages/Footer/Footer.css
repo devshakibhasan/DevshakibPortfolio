@@ -1,7 +1,12 @@
 .Footer {
+  
+   
+}
+.Footer-container{
+    border-top: 1px solid#d2c9c9;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
-
 .Footer p {
     display: flex;
     justify-content: center;

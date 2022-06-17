@@ -96,6 +96,15 @@ margin-top: 20px;
     /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
+ .box13:hover h3 {
+    color: #fff;
+
+}
+
+.box13:hover h2 {
+    color: #fff;
+}
+
 
 .box13.one {
     background: linear-gradient(145deg, #efefef, #cdcdcd);
