@@ -95,6 +95,7 @@
 .box14:hover {
     transition-delay: 1s ease-in;
     transition: 3s ease-in-out;
+   
     -webkit-touch-callout: none;
     /* iOS Safari */
     -webkit-user-select: none;
@@ -110,9 +111,10 @@
                                   supported by Chrome and Opera */
 }
 
-.box14:hover h5 {
+.box14:hover h2 {
     color: #ff018d;
-    font-weight: bold;
+    /* font-weight: bold; */
+   
 }
 
 .box14:hover h2 {
@@ -142,7 +144,7 @@
     width: 100%;
     background-color: #000;
     border-radius: 15px;
-    transition: 1.5s all ease-in-out;
+    transition: 3.5s all ease-in-out;
     overflow: hidden;
 }
 
