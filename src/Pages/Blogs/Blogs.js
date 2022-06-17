@@ -6,8 +6,8 @@ import './Blogs.css'
 
 import { Nav, Navbar, Button, Container, NavDropdown, Offcanvas, Tabs, Tab, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight, faHeart } from '@fortawesome/free-solid-svg-icons';
-import {  faClock} from '@fortawesome/free-regular-svg-icons';
+import { faArrowRight, faArrowTrendUp, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
 
 const Blogs = () => {
     return (
@@ -32,10 +32,10 @@ const Blogs = () => {
                                         <h6>2 min read</h6>
                                     </div>
                                 </div>
-                                <div className='portfolio-title'>
-                                    <h2>Mobile app landing design and app maintain</h2>
-                                    <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className=" " /> </a>
-                                </div>
+
+                                <h2>Mobile app landing design and app maintain</h2>
+                                <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+
                             </div>
                         </div>
                     </Col>
@@ -50,10 +50,10 @@ const Blogs = () => {
                                         <h6>2 min read</h6>
                                     </div>
                                 </div>
-                                <div className='portfolio-title'>
-                                    <h2>Design for tecnology and services</h2>
-                                    <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className=" " /> </a>
-                                </div>
+
+                                <h2>Design for tecnology and services</h2>
+                                <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+
                             </div>
                         </div>
                     </Col>
@@ -68,10 +68,10 @@ const Blogs = () => {
                                         <h6>2 min read</h6>
                                     </div>
                                 </div>
-                                <div className='portfolio-title'>
-                                    <h2>Design for tecnology and services</h2>
-                                    <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className=" " /> </a>
-                                </div>
+
+                                <h2>Design for tecnology and services</h2>
+                                <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+
                             </div>
                         </div>
                     </Col>

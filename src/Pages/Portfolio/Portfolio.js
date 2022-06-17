@@ -1,5 +1,6 @@
-import { faArrowRight, faArrowUp, faArrowUpRightDots, faArrowUpRightFromSquare,  faHeartbeat } from '@fortawesome/free-solid-svg-icons';
-import {  faHeart } from '@fortawesome/free-regular-svg-icons';
+import { faArrowRight, faArrowsUpDownLeftRight, faArrowTrendUp, faArrowUp, faArrowUpRightDots, faArrowUpRightFromSquare, faHeartbeat } from '@fortawesome/free-solid-svg-icons';
+// import {faArrowTrendUp  } from '@fortawesome/free-regular-svg-icons';
+import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -20,18 +21,20 @@ const Portfolio = () => {
                         <a href="">
                             <div class="wrap4">
                                 <div class="box four">
-                                    <img src='https://i.ibb.co/51MqbfF/img1.png' className='portfolio-img' />
+                                    <div className='portfolio-img'>
+                                        <img src='https://i.ibb.co/51MqbfF/img1.png' />
+                                    </div>
                                     <div className='portfolio-title'>
                                         <h5>Development</h5>
                                         <div className='portfolio-liked'>
-                                              <FontAwesomeIcon icon={faHeart} />
+                                            <FontAwesomeIcon icon={faHeart} />
                                             <h6>35</h6>
                                         </div>
                                     </div>
-                                    <div className='portfolio-title'>
-                                        <h2>Design for tecnology and services</h2>
-                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
-                                    </div>
+
+                                    <h2>Design for tecnology and services</h2>
+                                    <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+
                                 </div>
                             </div>
                         </a>
@@ -48,10 +51,10 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-                                    <div className='portfolio-title'>
-                                        <h2>Design for tecnology and services</h2>
-                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
-                                    </div>
+
+                                    <h2>Design for tecnology and services</h2>
+                                    <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+
                                 </div>
                             </div>
                         </a>
@@ -68,10 +71,10 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-                                    <div className='portfolio-title'>
-                                        <h2>Design for tecnology and services</h2>
-                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
-                                    </div>
+
+                                    <h2>Design for tecnology and services</h2>
+                                    <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+
                                 </div>
                             </div>
                         </a>
@@ -90,10 +93,10 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-                                    <div className='portfolio-title'>
-                                        <h2>Design for tecnology and services</h2>
-                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
-                                    </div>
+
+                                    <h2>Design for tecnology and services</h2>
+                                    <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+
                                 </div>
                             </div>
                         </a>
@@ -110,10 +113,10 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-                                    <div className='portfolio-title'>
-                                        <h2>Design for tecnology and services</h2>
-                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
-                                    </div>
+
+                                    <h2>Design for tecnology and services</h2>
+                                    <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+
                                 </div>
                             </div>
                         </a>
@@ -130,10 +133,10 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-                                    <div className='portfolio-title'>
-                                        <h2>Design for tecnology and services</h2>
-                                        <a href="#" className='iconF'> <FontAwesomeIcon icon={faArrowRight} className="Feature-icons" /> </a>
-                                    </div>
+
+                                    <h2>Design for tecnology and services</h2>
+                                    <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+
                                 </div>
                             </div>
                         </a>

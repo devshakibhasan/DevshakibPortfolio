@@ -103,17 +103,30 @@
 }
 
 .box .Feature-icons {
-    font-size: 20px;
-    color: #FF014F;
-    margin-top: 55px;
-    margin-left: -8rem;
+    font-size: 30px;
+    margin-left: 60%;
 }
 
 .box:hover .Feature-icons {
     font-weight: bold;
-    transition: 1s ease-out;
-    font-size: 20px;
-    overflow: hidden;
+	transform: translateY(-35px);
+    transition: all 400ms ease-in-out;
+    font-size: 30px;
+
+    color: #FF014F;
+}
+.box .Feature-icons {
+    font-size: 30px;
+    margin-left: 60%;
+}
+
+.box:hover .Feature-icons {
+    font-weight: bold;
+	transform: translateY(-35px);
+    transition: all 400ms ease-in-out;
+    font-size: 30px;
+
+    color: #FF014F;
 }
 
 .box:hover {
@@ -179,6 +192,12 @@
 
 .portfolio-title {
     display: flex;
+    justify-content: space-between;
+    color: #FF014F;
+    margin-top: 20px;
+}
+.portfolio-title2 {
+    display: block;
     justify-content: space-between;
     color: #FF014F;
     margin-top: 20px;

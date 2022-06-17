@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 50vh;
     gap: 5em;
     flex-wrap: wrap;
 
@@ -13,7 +13,7 @@
 	background-color: #FF014F;
 
 } */
-.wrap13:hover h3 {
+/* .wrap13:hover h3 {
     color: #fff;
 
 }
@@ -24,7 +24,7 @@
 
 .wrap13:hover h5 {
     color: #e65a84;
-}
+} */
 
 .iconF {
     display: flex;
@@ -32,11 +32,11 @@
 }
 
 .iconF h5 {
-    color: #DDDDDD;
+
     padding-left: 10px;
 }
 
-.wrap13 .Feature-icons {
+/* .wrap13 .Feature-icons {
     font-size: 20px;
     color: #FF014F;
 }
@@ -47,19 +47,19 @@
     font-size: 20px;
     padding-left: 20px;
 
-}
+} */
 
 .wrap13 h2,
 h3 {
     color: #000;
-
+margin-top: 20px;
 }
 
 
 .box13 {
     background: #ddd;
     width: 25rem;
-    height: 30rem;
+    height: 28rem;
     color: #9c9c9c;
     border-radius: 1rem;
     padding: 30px 30px 30px 30px;
@@ -120,11 +120,25 @@ h3 {
     box-shadow: 20px 20px 60px #bbb,
         -20px -20px 60px #fff;
     transition: box-shadow 1s ease;
-    transition-delay: 0.5s;
+
 }
 
 .box13.four13:hover {
     /* box-shadow: 
     inset 20px 20px 60px -20px #bbb, 
     inset -20px -20px 60px #ddd; */
+}
+
+.box13 .Feature-icons {
+    font-size: 30px;
+    margin-left: 60%;
+}
+
+.box13:hover .Feature-icons {
+    font-weight: bold;
+	transform: translateY(-35px);
+    transition: all 400ms ease-in-out;
+    font-size: 30px;
+
+    color: #FF014F;
 }
