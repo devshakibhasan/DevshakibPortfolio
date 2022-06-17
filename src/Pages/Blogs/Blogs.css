@@ -1,3 +1,11 @@
+.blogs {
+
+    padding-top: 50px;
+    padding-bottom: 200px;
+    border-bottom: 1px solid #d2c9c9;
+
+}
+
 .wrap13 {
     display: flex;
     justify-content: center;
@@ -59,7 +67,7 @@ margin-top: 20px;
 .box13 {
     background: #ddd;
     width: 25rem;
-    height: 28rem;
+    height: 32rem;
     color: #9c9c9c;
     border-radius: 1rem;
     padding: 30px 30px 30px 30px;
@@ -97,7 +105,7 @@ margin-top: 20px;
 }
 
 .box13 img {
-   height: 200px;
+   height: 250px;
    width: 100%;
    background-color: #000;
    border-radius: 15px;
@@ -129,9 +137,25 @@ margin-top: 20px;
     inset -20px -20px 60px #ddd; */
 }
 
+.box13 .Feature-iconssss {
+    font-size: 30px;
+    margin-left: 40%;
+   
+    color: #DDDDDD;
+}
+
+.box13:hover .Feature-iconssss {
+    font-weight: bold;
+	transform: translateY(-35px);
+    transition: all 400ms ease-in-out;
+    font-size: 30px;
+
+    color: #FF014F;
+}
 .box13 .Feature-icons {
     font-size: 30px;
-    margin-left: 60%;
+    margin-left: 55%;
+
 }
 
 .box13:hover .Feature-icons {

@@ -1,5 +1,6 @@
 .Resume {
     border-bottom: 1px solid #d2c9c9;
+    margin-bottom: 150px;
 }
 .tabs {
     display: flex;
@@ -164,7 +165,7 @@
 
 /* ////////////////////////////////////// */
 .profile {
-    padding-bottom: 300px;
+    padding-bottom: 50px;
 }
 
 .wrap9 {
@@ -327,7 +328,7 @@
 
 .my-skill {
     margin-top: 100px;
-    padding-bottom: 100px;
+
 
 }
 

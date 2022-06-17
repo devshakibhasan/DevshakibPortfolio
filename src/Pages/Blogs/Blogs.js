@@ -19,7 +19,7 @@ const Blogs = () => {
             <div className='heading'>
                 <h1>My Blogs</h1>
             </div>
-            <Container>
+            <Container className='blogs'>
                 <Row>
                     <Col>
                         <div class="wrap13">
@@ -34,7 +34,7 @@ const Blogs = () => {
                                 </div>
 
                                 <h2>Mobile app landing design and app maintain</h2>
-                                <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-icons" />
+                                <FontAwesomeIcon icon={faArrowTrendUp} className="Feature-iconssss" />
 
                             </div>
                         </div>
