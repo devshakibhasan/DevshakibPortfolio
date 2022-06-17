@@ -21,8 +21,8 @@ const ResumeNavbar = () => {
                                     <div className="tab-item-wrapper">
                                         <Row className='rowss'>
                                             <Col  >
-                                                <div class="wrap8 boxs1">
-                                                    <div class="box8 four8">
+                                                <div class="wrap18 boxs1">
+                                                    <div class="box18 four18">
 
                                                         <h3> Computer Science and Engineering</h3>
                                                         <p>National University Bangladesh (2019 - 2023)</p>
@@ -33,8 +33,8 @@ const ResumeNavbar = () => {
                                             </Col>
 
                                             <Col>
-                                                <div class="wrap8 ">
-                                                    <div class="box8 four8">
+                                                <div class="wrap18 ">
+                                                    <div class="box18 four18">
                                                         <h3>Higher Secondary Certificate</h3>
                                                         <p>Haziganj Model Govt. College (2016 - 2018)</p>
                                                         <hr />
@@ -44,8 +44,8 @@ const ResumeNavbar = () => {
                                             </Col>
 
                                             <Col>
-                                                <div class="wrap8 wrapC">
-                                                    <div class="box8 four8">
+                                                <div class="wrap18 wrapC">
+                                                    <div class="box18 four18">
                                                         <h3>Secondary School Certificate</h3>
                                                         <p>Ramgonj High School (2016)</p>
                                                         <hr />
@@ -55,8 +55,8 @@ const ResumeNavbar = () => {
                                             </Col>
 
                                             <Col>
-                                                <div class="wrap8 wrapC">
-                                                    <div class="box8 four8">
+                                                <div class="wrap18 wrapC">
+                                                    <div class="box18 four18">
                                                         <h3>Primary School Certificate</h3>
                                                         <p>Darikandi Govt Primary School(2010)</p>
                                                         <hr />

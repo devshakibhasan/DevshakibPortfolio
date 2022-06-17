@@ -82,7 +82,7 @@
 }
 
 
-.wrap8 {
+.wrap18 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +99,7 @@
 
 }
 
-.box8 {
+.box18 {
     background: #ddd;
     width: 35rem;
     height: 20rem;
@@ -115,13 +115,13 @@
 
 }
 
-.box8:hover {
+.box18:hover {
     color: #fff;
     background-color: #00C6A3;
     transition-delay: 1s ease-in;
     transition: 3s ease-in-out;
     color: #fff;
-    margin-bottom: 50px;
+
     -webkit-touch-callout: none;
     /* iOS Safari */
     -webkit-user-select: none;
@@ -137,7 +137,7 @@
                                   supported by Chrome and Opera */
 }
 
-.box8.four8 {
+.box18.four18 {
     box-shadow: 20px 20px 60px #bbb,
         -20px -20px 60px #fff;
     transition: box-shadow 1s ease;
@@ -146,7 +146,7 @@
 
 }
 
-.box8.four8:hover {
+.box18.four18:hover {
     box-shadow: 20px 20px 60px #DDDDDD,
         -20px -20px 60px #fff;
     transition: box-shadow 1s ease;
@@ -154,8 +154,19 @@
     color: #fff;
 }
 
-.box8.four8:hover h3 {
-
+.box18.four18:hover h3 {
+	transform: translateY(-20px);
+    transition: all 400ms ease-in-out;
+    color: #fff;
+}
+.box18.four18:hover hr {
+	transform: translateY(-20px);
+    transition: all 400ms ease-in-out;
+    color: #fff;
+}
+.box18.four18:hover p {
+	transform: translateY(-20px);
+    transition: all 400ms ease-in-out;
     color: #fff;
 }
 
@@ -735,12 +746,12 @@
         align-items: center;
     }
 
-    .wrap8 {
+    .wrap18 {
         height: 60vh;
         gap: 5em;
     }
 
-    .box8 {
+    .box18 {
         background: #ddd;
         width: 45rem;
         height: 26rem;
