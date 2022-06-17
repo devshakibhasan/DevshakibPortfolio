@@ -144,6 +144,7 @@ h3 {
 	color: #fff;
 	transform: translateY(-20px);
     transition: 400ms ease-in-out;
+	padding-top: 20px;
 }
 
 .box1:hover h2 {
@@ -156,10 +157,22 @@ h3 {
 	transform: translateY(-20px);
     transition: 400ms ease-in-out;
 }
-.box1:hover .Feature-iconsss {
-	transform: translateY(-20px);
+.box1:hover .Feature-iconss {
+
     transition: 400ms ease-in-out;
 }
+.box1:hover .Feature-iconss1 {
+
+    transition: 400ms ease-in-out;
+}
+.box1:hover .Feature-iconss2 {
+	
+    transition: 400ms ease-in-out;
+}
+.box1:hover .Feature-iconss3 {
+    transition: 400ms ease-in-out;
+}
+
 .box1:hover .Feature-icons {
 	color: #fff;
 	transform: translateY(-20px);
