@@ -102,10 +102,10 @@ const ResumeNavbar = () => {
                                                                             </Col>
                                                                         </div>
 
-                                                                        <div className='social'>
+                                                                        <div className='social2'>
                                                                             <Col className='bottom1'>
                                                                                 <div class="wrap20">
-                                                                                    <div class="btn btn__secondary btn-first"> <FontAwesomeIcon icon={faEnvelope} className="mail" /><p>Hire Me</p></div>
+                                                                                    <div class="btn btn__secondary btn-first btn-first1"> <FontAwesomeIcon icon={faEnvelope} className="mail" /><p>Hire Me</p></div>
                                                                                 </div>
                                                                             </Col>
 
