@@ -179,7 +179,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 140vh;
+    height: 128vh;
 }
 
 
@@ -235,14 +235,14 @@
 }
 .wrap20 {
     display: flex;
-    height: 25vh;
+    height: 20vh;
     flex-wrap: wrap;
     margin-top: 30px;
 }
 .box22 {
     background: #ddd;
     width: 15rem;
-    height: 12rem;
+    height: 10rem;
     color: #9c9c9c;
     border-radius: 1rem;
     padding: 30px 30px 30px 30px;
@@ -259,16 +259,22 @@
     transition: box-shadow 1s ease;
     transition-delay: 0.5s;
 }
+.box22.four:hover {
+    box-shadow: 
+    inset 20px 20px 60px -20px #bbb, 
+    inset -20px -20px 60px #ddd;
+}
 .box22 h2{
   text-align: left;
   color: rgb(99, 94, 94);
   text-transform: uppercase;
+  font-size: 25px;
 
 }
 .box22 .numb{
    color: #FF014F;
    font-weight: bold;
-   font-size: 35px;
+   font-size: 40px;
 }
 
 .social {

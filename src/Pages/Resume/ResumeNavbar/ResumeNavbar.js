@@ -91,13 +91,13 @@ const ResumeNavbar = () => {
                                                                         <h3 class="mb-4">UI/UX Designer and Web Developer</h3>
                                                                         <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet lorem diam dolor justo et dolor dolor dolor</p>
                                                                         <div class="row mb-3 textT ">
-                                                                            <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Kate Winslet</span></h6></div>
-                                                                            <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">1 April 1990</span></h6></div>
-                                                                            <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Master</span></h6></div>
-                                                                            <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">10 Years</span></h6></div>
-                                                                            <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+012 345 6789</span></h6></div>
-                                                                            <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">info@example.com</span></h6></div>
-                                                                            <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">123 Street, New York, USA</span></h6></div>
+                                                                            <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Shakib Hasan</span></h6></div>
+                                                                            <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">1 July 2000</span></h6></div>
+                                                                            <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Hon's</span></h6></div>
+                                                                            <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">3+ Years</span></h6></div>
+                                                                            <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">01858694456</span></h6></div>
+                                                                            <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">devshakibhasan@gmail.com</span></h6></div>
+                                                                            <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Siddhirgnaj,Narayanganj</span></h6></div>
                                                                             <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
                                                                         </div>
 
