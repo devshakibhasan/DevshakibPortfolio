@@ -38,7 +38,6 @@
     height: 50vh;
     gap: 5em;
     flex-wrap: wrap;
-
 }
 
 /* .wrap4:hover  {
@@ -91,15 +90,14 @@
 
 
 .box {
-    background: #ddd;
     width: 25rem;
     height: 25rem;
-    color: #9c9c9c;
     border-radius: 1rem;
     padding: 30px 30px 30px 30px;
     justify-content: center;
     align-items: center;
     text-align: justify;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
 }
 
 .box .Feature-icons {
@@ -118,6 +116,7 @@
 .box .Feature-icons {
     font-size: 30px;
     margin-left: 60%;
+    color: #ECF0F3;
 }
 
 .box:hover .Feature-icons {
@@ -130,8 +129,6 @@
 }
 
 .box:hover {
-    color: #fff;
-    background-color: #00C6A3;
     transition-delay: 1s ease-in;
     transition: 3s ease-in-out;
     overflow: hidden;
@@ -156,17 +153,16 @@
 }
 
 .box:hover h2 {
-    color: #fff;
+    
 }
 
 .box:hover h3 {
-    color: #fff;
+   
 }
 
 
 .box.four {
-    box-shadow: 20px 20px 60px #bbb,
-        -20px -20px 60px #fff;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
     transition: box-shadow 1s ease;
     transition-delay: 0.5s;
 }

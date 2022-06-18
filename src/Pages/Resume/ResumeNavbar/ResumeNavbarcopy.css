@@ -1,4 +1,5 @@
 .Resume {
+
     border-bottom: 1px solid #d2c9c9;
     margin-bottom: 150px;
 }
@@ -8,10 +9,12 @@
     align-items: center;
     margin-top: 50px;
 }
-
+.nav-tabs {
+    border-bottom: none;
+}
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-    background: #ddd;
+    background: #EEF2F4;
     width: 15rem;
     height: 5rem;
     color: #FF014F;
@@ -20,8 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 20px 20px 60px #bbb,
-        -20px -20px 60px #fff;
+    box-shadow: 0.6rem 0.3rem 0.9rem var(--greyLight-2), -0.9rem -0.2rem 0.5rem var(--white);
     transition: box-shadow 1s ease;
     transition-delay: 0.5s;
 
@@ -38,9 +40,7 @@
     color: #000;
     font-weight: bold;
     text-transform: uppercase;
-    box-shadow:
-        inset 20px 20px 60px -20px #bbb,
-        inset -20px -20px 60px #ddd;
+    box-shadow: 0rem 0rem 0.4rem var(--greyLight-2), -0.9rem -0.9rem 0.9rem var(--white);
     -webkit-touch-callout: none;
     /* iOS Safari */
     -webkit-user-select: none;
@@ -68,15 +68,14 @@
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link:hover {
 
-    background: #ddd;
+    background: #EEF2F4;
 
     border-radius: 1rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 20px 20px 60px #bbb,
-        -20px -20px 60px #fff;
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
     transition: box-shadow 1s ease;
     transition-delay: 0.5s;
 }
@@ -100,7 +99,7 @@
 }
 
 .box18 {
-    background: #ddd;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
     width: 35rem;
     height: 20rem;
     color: #9c9c9c;
@@ -126,8 +125,7 @@
 }
 
 .box18.four18 {
-    box-shadow: 20px 20px 60px #bbb,
-        -20px -20px 60px #fff;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
     transition: box-shadow 1s ease;
     transition-delay: 0.5s;
 
@@ -135,8 +133,7 @@
 }
 
 .box18.four18:hover {
-    box-shadow: 20px 20px 60px #DDDDDD,
-        -20px -20px 60px #fff;
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
     transition: box-shadow 1s ease;
     transition-delay: 0.1s;
     color: #fff;
@@ -166,25 +163,44 @@
 .profile {
     padding-bottom: 50px;
     margin: 0px -100px 100px -100px;
+    
 }
 .about-img {
     margin-top: -30rem;
     height: 30rem;
     border-radius: 20px;
-    box-shadow: 25px 25px 65px #bbb,
-    -25px -25px 60px #bbb;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
 }
-.wrap9 {
+.wrap25 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     height: 128vh;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    margin-top: 100px;
 }
 
+.box25 {
 
+    width: 85rem;
+    height: 100%;
+	color: #9c9c9c;
+	border-radius: 1rem;
+	padding: 80px 30px 30px 30px;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+
+}
+.box25.four {
+	box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+	transition: box-shadow 1s ease;
+	transition-delay: 0.5s;
+}
 .box9 {
-    background: #ddd;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+
     width: 85rem;
     height: 100%;
     color: #9c9c9c;
@@ -206,12 +222,13 @@
     transition: 3s ease-in-out; */
     color: #000;
     /* margin-bottom: 50px; */
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
 
 }
 
 .box9.four9 {
-    box-shadow: 20px 20px 60px #bbb,
-        -20px -20px 60px #fff;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+
     transition: box-shadow 1s ease;
     transition-delay: 0.5s;
 }
@@ -231,6 +248,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 60px;
+    
 
 }
 .wrap20 {
@@ -238,9 +256,12 @@
     height: 20vh;
     flex-wrap: wrap;
     margin-top: 30px;
+    
 }
 .box22 {
-    background: #ddd;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+
+
     width: 15rem;
     height: 10rem;
     color: #9c9c9c;
@@ -254,15 +275,13 @@
 
 }
 .box22.four {
-    box-shadow: 20px 20px 60px #bbb,
-        -20px -20px 60px #fff;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+
     transition: box-shadow 1s ease;
     transition-delay: 0.5s;
 }
 .box22.four:hover {
-    box-shadow: 
-    inset 20px 20px 60px -20px #bbb, 
-    inset -20px -20px 60px #ddd;
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
 }
 .box22 h2{
   text-align: left;

@@ -65,10 +65,10 @@ margin-top: 20px;
 
 
 .box13 {
-    background: #ddd;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
     width: 25rem;
     height: 32rem;
-    color: #9c9c9c;
+    color: #ECF0F3;
     border-radius: 1rem;
     padding: 30px 30px 30px 30px;
     justify-content: center;
@@ -108,9 +108,7 @@ margin-top: 20px;
 
 .box13.one {
     background: linear-gradient(145deg, #efefef, #cdcdcd);
-    box-shadow:
-        20px 20px 60px #bbb,
-        -20px -20px 60px #fff;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
 }
 
 .box13 .img1 {
@@ -138,8 +136,7 @@ margin-top: 20px;
 }
 
 .box13.four13 {
-    box-shadow: 20px 20px 60px #bbb,
-        -20px -20px 60px #fff;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
     transition: box-shadow 1s ease;
 
 }
@@ -154,7 +151,7 @@ margin-top: 20px;
     font-size: 30px;
     margin-left: 40%;
    
-    color: #DDDDDD;
+    color: #ECF0F3;
 }
 
 .box13:hover .Feature-iconssss {
@@ -168,7 +165,7 @@ margin-top: 20px;
 .box13 .Feature-icons {
     font-size: 30px;
     margin-left: 55%;
-
+color: #ECF0F3;
 }
 
 .box13:hover .Feature-icons {

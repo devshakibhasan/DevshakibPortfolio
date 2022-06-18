@@ -19,63 +19,14 @@ const ResumeNavbar = () => {
                         <div className="col-lg-12 col-sm-12 ">
                             <Tabs defaultActiveKey="Profile" className='tabs ' >
 
-                                <Tab eventKey="Education" title="Education">
-                                    <div className="tab-item-wrapper">
-                                        <Row className='rowss'>
-                                            <Col  >
-                                                <div class="wrap18 boxs1">
-                                                    <div class="box18 four18">
-
-                                                        <h3> Computer Science and Engineering</h3>
-                                                        <p>National University Bangladesh (2019 - 2023)</p>
-                                                        <hr />
-                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                                    </div>
-                                                </div>
-                                            </Col>
-
-                                            <Col>
-                                                <div class="wrap18 ">
-                                                    <div class="box18 four18">
-                                                        <h3>Higher Secondary Certificate</h3>
-                                                        <p>Haziganj Model Govt. College (2016 - 2018)</p>
-                                                        <hr />
-                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                                    </div>
-                                                </div>
-                                            </Col>
-
-                                            <Col>
-                                                <div class="wrap18 wrapC">
-                                                    <div class="box18 four18">
-                                                        <h3>Secondary School Certificate</h3>
-                                                        <p>Ramgonj High School (2016)</p>
-                                                        <hr />
-                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                                    </div>
-                                                </div>
-                                            </Col>
-
-                                            <Col>
-                                                <div class="wrap18 wrapC">
-                                                    <div class="box18 four18">
-                                                        <h3>Primary School Certificate</h3>
-                                                        <p>Darikandi Govt Primary School(2010)</p>
-                                                        <hr />
-                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                                                    </div>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </Tab>
+                              
 
                                 <Tab eventKey="Profile" title="Profile" className='profile'>
                                     <div className="tab-item-wrapper">
                                         <Row className='rowss'>
                                             <Col>
-                                                <div class="wrap9">
-                                                    <div class="box9 four9">
+                                                <div class="wrap25">
+                                                    <div class="box25 four9">
 
                                                         <div class="container-fluid " id="about">
                                                             <div class="container">
@@ -179,7 +130,56 @@ const ResumeNavbar = () => {
                                         </Row>
                                     </div>
                                 </Tab>
+                                <Tab eventKey="Education" title="Education">
+                                    <div className="tab-item-wrapper">
+                                        <Row className='rowss'>
+                                            <Col  >
+                                                <div class="wrap18 boxs1">
+                                                    <div class="box18 four18">
 
+                                                        <h3> Computer Science and Engineering</h3>
+                                                        <p>National University Bangladesh (2019 - 2023)</p>
+                                                        <hr />
+                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                    </div>
+                                                </div>
+                                            </Col>
+
+                                            <Col>
+                                                <div class="wrap18 ">
+                                                    <div class="box18 four18">
+                                                        <h3>Higher Secondary Certificate</h3>
+                                                        <p>Haziganj Model Govt. College (2016 - 2018)</p>
+                                                        <hr />
+                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                    </div>
+                                                </div>
+                                            </Col>
+
+                                            <Col>
+                                                <div class="wrap18 wrapC">
+                                                    <div class="box18 four18">
+                                                        <h3>Secondary School Certificate</h3>
+                                                        <p>Ramgonj High School (2016)</p>
+                                                        <hr />
+                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                    </div>
+                                                </div>
+                                            </Col>
+
+                                            <Col>
+                                                <div class="wrap18 wrapC">
+                                                    <div class="box18 four18">
+                                                        <h3>Primary School Certificate</h3>
+                                                        <p>Darikandi Govt Primary School(2010)</p>
+                                                        <hr />
+                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                    </div>
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </div>
+                                </Tab>
                                 <Tab eventKey="Profesional Skill" title="Profesional Skill" className='my-skill'>
                                     <Row className='rowss'>
                                         <Col className='technical-skill-section'>
