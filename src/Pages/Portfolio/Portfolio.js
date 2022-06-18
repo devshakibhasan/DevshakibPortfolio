@@ -21,7 +21,7 @@ const Portfolio = () => {
                         <a href="">
                             <div class="wrap4">
                                 <div class="box four">
-                                    <div className='portfolio-img'>
+                                    <div className='portfolio-img portfolio-imge'>
                                         <img src='https://i.ibb.co/51MqbfF/img1.png' />
                                     </div>
                                     <div className='portfolio-title'>

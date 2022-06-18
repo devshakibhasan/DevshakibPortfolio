@@ -83,11 +83,12 @@ const ResumeNavbar = () => {
                                                                     <h1 class="display-1 text-uppercase text-white" >About</h1>
                                                                     <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
                                                                 </div>
+                                                                
                                                                 <div class="row align-items-center">
-                                                                    <div class="col-lg-6 ">
+                                                                <div class="col-lg-5 ">
                                                                         <img class="img-fluid about-img" src="https://i.ibb.co/ynDRm9d/image9-1.jpg" alt="" ></img>
                                                                     </div>
-                                                                    <div class="col-lg-6">
+                                                                    <div class="col-lg-7">
                                                                         <h3 class="mb-4">UI/UX Designer and Web Developer</h3>
                                                                         <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet lorem diam dolor justo et dolor dolor dolor</p>
                                                                         <div class="row mb-3 textT ">
@@ -168,6 +169,7 @@ const ResumeNavbar = () => {
                                                                         {/* <a href="" class="btn">Hire Me</a>
                                                                         <a href="" class="btn">Learn More</a> */}
                                                                     </div>
+                                                                    
                                                                 </div>
                                                             </div>
                                                         </div>

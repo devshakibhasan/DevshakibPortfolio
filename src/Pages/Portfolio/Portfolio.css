@@ -219,9 +219,11 @@
 
 
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width:320px) and (max-width:380px) {
     .wrap4 {
-        height: 65vh;
+        height: 45vh;
+        width: 19rem;
+        margin-left: 12px;
     }
 
     .portfolio-img {
@@ -229,14 +231,116 @@
         width: 100%;
     }
 
-    .wrap4 {
-        height: 75vh;
-    }
+    
     .box {
-        height: 25rem;
+        height: 28rem;
+        width: 20rem;
     }
     .box h2{
       font-size: 30px;
+      text-align: left;
+    }
+    .portfolio-imge {
+        width: 100px;
+
+    }
+
+    .box .Feature-icons {
+        font-size: 30px;
+        margin-left: 45%;
+    }
+}
+
+@media screen and (min-width:381px) and (max-width:400px) {
+    .wrap4 {
+        height: 45vh;
+        width: 20rem;
+        margin-left: 22px;
+    }
+
+    .portfolio-img {
+        height: 100px;
+        width: 100%;
+    }
+
+    
+    .box {
+        height: 28rem;
+        width: 20rem;
+    }
+    .box h2{
+      font-size: 30px;
+      text-align: left;
+    }
+    .portfolio-imge {
+        width: 100px;
+
+    }
+    .box .Feature-icons {
+        font-size: 30px;
+        margin-left: 45%;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:450px) {
+    .wrap4 {
+        height: 45vh;
+        width: 20rem;
+        margin-left: 52px;
+    }
+
+    .portfolio-img {
+        height: 100px;
+        width: 100%;
+    }
+
+    
+    .box {
+        height: 28rem;
+        width: 20rem;
+    }
+    .box h2{
+      font-size: 30px;
+      text-align: left;
+    }
+    .portfolio-imge {
+        width: 100px;
+
+    }
+    .box .Feature-icons {
+        font-size: 30px;
+        margin-left: 45%;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:480px) {
+    .wrap4 {
+        height: 45vh;
+        width: 20rem;
+        margin-left: 62px;
+    }
+
+    .portfolio-img {
+        height: 100px;
+        width: 100%;
+    }
+
+    
+    .box {
+        height: 28rem;
+        width: 20rem;
+    }
+    .box h2{
+      font-size: 30px;
+      text-align: left;
+    }
+    .portfolio-imge {
+        width: 100px;
+
+    }
+    .box .Feature-icons {
+        font-size: 30px;
+        margin-left: 45%;
     }
 }
 

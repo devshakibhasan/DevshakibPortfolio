@@ -312,7 +312,7 @@
 @media screen and (min-width:320px) and (max-width:410px) {
 
     .Home-container {
-        height: 240vh;
+        height: 150vh;
         border-bottom: 1px solid #d2c9c9;
     }
 
@@ -658,7 +658,7 @@
 
 @media screen and (min-width:769px) and (max-width:990px) {
     .Home-container {
-        height: 155vh;
+        height: 115vh;
         margin-bottom: 200px;
         padding-top: 20px;
         padding-bottom: 300px;
@@ -757,7 +757,7 @@
 
 @media screen and (min-width:991px) and (max-width:1024px) {
     .Home-container {
-        height: 85vh;
+        height: 65vh;
         margin-bottom: 200px;
         padding-top: 60px;
         padding-bottom: 300px;
@@ -859,7 +859,7 @@
 
 @media screen and (min-width:1025px) and (max-width:1200px) {
     .Home-container {
-        height: 105vh;
+        height: 65vh;
         margin-bottom: 200px;
         padding-top: 60px;
         padding-bottom: 300px;

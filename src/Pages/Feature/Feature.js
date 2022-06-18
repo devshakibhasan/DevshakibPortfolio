@@ -28,7 +28,7 @@ const Feature = () => {
                     </Col>
                     <Col>
                         <div class="wrap">
-                            <div class="box1 four">
+                            <div class="box1 four boxes">
                             <img src="https://i.ibb.co/PcWTCsw/image-3.png" className="Feature-iconss" alt="" />
                                 <h3>MERN Stack Development</h3>
                                 <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.</p>
