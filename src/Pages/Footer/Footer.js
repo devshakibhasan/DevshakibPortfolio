@@ -15,7 +15,7 @@ const Footer = () => {
             <Container className='Footer-container'>
                 <div className='footer-image'>
 
-                    <img src="https://i.ibb.co/qYLfXXx/Screenshot-55.png" alt="" />
+                    <img src="https://i.ibb.co/FY2pXPz/Screenshot-62.png" alt="" />
                     <h3>Shakib Hasan</h3>
                 </div>
                 <p>© 2022 All rights reserved by Shakib Hasan</p>
