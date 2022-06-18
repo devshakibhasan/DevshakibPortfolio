@@ -182,7 +182,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 198vh;
+    height: 128vh;
     box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
     margin-top: 100px;
 }
@@ -679,7 +679,7 @@
     top: 50%;
     left: 50%;
     padding: 0.25em 0.5em;
-    color: white;
+    color: #000;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 0.25em;
     transform: translate(-50%, -50%) rotate(90deg);
@@ -806,6 +806,7 @@
     .container__progressbars {
         padding-left: 12%;
         width: 95%;
+ 
     }
 
     .barss {
@@ -828,14 +829,18 @@
     }
 
     .wrap18 {
-        height: 60vh;
+        height: 40vh;
         gap: 5em;
+        
     }
 
+    .box18 h3{
+      text-align: left;
+    }
     .box18 {
-        background: #ddd;
+        box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
         width: 45rem;
-        height: 26rem;
+        height: 28rem;
         color: #9c9c9c;
         border-radius: 1rem;
         padding: 30px 30px 30px 30px;
@@ -857,6 +862,7 @@
         width: 20rem;
         margin-left: 15%;
         border-radius: 20px;
+        height: 198vh;
     }
 
     .box25 {
