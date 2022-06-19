@@ -189,6 +189,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
 }
 
 .box2.four {
@@ -236,7 +237,11 @@
 }
 
 
+.bottom2 {
+    --bs-gutter-x: 4.5rem;
+    --bs-gutter-y: 0;
 
+}
 
 /*  BUTTONS  */
 .btn {
