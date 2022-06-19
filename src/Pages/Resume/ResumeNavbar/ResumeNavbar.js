@@ -36,10 +36,10 @@ const ResumeNavbar = () => {
                                                                 </div>
                                                                 
                                                                 <div class="row align-items-center">
-                                                                <div class="col-lg-5 ">
+                                                                <div class="col-lg-5 col-sm-12">
                                                                         <img class="img-fluid about-img" src="https://i.ibb.co/ynDRm9d/image9-1.jpg" alt="" ></img>
                                                                     </div>
-                                                                    <div class="col-lg-7">
+                                                                    <div class="col-lg-7 col-sm-12 right-content">
                                                                         <h3 class="mb-4">MERN Stack Developer</h3>
                                                                         <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet lorem diam dolor justo et dolor dolor dolor</p>
                                                                         <div class="row mb-3 textT ">
@@ -132,7 +132,7 @@ const ResumeNavbar = () => {
                                 </Tab>
                                 <Tab eventKey="Education" title="Education">
                                     <div className="tab-item-wrapper">
-                                        <Row className='rowss'>
+                                        <Row className='rowss education'>
                                             <Col  >
                                                 <div class="wrap18 boxs1">
                                                     <div class="box18 four18">
@@ -140,7 +140,7 @@ const ResumeNavbar = () => {
                                                         <h3> Computer Science and Engineering</h3>
                                                         <p>National University Bangladesh (2019 - 2023)</p>
                                                         <hr />
-                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
                                                     </div>
                                                 </div>
                                             </Col>

@@ -85,7 +85,9 @@
 .wrap4 h2 {
     color: rgb(70, 68, 68);
     word-spacing: 1px;
-    font-size: 35px;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 10px;
 }
 
 
@@ -249,9 +251,7 @@
 
 @media screen and (min-width:381px) and (max-width:400px) {
     .wrap4 {
-        height: 45vh;
-        width: 20rem;
-        margin-left: 22px;
+        height: 40vh;
     }
 
     .portfolio-img {
@@ -262,7 +262,6 @@
     
     .box {
         height: 28rem;
-        width: 20rem;
     }
     .box h2{
       font-size: 30px;
@@ -280,9 +279,7 @@
 
 @media screen and (min-width:401px) and (max-width:450px) {
     .wrap4 {
-        height: 45vh;
-        width: 20rem;
-        margin-left: 52px;
+        height: 40vh;
     }
 
     .portfolio-img {
@@ -293,7 +290,7 @@
     
     .box {
         height: 28rem;
-        width: 20rem;
+    
     }
     .box h2{
       font-size: 30px;
@@ -311,9 +308,7 @@
 
 @media screen and (min-width:451px) and (max-width:480px) {
     .wrap4 {
-        height: 45vh;
-        width: 20rem;
-        margin-left: 62px;
+        height: 40vh;
     }
 
     .portfolio-img {
@@ -324,7 +319,7 @@
     
     .box {
         height: 28rem;
-        width: 20rem;
+     
     }
     .box h2{
       font-size: 30px;

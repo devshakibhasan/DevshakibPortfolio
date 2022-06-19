@@ -156,7 +156,7 @@
 
 @media screen and (min-width:320px) and (max-width:480px) {
   .wrap10 {
-    height: 25vh;
+    height: 15vh;
     gap: 2rem;
   }
 
@@ -168,3 +168,26 @@
     width: 6rem;
   }
 }
+
+
+
+
+@media screen and (min-width:401px) and (max-width:450px) {
+  
+}
+
+@media screen and (min-width:451px) and (max-width:480px) {
+ .tabss {
+  margin-left: 10%;
+ }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (min-width:769px) and (max-width:1024px) {}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {}
+
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (min-width:1201px) {}
