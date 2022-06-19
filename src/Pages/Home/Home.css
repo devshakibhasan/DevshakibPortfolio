@@ -309,7 +309,7 @@
 }
 
 
-@media screen and (min-width:320px) and (max-width:410px) {
+@media screen and (min-width:250px) and (max-width:260px) {
 
     .Home-container {
         height: 140vh;
@@ -321,9 +321,221 @@
     }
 
     .social {
-        margin-top: 350px;
+        margin-top: 100px;
+
+    }
+
+    /* .btn {
+        width: 7rem;
+        height: 4rem;
+        margin-left: 10px;
+        margin-top: 180px;
+
+    } */
+    .bottom2 {
+        margin-top: 130px;
+    }
+
+    .btn-first {
+        width: 7rem;
+        font-size: 5px;
+        margin-right: -52px;
+        margin-left: -22px;
+
+    }
+
+    .btn-first p {
+        font-size: 13px;
+    }
+
+    .btn-second p,
+    .mail {
+        font-size: 12px;
+    }
+
+    .btn-second {
+        width: 7rem;
+        margin-top: 0px;
+    }
+
+    .btn-second p {
+        font-size: 12px;
+        margin-left: -18px;
+        margin-top: 15px;
+    }
+
+    .btn-second p,
+    .mail {
+        font-size: 12px;
+    }
+
+
+
+    .box3 {
+        box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+
+        width: 15rem;
+        height: 30rem;
+        color: #9c9c9c;
+        border-radius: 1rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -210px;
+    }
+
+    .my-img {
+        width: 20rem;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:261px) and (max-width:319px) {
+
+    .Home-container {
+        height: 140vh;
+        border-bottom: 1px solid #d2c9c9;
+    }
+
+    .wrap2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box2 {
+        margin-bottom: 20px;
+    }
+
+    .wrapI .box2 {
+        margin-right: 20px;
+    }
+
+    .social {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    /* .btn {
+        width: 7rem;
+        height: 4rem;
+        margin-left: 10px;
+        margin-top: 180px;
+
+    } */
+    .bottom2 {
+        margin-top: 130px;
+    }
+
+    .btn-first {
+        width: 7rem;
+        font-size: 5px;
+        margin-right: -92px;
+        margin-left: -12px;
+
+    }
+
+    .btn-first p {
+        font-size: 13px;
+    }
+
+    .btn-second p,
+    .mail {
+        font-size: 12px;
+    }
+
+    .btn-second {
+        width: 7rem;
+        margin-top: 0px;
+        margin-right: -20px;
+    }
+
+    .btn-second p {
+        font-size: 12px;
+        margin-left: -18px;
+        margin-top: 15px;
+    }
+
+    .btn-second p,
+    .mail {
+        font-size: 12px;
+    }
+
+
+
+    .box3 {
+        box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+
+        width: 15rem;
+        height: 30rem;
+        color: #9c9c9c;
+        border-radius: 1rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -210px;
+    }
+
+    .my-img {
+        width: 20rem;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:370px) {
+    .box2 {
+        margin-bottom: 20px;
+    }
+    .wrap2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bottom2 {
+        margin-top: 100px;
+    }
+    .wrapI .box2 {
+        margin-right: 60px;
+    }
+    .social {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+
+
+}
+@media screen and (min-width:371px) and (max-width:410px) {
+    .box2 {
+        margin-bottom: 20px;
+    }
+    .wrap2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bottom2 {
+        margin-top: 130px;
+    }
+    .wrapI .box2 {
+        margin-right: 70px;
+    }
+    .social {
+        margin-top: 50px;
         margin-left: 45px;
     }
+
+
+}
+@media screen and (min-width:320px) and (max-width:410px) {
+
+    .Home-container {
+        height: 140vh;
+        border-bottom: 1px solid #d2c9c9;
+    }
+
+    .box2 {
+        margin-bottom: 20px;
+    }
+    
 
     /* .btn {
         width: 7rem;
@@ -1194,9 +1406,11 @@
     .bottom3 {
         margin-left: -230px;
     }
+
     .wrapI .box2 {
         margin-right: 10px;
     }
+
     /* .btn {
         width: 7rem;
         height: 4rem;
