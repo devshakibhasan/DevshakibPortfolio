@@ -15,7 +15,9 @@
 .Feature h1 {
 	color: #FF014F;
 }
-
+.Feature-heading{
+	font-family: "Montserrat",sans-serif;
+}
 
 
 .wrap-login3 {
