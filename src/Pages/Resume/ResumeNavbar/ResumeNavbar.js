@@ -40,7 +40,7 @@ const ResumeNavbar = () => {
                                                                         <img class="img-fluid about-img" src="https://i.ibb.co/ynDRm9d/image9-1.jpg" alt="" ></img>
                                                                     </div>
                                                                     <div class="col-lg-7">
-                                                                        <h3 class="mb-4">UI/UX Designer and Web Developer</h3>
+                                                                        <h3 class="mb-4">MERN Stack Developer</h3>
                                                                         <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet lorem diam dolor justo et dolor dolor dolor</p>
                                                                         <div class="row mb-3 textT ">
                                                                             <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Shakib Hasan</span></h6></div>
