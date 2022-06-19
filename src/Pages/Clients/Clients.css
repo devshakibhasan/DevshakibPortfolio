@@ -59,9 +59,10 @@
 }
 
 
+
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link .navss {
-  background: var(--white);
+  background: #ECF0F3;
   width: 15rem;
   height: 5rem;
   color: #FF014F;

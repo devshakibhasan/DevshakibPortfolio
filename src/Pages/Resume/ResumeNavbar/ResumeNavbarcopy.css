@@ -6,9 +6,11 @@
 
 .tabs {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     margin-top: 50px;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+
 }
 
 .nav-tabs {
@@ -18,7 +20,7 @@
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
     background: #EEF2F4;
-    width: 15rem;
+    width: 20rem;
     height: 5rem;
     color: #FF014F;
     border-radius: 1rem;
@@ -38,12 +40,12 @@
 
 
 
-    width: 15rem;
+    width: 20rem;
     height: 5rem;
     color: #000;
     font-weight: bold;
     text-transform: uppercase;
-    box-shadow: 0rem 0rem 0.4rem var(--greyLight-2), -0.9rem -0.9rem 0.9rem var(--white);
+    /* box-shadow: 0rem 0rem 0.4rem var(--greyLight-2), -0.9rem -0.9rem 0.9rem var(--white); */
     -webkit-touch-callout: none;
     /* iOS Safari */
     -webkit-user-select: none;
@@ -70,17 +72,12 @@
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link:hover {
-
     background: #EEF2F4;
-
     border-radius: 1rem;
-
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
-    transition: box-shadow 1s ease;
-    transition-delay: 0.5s;
 }
 
 

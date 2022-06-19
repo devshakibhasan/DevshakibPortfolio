@@ -310,6 +310,136 @@ const ResumeNavbar = () => {
                                         </Col>
                                     </Row>
                                 </Tab>
+                                <Tab eventKey="Experience" title="Experience" className='my-skill'>
+                                    <Row className='rowss'>
+                                        <Col className='technical-skill-section'>
+                                            <div class="wrapper">
+                                                <div class="shape-1"></div>
+                                                <div class="shape-2"></div>
+                                                <div class="container">
+                                                    <h2 className='technical-skill'>Technical Skills </h2>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>HTML</span>
+                                                            <span>95%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="html-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>CSS</span>
+                                                            <span>75%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="css-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>Javascript</span>
+                                                            <span>72%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="js-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>jQuery</span>
+                                                            <span>68%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="jQuery-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>React js</span>
+                                                            <span>78%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="React-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>MongoDB</span>
+                                                            <span>68%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="MongoDB-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>Express Js</span>
+                                                            <span>65%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="Express-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="skills">
+                                                        <div class="details">
+                                                            <span>Node Js</span>
+                                                            <span>70%</span>
+                                                        </div>
+                                                        <div class="bar">
+                                                            <div id="Node-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <h2 className='Profesional-Skills'>Profesional Skills </h2>
+                                            <div class="container__progressbars">
+
+                                                <div>
+                                                    <div class="progressbar">
+                                                        <svg class="progressbar__svg">
+                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-com shadow-com"> </circle>
+                                                        </svg>
+                                                        <span class="progressbar__text shadow-com">88%</span>
+                                                    </div>
+                                                    <h4 className='Profesional-Skills'>Communication</h4>
+                                                </div>
+
+                                                <div className='barss'>
+                                                    <div class="progressbar">
+                                                        <svg class="progressbar__svg">
+                                                            <circle cx="80" cy="60" r="70" class="progressbar__svg-circle circle-team shadow-ts"> </circle>
+                                                        </svg>
+                                                        <span class="progressbar__text shadow-ts">65%</span>
+                                                    </div>
+                                                    <h4 className='Profesional-Skills'>Team Work</h4>
+                                                </div>
+                                                <div>
+                                                    <div class="progressbar">
+                                                        <svg class="progressbar__svg">
+                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-project shadow-ts"> </circle>
+                                                        </svg>
+                                                        <span class="progressbar__text shadow-ts">80%</span>
+                                                    </div>
+                                                    <h4 className='Profesional-Skills1'>Project Management</h4>
+                                                    <h4 className='Profesional-Skills2'>Project</h4>
+                                                    <h4 className='Profesional-Skills2'>Management</h4>
+                                                </div>
+                                                <div className='barss2'>
+                                                    <div class="progressbar">
+                                                        <svg class="progressbar__svg">
+                                                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-creativity shadow-ts"> </circle>
+                                                        </svg>
+                                                        <span class="progressbar__text shadow-ts">75%</span>
+                                                    </div>
+                                                    <h4 className='Profesional-Skills'>Creativity</h4>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </Tab>
                             </Tabs>
                         </div>
                     </div>

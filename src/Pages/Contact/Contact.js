@@ -12,22 +12,26 @@ const Contact = () => {
     return (
         <div className='Contact' id='Contact'>
             <Container className='Contact-container'>
-                <p>CONTACT</p>
-                <h1>Contact With Me</h1>
+                <div className='heading'>
+                    <p>CONTACT</p>
+                </div>
+                <div className='heading'>
+                    <h1>Contact With Me</h1>
+                </div>
                 <Row className='Contacts'>
 
                     <Col>
                         <div class="wrap14" >
                             <div class="box14 four" >
                                 <div className='img'>
-                                <img src='https://i.ibb.co/xXgxLbG/contact1.webp' className='' />
+                                    <img src='https://i.ibb.co/xXgxLbG/contact1.webp' className='' />
                                 </div>
                                 <h2 >Shakib Hasan</h2>
                                 <h4>Chief Operating Officer</h4>
                                 <p>I am available for freelance work. Connect with me via and call in to my account.</p>
-                                <p>Phone: +01234567890
+                                <p>Phone: +8801858694456
                                 </p>
-                                <p>Email: admin@example.com</p>
+                                <p>Email: devshakibhasan@gmail.com</p>
                                 <Row className='iconss'>
                                     <Col className='bottom bottom1'>
                                         <p>FIND WITH ME</p>
@@ -80,13 +84,13 @@ const Contact = () => {
                                         <Col>
                                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                                 <Form.Label>YOUR NAME</Form.Label>
-                                                <Form.Control type="email" placeholder="Enter Your Name" />
+                                                <Form.Control type="text" placeholder="" className='_name' />
                                             </Form.Group>
                                         </Col>
                                         <Col>
                                             <Form.Group className="mb-3" controlId="formBasicPassword">
                                                 <Form.Label>PHONE NUMBER</Form.Label>
-                                                <Form.Control type="number" placeholder="Enter Your Number" />
+                                                <Form.Control type="number" placeholder="" className='_number' />
                                             </Form.Group>
 
 
@@ -94,21 +98,25 @@ const Contact = () => {
                                     </Row>
                                     <Form.Group className="mb-3" controlId="formBasicPassword">
                                         <Form.Label>EMAIL</Form.Label>
-                                        <Form.Control type="email" placeholder="Enter Your email" />
+                                        <Form.Control type="email" placeholder="" className='_email' />
                                     </Form.Group>
 
                                     <Form.Group className="mb-3" controlId="formBasicPassword">
                                         <Form.Label>SUBJECT</Form.Label>
-                                        <Form.Control type="email" placeholder="Enter Your email" />
+                                        <Form.Control type="text" placeholder="" className='subject' />
                                     </Form.Group>
 
-                                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                        <Form.Label>Example textarea</Form.Label>
-                                        <Form.Control as="textarea" rows={7} />
+                                    <Form.Group className="mb-5  " controlId="exampleForm.ControlTextarea1">
+                                        <Form.Label>
+                                            YOUR MESSAGE</Form.Label>
+                                        <Form.Control as="textarea" rows={7} className='text_area' />
                                     </Form.Group>
-                                    <Button type="submit" className='button'>
-                                        Submit
-                                    </Button>
+                                    <div className='contact-btn'>
+                                        <Button type="submit" className='button'>
+                                            Submit
+                                        </Button>
+                                    </div>
+
                                 </Form>
 
                             </div>
