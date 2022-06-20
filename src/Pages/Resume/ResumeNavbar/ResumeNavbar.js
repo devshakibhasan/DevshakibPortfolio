@@ -19,7 +19,7 @@ const ResumeNavbar = () => {
                         <div className="col-lg-12 col-sm-12 ">
                             <Tabs defaultActiveKey="Profile" className='tabs ' >
 
-                              
+
 
                                 <Tab eventKey="Profile" title="Profile" className='profile'>
                                     <div className="tab-item-wrapper">
@@ -34,14 +34,15 @@ const ResumeNavbar = () => {
                                                                     <h1 class="display-1 text-uppercase text-white" >About</h1>
                                                                     <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
                                                                 </div>
-                                                                
+
                                                                 <div class="row align-items-center">
-                                                                <div class="col-lg-5 col-sm-12">
+                                                                    <div class="col-lg-5 col-sm-12">
                                                                         <img class="img-fluid about-img" src="https://i.ibb.co/ynDRm9d/image9-1.jpg" alt="" ></img>
                                                                     </div>
                                                                     <div class="col-lg-7 col-sm-12 right-content">
                                                                         <h3 class="mb-4">MERN Stack Developer</h3>
-                                                                        <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet lorem diam dolor justo et dolor dolor dolor</p>
+                                                                        <p>I am a motivated and hardworking individual who has been in the work force for over two years. My roles include working with clients from different backgrounds to provide high quality customer service within tight deadlines and ensuring client satisfaction whilst also maintaining strict levels of confidentiality
+                                                                        </p>
                                                                         <div class="row mb-3 textT ">
                                                                             <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Shakib Hasan</span></h6></div>
                                                                             <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">1 July 2000</span></h6></div>
@@ -92,7 +93,7 @@ const ResumeNavbar = () => {
                                                                             <Col>
                                                                                 <div class="wrap20">
                                                                                     <div class="box22 four">
-                                                                                    <h2 className='numb'>5+</h2>
+                                                                                        <h2 className='numb'>5+</h2>
                                                                                         <h2> Awards won</h2>
 
                                                                                     </div>
@@ -120,7 +121,7 @@ const ResumeNavbar = () => {
                                                                         {/* <a href="" class="btn">Hire Me</a>
                                                                         <a href="" class="btn">Learn More</a> */}
                                                                     </div>
-                                                                    
+
                                                                 </div>
                                                             </div>
                                                         </div>

@@ -17,7 +17,9 @@ const Home = () => {
                         <h5>WELCOME TO MY WORLD</h5>
                         <h1>Hi, I’m <span>Shakib Hasan</span> </h1>
 
-                        <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+                        <p>I am a motivated and hardworking individual who has been in the work force for over two years. My roles include working with clients from different backgrounds to provide high quality customer service within tight deadlines and ensuring client satisfaction whilst also maintaining strict levels of confidentiality
+
+</p>
 
 
                         <Row className='iconss'>
