@@ -25,7 +25,7 @@ const Blogs = () => {
                         <div class="wrap13">
                             <div class="box13 four13">
                                 <div className='img1'>
-                                <img src='https://i.ibb.co/VDxH8mJ/blog-big-01.webp' className='portfolio-img' />
+                                <img src='https://www.appsflyer.com/wp-content/uploads/2021/10/Feature-image-917x480-2.png' className='portfolio-img' />
                                 </div>
                                 <div className='portfolio-title'>
                                     <h5>APPLICATION</h5>
@@ -45,7 +45,7 @@ const Blogs = () => {
                         <div class="wrap13">
                             <div class="box13 four13">
                                 <div className='img1'>
-                                <img src='https://i.ibb.co/RzZ3CBd/blog-02.webp' className='portfolio-img' />
+                                <img src='https://conteudo.imguol.com.br/c/noticias/75/2020/01/25/tinder-namoro-virtual-namora-online-app-paquera-match-1579961052689_v2_4x3.png' className='portfolio-img' />
                                 </div>
                                 <div className='portfolio-title'>
                                     <h5>DEVELOPMENT</h5>
@@ -65,7 +65,7 @@ const Blogs = () => {
                         <div class="wrap13">
                             <div class="box13 four13">
                             <div className='img1'>
-                                <img src='https://i.ibb.co/Np95Nzw/blog-03.webp' className='portfolio-img' />
+                                <img src='https://d540vms5r2s2d.cloudfront.net/mad/uploads/mad_blog_5c24bb0a902351545911050.png' className='portfolio-img' />
                                 </div>
                                 <div className='portfolio-title'>
                                     <h5>Development</h5>
