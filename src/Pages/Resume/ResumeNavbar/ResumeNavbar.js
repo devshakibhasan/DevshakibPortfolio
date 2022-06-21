@@ -48,7 +48,7 @@ const ResumeNavbar = () => {
                                                                             <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">1 July 2000</span></h6></div>
                                                                             <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Hon's</span></h6></div>
                                                                             <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">3+ Years</span></h6></div>
-                                                                            <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">01858694456</span></h6></div>
+                                                                            <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+0801800000845</span></h6></div>
                                                                             <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">devshakibhasan@gmail.com</span></h6></div>
                                                                             <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Siddhirgnaj,Narayanganj</span></h6></div>
                                                                             <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
