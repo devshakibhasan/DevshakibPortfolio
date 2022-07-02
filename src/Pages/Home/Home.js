@@ -23,38 +23,7 @@ const Home = () => {
 
 
                         <Row className='iconss'>
-                            {/* <Col className='bottom bottom1' lg='6' md='6' sm='6'>
-                                <p>FIND WITH ME</p>
-                                <div class="wrap2">
-                                    <div class="box2 four">
-                                        <a href="https://github.com/devshakibhasan">
-                                            <FontAwesomeIcon icon={faGithub} className="icons" />
-                                        </a>
-
-
-                                    </div>
-                                    <div class="box2 four">
-                                        <a href="https://www.facebook.com/devshakibhasan">
-                                            <FontAwesomeIcon icon={faFacebookF} className="icons" />
-                                        </a>
-
-
-                                    </div>
-                                    <div class="box2 four">
-                                        <a href="https://www.linkedin.com/in/devshakibhasan/">
-                                            <FontAwesomeIcon icon={faLinkedin} className="icons icons2" />
-                                        </a>
-                                    </div>
-                                    <div class="box2 four">
-                                        <a href="https://twitter.com/devshakibhasan">
-                                            <FontAwesomeIcon icon={faTwitter} className="icons icons3" />
-                                        </a>
-                                    </div>
-                                  
-
-                                </div>
-
-                            </Col> */}
+                          
                             <Col className='bottom bottom2 bottomL' lg='6' md='4' sm='6'>
                                 <p className='best best1'>FIND WITH ME</p>
                                 <div className='socia-link'>
