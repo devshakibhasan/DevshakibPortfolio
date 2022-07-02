@@ -117,25 +117,25 @@
 ._name {
     border-radius: 7px;
     border: 1px solid #d2c9c9;
-    height: 60px;
+    height: 55px;
 }
 
 ._number {
     border-radius: 7px;
     border: 1px solid #d2c9c9;
-    height: 60px;
+    height: 55px;
 }
 
 ._email {
     border-radius: 7px;
     border: 1px solid #d2c9c9;
-    height: 60px;
+    height: 55px;
 }
 
 .subject {
     border-radius: 7px;
     border: 1px solid #d2c9c9;
-    height: 60px;
+    height: 55px;
 }
 
 .text_area {
