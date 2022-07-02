@@ -24,10 +24,10 @@ const Contact = () => {
                         <div class="" >
                             <div class="box14 four" >
                                 <div className='img'>
-                                    <img src='https://i.ibb.co/xXgxLbG/contact1.webp' className='' />
+                                    <img src='https://images.unsplash.com/photo-1620841713108-18ad2b52d15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFuZCUyMGluJTIwaGFuZHxlbnwwfHwwfHw%3D&w=1000&q=80' className='' />
                                 </div>
                                 <h2 >Shakib Hasan</h2>
-                                <h4>Chief Operating Officer</h4>
+                                <h4>MERN Stack Developer</h4>
                                 <p>I am available for freelance work. Connect with me via and call in to my account.</p>
                                 <p>Phone: +8801858694456
                                 </p>
