@@ -54,7 +54,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 40vh;
+	height: 45vh;
 	gap: 5em;
 	flex-wrap: wrap;
 
@@ -122,9 +122,7 @@ h3 {
 
 
 .box1 {
-
-	width: 25rem;
-	height: 20rem;
+	height: 23rem;
 	color: #9c9c9c;
 	border-radius: 1rem;
 	padding: 80px 30px 30px 30px;
