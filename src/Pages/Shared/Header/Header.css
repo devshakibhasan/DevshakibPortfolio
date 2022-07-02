@@ -1,31 +1,45 @@
-/* body {
-    background-color: #333232;
-} */
+body {
+    background-color: #233342;
+}
 .Logo {
     font-family: 'Roboto Mono', monospace;
     font-weight: 600;
     font-size: 40px;
+    color: #fff;
 }
 
+
 .Navbar {
-    background-color: #ecf0f3;
+    background-color: #233342;
     padding-top: 30px;
+    color: #fff;
 }
 
 .navLink {
     margin-right: 30px;
     font-size: 13px;
     font-weight: bold;
-
 }
-
-.navbar-light .navbar-nav .navbar-light .navbar-nav .show>.nav-link {
-    color: #ECF0F3;
+.navbar-light .navbar-brand {
+    color: #9baacf;
 }
-
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-brand:hover {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 40px;
     color: #FF014F;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FF014F;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FF014F;
+}
+
+
 
 @media screen and (max-width: 370px) {
 
