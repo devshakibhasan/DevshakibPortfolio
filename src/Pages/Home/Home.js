@@ -25,26 +25,26 @@ const Home = () => {
                         <Row className='iconss'>
                           
                             <Col className='bottom bottom2 bottomL' lg='6' md='4' sm='6'>
-                                <p className='best best1'>FIND WITH ME</p>
+                                <p className='best find'>FIND WITH ME</p>
                                 <div className='socia-link'>
-                                    <div class="wrap2 wrapI">
+                                    <div class="TopWrap wrapI">
                                         <a href="https://github.com/devshakibhasan">
-                                            <div class="box2 four">
+                                            <div class="TopBox four">
                                                 <FontAwesomeIcon icon={faGithub} className="icons" />
                                             </div>
                                         </a>
                                         <a href="https://www.linkedin.com/in/devshakibhasan/">
-                                            <div class="box2 four">
+                                            <div class="TopBox four">
                                                 <FontAwesomeIcon icon={faLinkedin} className="icons" />
                                             </div>
                                         </a>
                                         <a href="https://www.facebook.com/devshakibhasan">
-                                            <div class="box2 four">
+                                            <div class="TopBox four">
                                                 <FontAwesomeIcon icon={faFacebookF} className="icons" />
                                             </div>
                                         </a>
                                         <a href="https://twitter.com/devshakibhasan">
-                                            <div class="box2 four">
+                                            <div class="TopBox four">
                                                 <FontAwesomeIcon icon={faTwitter} className="icons" />
                                             </div>
                                         </a>
@@ -55,20 +55,20 @@ const Home = () => {
                             <Col className='bottom bottom2' lg='6' md='4' sm='6'>
                                 <p className='best'>BEST SKILL ON</p>
                                 <div className='socia-link'>
-                                    <div class="wrap2 wrapI">
-                                        <div class="box2 four">
-                                            <img className='dbImg' src='https://i.ibb.co/s1fRSj3/mongodb.png' />
+                                    <div class="TopWrap wrapI">
+                                        <div class="TopBox four">
+                                            <img className='Skilliconimg' src='https://i.ibb.co/s1fRSj3/mongodb.png' />
                                         </div>
 
-                                        <div class="box2 four">
-                                            <img className='dbImg' src='https://i.ibb.co/BBCF8rw/image.png' />
+                                        <div class="TopBox four">
+                                            <img className='Skilliconimg' src='https://i.ibb.co/BBCF8rw/image.png' />
                                         </div>
 
-                                        <div class="box2 four">
+                                        <div class="TopBox four">
                                             <FontAwesomeIcon icon={faReact} className="icons" />
                                         </div>
 
-                                        <div class="box2 four">
+                                        <div class="TopBox four">
                                             <FontAwesomeIcon icon={faNode} className="icons" />
                                         </div>
 
@@ -77,16 +77,16 @@ const Home = () => {
                             </Col>
 
                         </Row>
-                        <Row className='social'>
+                        <Row className='TopBtn'>
                             <Col className='' lg='4' md='4' sm='6' xs='6'>
-                                <div class="wrap332">
+                                <div class="">
                                     <div class="btn btn__secondary btn-first"> <FontAwesomeIcon icon={faEnvelope} className="mail" /><p>Hire Me</p></div>
                                 </div>
                             </Col>
 
                             <Col className='' lg='6' md='6' sm='6' xs='6'>
                                 <div className='socia-link'>
-                                    <div class="wrap222">
+                                    <div class="TopWrap">
                                         <div class="btn btn__secondary btn-second"><FontAwesomeIcon icon={faDownload} className="mail" /><p>Download CV</p></div>
                                     </div>
                                 </div>
