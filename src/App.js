@@ -2,11 +2,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { ToastContainer } from 'react-bootstrap';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import React, { Component }  from 'react';
+import React, { Component } from 'react';
 import Header from './Pages/Shared/Header/Header';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 
 import MainPage from './Pages/MainPage/MainPage';
+import Footer from './Pages/Shared/Footer/Footer';
 
 
 
@@ -20,7 +21,7 @@ function App() {
         </Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
-
+      <Footer />
       <ToastContainer />
     </div>
   );
