@@ -13,7 +13,6 @@ const Feature = () => {
                 <h5>FEATURES</h5>
                 <h1 className='Feature-heading'>What I Do</h1>
                 <Row className='Features'>
-                   
                     <Col lg='4' md='6' sm='11' xs='11'>
                         <div class="wrap" >
                             <div class="box1 four" >

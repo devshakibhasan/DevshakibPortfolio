@@ -22,29 +22,6 @@
 	font-family: "Montserrat", sans-serif;
 }
 
-.wrap-login3 {
-	width: 350px;
-	height: 400px;
-	background-color: #F5F7F9;
-	background-image: linear-gradient(160deg, #E4EAED 0%, #ffffff 80%);
-	border-radius: 10px;
-	overflow: hidden;
-	padding: 16px 45px 16px 25px;
-	box-shadow: 0 0 3px 3px #DFE5ED,
-		6px 6px 8px 4px #DFE5ED,
-		-6px -6px 8px 4px #DFE5ED;
-
-	float: right;
-	margin-bottom: 80px;
-	padding-top: 100px;
-}
-
-.limiter .wrap-login3:hover {
-	background: #FF014F;
-	color: #fff;
-	transition: .8s ease-in;
-}
-
 .Feature-icons {
 	color: #ECF0F3;
 }
