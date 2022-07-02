@@ -14,7 +14,7 @@ const Feature = () => {
                 <h1 className='Feature-heading'>What I Do</h1>
                 <Row className='Features'>
                    
-                    <Col lg='4' md='6' sm='12'>
+                    <Col lg='4' md='6' sm='11' xs='11'>
                         <div class="wrap" >
                             <div class="box1 four" >
                             <FontAwesomeIcon icon={faBars} className="Feature-icon" />
@@ -24,7 +24,7 @@ const Feature = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg='4' md='6' sm='12'>
+                    <Col lg='4' md='6' sm='11' xs='11'>
                         <div class="wrap">
                             <div class="box1 four boxes">
                             <img src="https://i.ibb.co/PcWTCsw/image-3.png" className="Feature-iconss" alt="" />
@@ -34,7 +34,7 @@ const Feature = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg='4' md='6' sm='12'>
+                    <Col lg='4' md='6' sm='11' xs='11'>
                         <div class="wrap">
                             <div class="box1 four">
                             <FontAwesomeIcon icon={faComment} className="Feature-icon" />
@@ -44,7 +44,7 @@ const Feature = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg='4' md='6' sm='12'>
+                    <Col lg='4' md='6' sm='11' xs='11'>
                         <div class="wrap">
                             <div class="box1 four">
                             <img src="https://i.ibb.co/D7pks4V/image-2.png" className="Feature-iconss" alt="" />
@@ -55,7 +55,7 @@ const Feature = () => {
                         </div>
                     </Col>
                   
-                    <Col lg='4' md='6' sm='12'>
+                    <Col lg='4' md='6' sm='11' xs='11'>
                         <div class="wrap">
                             <div class="box1 four">
                             <img src="https://i.ibb.co/4jdNrCj/image-1.png" className="Feature-iconss" alt="" />
@@ -65,7 +65,7 @@ const Feature = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg='4' md='6' sm='12'>
+                    <Col lg='4' md='6' sm='11' xs='11'>
                         <div class="wrap">
                             <div class="box1 four">
                             <img src="https://i.ibb.co/xHjQKt4/image.png" className="Feature-iconss" alt="" />
