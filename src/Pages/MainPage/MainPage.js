@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
 import Feature from '../Feature/Feature';
 import Home from '../Home/Home';
 import Portfolio from '../Portfolio/Portfolio';
@@ -13,6 +14,7 @@ const MainPage = () => {
           <Home />
           <Feature />
           <Portfolio />
+          <Contact />
         </div>
     );
 };
