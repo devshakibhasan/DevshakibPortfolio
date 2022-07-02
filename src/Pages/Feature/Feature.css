@@ -13,6 +13,12 @@
 
 .Feature h1 {
 	color: #FF014F;
+	text-align: left;
+	font-size: 3rem;
+}
+.Feature h5 {
+	text-align: left;
+
 }
 .Feature-heading{
 	font-family: "Montserrat",sans-serif;
