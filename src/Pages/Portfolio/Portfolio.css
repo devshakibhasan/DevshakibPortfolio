@@ -39,8 +39,6 @@
     flex-wrap: wrap;
 }
 
-
-
 .iconF {
     display: flex;
     text-decoration: none;
@@ -51,8 +49,6 @@
     padding-left: 10px;
 }
 
-
-
 .portfolioWrap h2 {
     color: #fff;
     word-spacing: 1px;
@@ -60,7 +56,6 @@
     text-align: left;
     margin-top: 10px;
 }
-
 
 .portfolioBox {
     width: 25rem;
@@ -80,11 +75,12 @@
 
 .portfolioBox:hover .portfolio-icons {
     font-weight: bold;
-	transform: translateY(-35px);
+    transform: translateY(-35px);
     transition: all 400ms ease-in-out;
     font-size: 30px;
     color: #FF014F;
 }
+
 .portfolioBox .portfolio-icons {
     font-size: 30px;
     margin-left: 60%;
@@ -93,7 +89,7 @@
 
 .portfolioBox:hover .portfolio-icons {
     font-weight: bold;
-	transform: translateY(-35px);
+    transform: translateY(-35px);
     transition: all 400ms ease-in-out;
     font-size: 30px;
     color: #FF014F;
@@ -113,26 +109,12 @@
 
 .portfolioBox:hover h5 {
     color: #ff018d;
-    font-weight: bold;
 }
-
-.portfolioBox:hover h2 {
-    
-}
-
-.portfolioBox:hover h3 {
-   
-}
-
 
 .portfolioBox.four {
     box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
     transition: box-shadow 1s ease;
     transition-delay: 0.5s;
-}
-
-.portfolioBox.four:hover {
- 
 }
 
 .portfolioBox .portfolio-img {
@@ -155,6 +137,7 @@
     color: #FF014F;
     margin-top: 20px;
 }
+
 .portfolio-title2 {
     display: block;
     justify-content: space-between;
@@ -167,13 +150,10 @@
     justify-content: space-around;
     color: rgba(108, 104, 104, 0.886);
 }
-.portfolio-liked h6{
+
+.portfolio-liked h6 {
     padding-left: 10px;
 }
-
-
-
-
 
 @media screen and (min-width:481px) and (max-width:768px) {}
 

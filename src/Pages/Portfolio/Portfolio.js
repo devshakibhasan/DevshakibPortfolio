@@ -7,7 +7,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Portfolio.css'
 const Portfolio = () => {
     return (
-
         <div className='Portfolio' id='portfolio'>
             <Container className='Portfolio-Container'>
                 <div className='heading'>
@@ -16,8 +15,7 @@ const Portfolio = () => {
                 <div className='heading'>
                     <h1>My Portfolio</h1>
                 </div>
-                <Row>
-                    
+                <Row>                    
                     <Col lg='4' md='6' sm='12'>
                         <a href="">
                             <div class="portfolioWrap">
@@ -25,7 +23,6 @@ const Portfolio = () => {
                                     <div className='portfolio-img'>
                                         <img src='https://media.wired.com/photos/5f46e666f7889e749ac05577/master/w_2560%2Cc_limit/security-firefox-andriod-app.jpg' className='portfolio-img' />
                                     </div>
-
                                     <div className='portfolio-title'>
                                         <h5>Development</h5>
                                         <div className='portfolio-liked'>
@@ -33,14 +30,13 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-
                                     <h2>Design for tecnology and services</h2>
                                     <FontAwesomeIcon icon={faArrowTrendUp} className="portfolio-icons" />
-
                                 </div>
                             </div>
                         </a>
                     </Col>
+
                     <Col lg='4' md='6' sm='12'>
                         <a href="">
                             <div class="portfolioWrap">
@@ -48,7 +44,6 @@ const Portfolio = () => {
                                     <div className='portfolio-img'>
                                         <img src='https://media.wired.com/photos/5f46e666f7889e749ac05577/master/w_2560%2Cc_limit/security-firefox-andriod-app.jpg' className='portfolio-img' />
                                     </div>
-
                                     <div className='portfolio-title'>
                                         <h5>Development</h5>
                                         <div className='portfolio-liked'>
@@ -56,14 +51,13 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-
                                     <h2>Design for tecnology and services</h2>
                                     <FontAwesomeIcon icon={faArrowTrendUp} className="portfolio-icons" />
-
                                 </div>
                             </div>
                         </a>
                     </Col>
+
                     <Col lg='4' md='6' sm='12'>
                         <a href="">
                             <div class="portfolioWrap">
@@ -78,15 +72,12 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-
                                     <h2>Design for tecnology and services</h2>
                                     <FontAwesomeIcon icon={faArrowTrendUp} className="portfolio-icons" />
-
                                 </div>
                             </div>
                         </a>
                     </Col>
-
 
                     <Col lg='4' md='6' sm='12'>
                         <a href="">
@@ -102,14 +93,13 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-
                                     <h2>Design for tecnology and services</h2>
                                     <FontAwesomeIcon icon={faArrowTrendUp} className="portfolio-icons" />
-
                                 </div>
                             </div>
                         </a>
                     </Col>
+
                     <Col lg='4' md='6' sm='12'>
                         <a href="">
                             <div class="portfolioWrap">
@@ -124,14 +114,13 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-
                                     <h2>Design for tecnology and services</h2>
                                     <FontAwesomeIcon icon={faArrowTrendUp} className="portfolio-icons" />
-
                                 </div>
                             </div>
                         </a>
                     </Col>
+
                     <Col lg='4' md='6' sm='12'>
                         <a href="">
                             <div class="portfolioWrap">
@@ -146,16 +135,13 @@ const Portfolio = () => {
                                             <h6>35</h6>
                                         </div>
                                     </div>
-
                                     <h2>Design for tecnology and services</h2>
                                     <FontAwesomeIcon icon={faArrowTrendUp} className="portfolio-icons" />
-
                                 </div>
                             </div>
                         </a>
                     </Col>
                 </Row>
-
             </Container>
         </div>
     );
