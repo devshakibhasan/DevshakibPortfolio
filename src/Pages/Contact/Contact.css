@@ -1,7 +1,14 @@
 .Contact {
     margin-top: 100px;
     padding-bottom: 100px;
+    
 }
+.Contact-container{
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #d2c9c9;
+}
+
+
 
 .Contact h1 {
     margin-bottom: 100px;
@@ -32,7 +39,9 @@
     word-spacing: 1px;
     font-size: 35px;
 }
-
+.bottom2 .hide{
+    color: #233342;
+}
 .box14 {
     box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
     height: 52rem;

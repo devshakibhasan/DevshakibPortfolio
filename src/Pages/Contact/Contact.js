@@ -33,7 +33,7 @@ const Contact = () => {
                                 </p>
                                 <p>Email: devshakibhasan@gmail.com</p>
                                 <Row className='iconss'>
-                                    <Col className='bottom bottom2'>
+                                    <Col className='bottom bottom2' lg='12' md='8'>
                                         <p>FIND WITH ME</p>
                                         <div class="TopWrap">
                                             <div class="TopBox four">
