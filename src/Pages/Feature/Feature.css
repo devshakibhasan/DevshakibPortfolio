@@ -185,9 +185,9 @@ h3 {
 	transition-delay: 0.5s;
 }
 
-@media screen and (max-width:767px)  {
+@media screen and (max-width:500px)  {
 	.wrap {
-		height: 82vh;
+		height: 62vh;
 	}
 }
 

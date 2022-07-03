@@ -40,12 +40,12 @@ const Clients = () => {
                                 </Nav.Item >
                             </Nav>
                         </Col>
-                        <Col lg='9' md='12' sm='9' xs='9' className=' d-flex justify-content-center'>
+                        <Col lg='9' md='12' sm='9' xs='9' className='d-flex justify-content-center'>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <Row className='rowss'>
                                       
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'   className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
 
@@ -56,7 +56,7 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
 
@@ -67,7 +67,7 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
 
@@ -78,7 +78,7 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
 
@@ -90,7 +90,7 @@ const Clients = () => {
                                             </div>
                                         </Col>
 
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
@@ -99,25 +99,25 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/tQJGSqG/brand-02.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/n7S0Czk/brand-04.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/4WhRBf1/brand-01.webp" alt="" className='client-img' />
@@ -126,7 +126,7 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
@@ -140,7 +140,7 @@ const Clients = () => {
                                 <Tab.Pane eventKey="second">
                                     <Row className='rowss'>
                                        
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10 boxs1">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
@@ -149,7 +149,7 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
 
@@ -165,7 +165,7 @@ const Clients = () => {
                                       
                                       
                                       
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10 ">
                                                 <div class="box10 four10">
 
@@ -177,7 +177,7 @@ const Clients = () => {
                                             </div>
                                         </Col>
 
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
@@ -186,25 +186,25 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/tQJGSqG/brand-02.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/n7S0Czk/brand-04.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/4WhRBf1/brand-01.webp" alt="" className='client-img' />
@@ -217,7 +217,7 @@ const Clients = () => {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
                                     <Row className='rowss'>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10 boxs1">
                                                 <div class="box10 four10">
 
@@ -230,7 +230,7 @@ const Clients = () => {
                                         </Col>
 
                                        
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
@@ -241,7 +241,7 @@ const Clients = () => {
                                         </Col>
 
 
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
 
@@ -253,7 +253,7 @@ const Clients = () => {
                                             </div>
                                         </Col>
 
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
@@ -262,25 +262,25 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/tQJGSqG/brand-02.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/n7S0Czk/brand-04.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/4WhRBf1/brand-01.webp" alt="" className='client-img' />
@@ -302,7 +302,7 @@ const Clients = () => {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fourth">
                                     <Row className='rowss'>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10 boxs1">
                                                 <div class="box10 four10">
 
@@ -315,25 +315,25 @@ const Clients = () => {
                                         </Col>
 
                                       
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/tQJGSqG/brand-02.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/n7S0Czk/brand-04.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/4WhRBf1/brand-01.webp" alt="" className='client-img' />
@@ -342,7 +342,7 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
@@ -355,7 +355,7 @@ const Clients = () => {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fifth">
                                     <Row className='rowss'>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10 boxs1">
                                                 <div class="box10 four10">
 
@@ -367,7 +367,7 @@ const Clients = () => {
                                             </div>
                                         </Col>
 
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
@@ -376,25 +376,25 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/tQJGSqG/brand-02.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/n7S0Czk/brand-04.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/4WhRBf1/brand-01.webp" alt="" className='client-img' />
@@ -413,7 +413,7 @@ const Clients = () => {
                                             </div>
                                         </Col>
 
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
 
@@ -425,7 +425,7 @@ const Clients = () => {
                                             </div>
                                         </Col>
 
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
@@ -437,22 +437,22 @@ const Clients = () => {
                                         <Col>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/tQJGSqG/brand-02.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
-                                                    <img src="https://i.ibb.co/n7S0Czk/brand-04.webp" alt="" className='client-img' />
+                                                    <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img' />
                                                     <hr />
                                                     <p>John Due</p>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/4WhRBf1/brand-01.webp" alt="" className='client-img' />
@@ -461,7 +461,7 @@ const Clients = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg='4' md='4' sm='6' xs='8'>
+                                        <Col lg='4' md='4' sm='6' xs='6'  className='d-flex justify-content-center'>
                                             <div class="wrap10">
                                                 <div class="box10 four10">
                                                     <img src="https://i.ibb.co/0XKC96K/brand-05.webp" alt="" className='client-img   client-imgs'   />
