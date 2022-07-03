@@ -16,7 +16,7 @@ const Portfolio = () => {
                     <h1>My Portfolio</h1>
                 </div>
                 <Row>
-                    <Col lg='4' md='6' sm='11' xs='11'>
+                    <Col lg='4' md='6' sm='12' xs='12'>
                         <div class="portfolioWrap">
                             <a href="">
                                 <div class="portfolioBox four">
@@ -37,7 +37,7 @@ const Portfolio = () => {
                         </div>
                     </Col>
 
-                    <Col lg='4' md='6' sm='11' xs='11'>
+                    <Col lg='4' md='6' sm='12' xs='12'>
                         <div class="portfolioWrap">
                             <a href="">
                                 <div class="portfolioBox four">
@@ -58,7 +58,7 @@ const Portfolio = () => {
                         </div>
                     </Col>
 
-                    <Col lg='4' md='6' sm='11' xs='11'>
+                    <Col lg='4' md='6' sm='12' xs='12'>
                         <div class="portfolioWrap">
                             <a href="">
                                 <div class="portfolioBox four">
@@ -79,7 +79,7 @@ const Portfolio = () => {
                         </div>
                     </Col>
 
-                    <Col lg='4' md='6' sm='11' xs='11'>
+                    <Col lg='4' md='6' sm='12' xs='12'>
                         <div class="portfolioWrap">
                             <a href="">
                                 <div class="portfolioBox four">
@@ -100,7 +100,7 @@ const Portfolio = () => {
                         </div>
                     </Col>
 
-                    <Col lg='4' md='6' sm='11' xs='11'>
+                    <Col lg='4' md='6' sm='12' xs='12'>
                         <div class="portfolioWrap">
                             <a href="">
                                 <div class="portfolioBox four">
@@ -121,7 +121,7 @@ const Portfolio = () => {
                         </div>
                     </Col>
 
-                    <Col lg='4' md='6' sm='11' xs='11'>
+                    <Col lg='4' md='6' sm='12' xs='12'>
                         <div class="portfolioWrap">
                             <a href="">
                                 <div class="portfolioBox four">

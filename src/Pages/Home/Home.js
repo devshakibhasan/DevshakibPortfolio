@@ -78,13 +78,13 @@ const Home = () => {
 
                         </Row>
                         <Row className='TopBtn'>
-                            <Col className='' lg='4' md='4' sm='6' xs='6'>
+                            <Col className='' lg='4' md='4' sm='5' xs='5' xxs='5'>
                                 <div class="">
                                     <div class="btn btn__secondary btn-first"> <FontAwesomeIcon icon={faEnvelope} className="mail" /><p>Hire Me</p></div>
                                 </div>
                             </Col>
 
-                            <Col className='' lg='6' md='6' sm='6' xs='6'>
+                            <Col className='' lg='6' md='6' sm='6' xs='6' xxs='6'>
                                 <div className='socia-link'>
                                     <div class="TopWrap">
                                         <div class="btn btn__secondary btn-second"><FontAwesomeIcon icon={faDownload} className="mail" /><p>Download CV</p></div>
