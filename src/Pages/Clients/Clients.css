@@ -63,7 +63,7 @@
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link .navss {
-  background: #ECF0F3;
+  background: #233342;
   width: 15rem;
   height: 5rem;
   color: #FF014F;
@@ -78,7 +78,7 @@
 }
 
 .rowss {
-  --bs-gutter-x: -5.5rem;
+  --bs-gutter-x: -3.5rem;
 
 }
 
@@ -86,7 +86,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 25vh;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -94,10 +94,13 @@
 
 
 
+.box10 img{
+height: 5rem;
+width: 7rem;
+}
 .box10 {
   box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
-  width: 15rem;
-  height: 10rem;
+  height: 12rem;
   color: #9c9c9c;
   border-radius: 1rem;
   padding: 30px 30px 30px 30px;
@@ -182,7 +185,9 @@
  }
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {}
+@media screen and (min-width:1400px)  {
+  
+}
 
 @media screen and (min-width:769px) and (max-width:1024px) {}
 
