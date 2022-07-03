@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
                 <Row>
 
-                    <Col lg='5' md='6' sm='11' xs='11'>
+                    <Col lg='5' md='6' sm='12' xs='12'>
                         <div class="" >
                             <div class="box14 four" >
                                 <div className='img'>
@@ -63,7 +63,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg='7' md='6' sm='11' xs='11'>
+                    <Col lg='7' md='6' sm='12' xs='12'>
                         <div class="">
                             <div class="box15 four">
 

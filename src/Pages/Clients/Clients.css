@@ -1,0 +1,193 @@
+.Clients {
+  padding-bottom: 200px;
+}
+
+.clients-text {
+  color: #FF014F;
+}
+
+.clients-heading h1{
+  margin: 20px 0px 50px;
+  font-size: 50px;
+	font-family: "Montserrat",sans-serif;
+
+}
+
+.tabss {
+  width: 15rem;
+  height: 20rem;
+  color: #FF014F;
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  transition: box-shadow 1s ease;
+  transition-delay: 0.5s;
+}
+
+.fist {}
+
+/* .nav-pills .nav-link {
+
+    height: 5rem;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow:
+        inset 20px 20px 60px 20px #bbb,
+        inset 20px 20px 60px #ddd;
+    -webkit-touch-callout: none;
+
+    -webkit-user-select: none;
+
+    -khtml-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+} */
+
+.nav-pills .nav-link,
+.nav-pills .show>.nav-link .navss {
+  color: gray;
+  font-size: 20px;
+  padding-top: 20px;
+
+}
+
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link .navss {
+  background: #ECF0F3;
+  width: 15rem;
+  height: 5rem;
+  color: #FF014F;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  transition: box-shadow 1s ease;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.rowss {
+  --bs-gutter-x: -5.5rem;
+
+}
+
+.wrap10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+
+
+
+.box10 {
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  width: 15rem;
+  height: 10rem;
+  color: #9c9c9c;
+  border-radius: 1rem;
+  padding: 30px 30px 30px 30px;
+
+}
+
+.box10:hover {
+  color: #000;
+  transition-delay: 1s ease-in;
+  transition: 3s ease-in-out;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+.box10.four10 {
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  transition: box-shadow 1s ease;
+  transition-delay: 0.5s;
+
+
+}
+
+.box10.four10:hover {
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+  transition: box-shadow 1s ease;
+  transition-delay: 0.1s;
+  color: #000;
+}
+
+.box10.four10:hover h3 {
+
+  color: #fff;
+}
+
+.client-img {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+  .wrap10 {
+    height: 15vh;
+    gap: 2rem;
+  }
+
+  .varticle-navs {
+    margin-top: 80px;
+  }
+
+  .client-imgs {
+    width: 6rem;
+  }
+}
+
+
+
+
+@media screen and (min-width:401px) and (max-width:450px) {
+  
+}
+
+@media screen and (min-width:451px) and (max-width:480px) {
+ .tabss {
+  margin-left: 10%;
+ }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (min-width:769px) and (max-width:1024px) {}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {}
+
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (min-width:1201px) {}
