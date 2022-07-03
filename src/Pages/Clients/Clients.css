@@ -188,7 +188,12 @@ width: 7rem;
 	}
 }
 
-@media screen and (min-width:769px) and (max-width:1024px) {}
+@media screen and (min-width:1400px) {
+  .rowss {
+    --bs-gutter-x: -10.5rem;
+  
+  }
+}
 
 @media screen and (min-width:1025px) and (max-width:1200px) {}
 
