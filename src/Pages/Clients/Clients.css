@@ -186,6 +186,11 @@
   }
 }
 
+@media screen and (max-width:767px) {
+  .rowss {
+    --bs-gutter-x: 1.5rem;
+  }
+}
 @media screen and (min-width:1400px) {
   .rowss {
     --bs-gutter-x: -10.5rem;
